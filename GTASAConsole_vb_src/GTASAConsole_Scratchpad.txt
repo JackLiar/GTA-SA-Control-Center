@@ -1,0 +1,16 @@
+    Select Case Index
+        Case 0 'Commands 'console commands indexes are hard coded
+            sstCommandData.Tab = GTASAConsoleCommands(cboCommands(Index).ListIndex).DataPage
+            'GTASANewShortcut.sDescription = GTASAConsoleCommands(cboCommands(Index).ListIndex).Description
+            'GTASANewShortcut.iDataPage = GTASAConsoleCommands(cboCommands(Index).ListIndex).DataPage
+            'GTASANewShortcut.sCommand = cboCommands(0).ListIndex 'hard coded console command index
+        Case 1 'Cheats
+            sstCommandData.Tab = 17
+            'GTASANewShortcut.sDescription = GTASACheats.GetItemByUID(sCheatUID(cboCommands(Index).ListIndex)).sDescription
+            'GTASANewShortcut.iDataPage = 17
+        Case 2 'WarpLocs
+            sstCommandData.Tab = 17
+            'GTASANewShortcut.sDescription = "Teleport to: " & GTASAWarpLocs.GetItemByUID(sLocUID(cboCommands(Index).ListIndex)).sDescription
+            'GTASANewShortcut.iDataPage = 17
+    End Select
+    'GTASANewShortcut.iCategory = Index

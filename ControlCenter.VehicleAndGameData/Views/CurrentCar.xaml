@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="ControlCenter.VehicleAndGameData.Views.CurrentCar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <GroupBox Grid.Row="0" Grid.Column="0" Header="Current Car:">
+            <StackPanel>
+                <CheckBox Content="Prevent Car taking damage from:" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"
+                                      ToolTip="Check to Lock Selected Car Specialities" Margin="3,3,3,3"/>
+                <DockPanel HorizontalAlignment="Right">
+                    <CheckBox Content="Explosion" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                    <CheckBox Content="Collision" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                    <CheckBox Content="Bullet" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                    <CheckBox Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                </DockPanel>
+                <CheckBox Content="Egine health(%):" Margin="3,3,0,3"/>
+                <Slider Margin="23,0,0,0"/>
+                <DockPanel HorizontalAlignment="Left" Margin="3,3,0,3">
+                    <CheckBox Content="Car Weight(Tons):"/>
+                    <Button Content="Max" HorizontalAlignment="Right" Margin="86,0,0,0" Width="35" Height="15" FontSize="8"/>
+                </DockPanel>
+                <Slider Margin="23,0,0,0"/>
+                <CheckBox Content="Flight Assistance(%):" Margin="3,3,0,3"/>
+                <Slider Margin="23,0,0,0"/>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="Car Doors:" Margin="3,3,0,3"/>
+                    <RadioButton Content="open" Margin="25,3,0,3"/>
+                    <RadioButton Content="locked" Margin="3,3,0,3" IsChecked="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Content="Car Color:" Margin="3,3,0,3"/>
+                    <CheckBox Content="Car Color:" Margin="3,3,0,3"/>
+                </StackPanel>
+                <CheckBox Content="Prevent Wheel Damage (Car and Trailer)" Margin="3,3,0,3"/>
+                <CheckBox Content="Automatically stop car-alams" Margin="3,3,0,3"/>
+                <CheckBox Content="Automatically restart car when stalled" Margin="3,3,0,3"/>
+                <CheckBox Content="Control also RC Vehicles" Margin="3,3,0,3"/>
+                <StackPanel Orientation="Horizontal" Margin="3,3,0,3">
+                    <CheckBox Content="Set license Plate to"/>
+                    <TextBox Text="GTASA CC" Height="15" Margin="20,0,0,0"/>
+                    <Button Width="15" Height="15" Margin="5,0,0,0">
+                        <Image Source="../Resources/Accept16.ico"/>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

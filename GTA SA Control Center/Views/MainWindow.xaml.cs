@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ControlCenter
+namespace ControlCenter.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

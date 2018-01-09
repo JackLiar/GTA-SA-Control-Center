@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="ControlCenter.VehicleAndGameData.Views.Main"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ControlCenter.VehicleAndGameData.Views"
+             xmlns:views="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="1000">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="CurrentCarGrid" Grid.Row="0" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <local:CurrentCar Grid.Row="0"/>
+                <local:CarSpwan Grid.Row="1"/>
+            </Grid>
+            <GroupBox Header="Car Status:" Grid.Column="1">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Height="115">
+                        <views:Direction Title="Car Direction" Text="Set Direction"></views:Direction>
+                        <views:Direction Title="Kick Start" Text="Kick Start"></views:Direction>
+                        <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Top" Height="115" Margin="0,0,0,0"/>
+                    </StackPanel>
+                    <StackPanel Margin="0,5,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="Flip Over" Width="100"/>
+                            <Button Content="Freeze Car" Width="119"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="Stop All Speed" Width="100"/>
+                            <Button Content="Stop All Spin" Width="119"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Button Content="do not Buren" Width="100"/>
+                            <Button Content="do not Explode" Width="119"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <StackPanel>
+                        <views:SpeedSpinBar Title="X Speed" Margin="0,3,0,0" />
+                        <views:SpeedSpinBar Title="Y Speed" Margin="0,3,0,0" />
+                        <views:SpeedSpinBar Title="Z Speed" Margin="0,3,0,0" />
+                        <views:SpeedSpinBar Title="X Spin" Margin="0,3,0,0" />
+                        <views:SpeedSpinBar Title="X Spin" Margin="0,3,0,0" />
+                        <views:SpeedSpinBar Title="X Spin" Margin="0,3,0,0" />
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</UserControl>

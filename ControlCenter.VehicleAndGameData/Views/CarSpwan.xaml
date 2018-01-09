@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ControlCenter.VehicleAndGameData.Views.CarSpwan"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <Grid>
+        <GroupBox Header="Car Spwan:" Width="Auto">
+            <StackPanel Margin="0,3,0,3">
+                <Button Height="30" Content="Auto-inject Spawner Code If possible"></Button>
+                <Button Height="30" Content="Spawner Code-Injection Status:(unknown)"></Button>
+                <Button Height="30" Content="Spawn selected Vehicle(?Jacob)"></Button>
+                <TextBlock Margin="0,3,0,3">Vehicle Selection:</TextBlock>
+                <DockPanel>
+                    <ComboBox Width="205"></ComboBox>
+                    <Button Width="50">Pick</Button>
+                </DockPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

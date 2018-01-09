@@ -1,0 +1,29 @@
+﻿<Window x:Class="ControlCenter.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:vgd="clr-namespace:ControlCenter.VehicleAndGameData.Views;assembly=ControlCenter.VehicleAndGameData"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:local="clr-namespace:ControlCenter"
+        xmlns:inf="clr-namespace:ControlCenter.Constants"
+        xmlns:views="clr-namespace:ControlCenter.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="Auto" Width="Auto">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" VerticalAlignment="Top">
+            <TabItem Header="Vehicle and Game Data">
+               <vgd:Main></vgd:Main>
+            </TabItem>
+            <TabItem Header="Player Data"/>
+            <TabItem Header="Garages"/>
+            <TabItem Header="GTA SA Cheats"/>
+            <TabItem Header="Locations"/>
+            <TabItem Header="KeyboardShortcuts"/>
+        </TabControl>
+    </Grid>
+</Window>
+
+
+

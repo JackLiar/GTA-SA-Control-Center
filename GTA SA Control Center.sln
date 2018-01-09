@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTA SA Control Center", "GTA SA Control Center\GTA SA Control Center.csproj", "{365D3086-63C1-4358-A5E7-75BD3CE857A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter", "GTA SA Control Center\ControlCenter.csproj", "{365D3086-63C1-4358-A5E7-75BD3CE857A4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ControlCenter.Infrastructure", "ControlCenter.Infrastructure\ControlCenter.Infrastructure.fsproj", "{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGameData", "ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj", "{044FCEBB-E35C-42FC-93EB-1C98E902DC50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Infrastructure.UI", "ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj", "{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

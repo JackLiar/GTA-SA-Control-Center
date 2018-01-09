@@ -1,0 +1,31 @@
+﻿<Window x:Class="ControlCenter.Views.CarModWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:local="clr-namespace:ControlCenter.Views"
+        mc:Ignorable="d"
+        Title="CarModWindow" Height="403" Width="514">
+    <Grid Background="#FFECE9D8">
+        <GroupBox Header="Available Mods for Standard Cars:" HorizontalAlignment="Left" Height="285" VerticalAlignment="Top" Width="312">
+            <GroupBox Header="Exhaust:" HorizontalAlignment="Left" Height="146" Margin="3,3,3,3" VerticalAlignment="Top" Width="100">
+                <StackPanel Margin="0,4,0,-4">
+                    <RadioButton Content="Standard" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20" RenderTransformOrigin="0.677,0.55"/>
+                    <RadioButton Content="Small" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20"/>
+                    <RadioButton Content="Medium" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20"/>
+                    <RadioButton Content="Large" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20"/>
+                    <RadioButton Content="Twin" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20"/>
+                    <RadioButton Content="Upswept" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Height="20"/>
+                </StackPanel>
+            </GroupBox>
+        </GroupBox>
+        <GroupBox Header="Wheels:" HorizontalAlignment="Left" Height="215" Margin="312,0,0,0" VerticalAlignment="Top" Width="190"/>
+        <GroupBox Header="Paint Jobs:" HorizontalAlignment="Left" Height="80" Margin="312,204,0,0" VerticalAlignment="Top" Width="190"/>
+        <GroupBox Header="Miscellaneous:" HorizontalAlignment="Left" Height="44" Margin="2,284,0,0" VerticalAlignment="Top" Width="500"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="2,334,0,0" VerticalAlignment="Top" Width="245" Height="28"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="257,334,0,0" VerticalAlignment="Top" Width="245" Height="28"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window x:Class="ControlCenter.Views.CarSelectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:local="clr-namespace:ControlCenter.Views"
+        mc:Ignorable="d"
+        Title="GTA SA Control Center Garage Editor - Vehicle Selection" Height="800" Width="633">
+    <Window.Resources>
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Favorites">
+                <ListView Height="767" Width="468">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Pictures" Width="182"/>
+                            <GridViewColumn Header="*" Width="34"/>
+                            <GridViewColumn Header="Name" Width="187"/>
+                            <GridViewColumn Header="Description" Width="912"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="Sports Cars" />
+            <TabItem Header="Off-Road" />
+            <TabItem Header="Lowriders" />
+            <TabItem Header="Convertibles" />
+            <TabItem Header="Other Cars" />
+            <TabItem Header="Industrial Vehicles" />
+            <TabItem Header="PublicService" />
+            <TabItem Header="Helicopters" />
+            <TabItem Header="Planes" />
+            <TabItem Header="Bikes" />
+            <TabItem Header="Boats" />
+            <TabItem Header="Unique Vehicles" />
+            
+        </TabControl>
+        
+    </Grid>
+</Window>

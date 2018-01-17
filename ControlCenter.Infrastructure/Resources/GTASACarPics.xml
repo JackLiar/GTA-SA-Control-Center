@@ -1,0 +1,209 @@
+<?xml version="1.0"encoding="UTF-8"standalone="yes"?>
+<CarPics>
+	<CarPic CarID="506" TypeID="0" CarName="Super GT" Stars="5" Description="A great looking car and quick too. But it's a bit of a handful at times and tricky to handle at high speed. Not recommended for a high pursuit"/>
+	<CarPic CarID="541" TypeID="0" CarName="Bullet" Stars="5" Description="Awesome car. Looks stunning"/>
+	<CarPic CarID="579" TypeID="0" CarName="Huntley" Stars="5" Description="The huntley is a superb 4x4 that looks great too. Its handling is well balanced and sharp. The acceleration could be better"/>
+	<CarPic CarID="539" TypeID="0" CarName="Vortex" Stars="2" Description="It's a hovercraft! So you can drive on and off land. However"/>
+	<CarPic CarID="568" TypeID="0" CarName="Bandito" Stars="3" Description="A rare off road vehicle. The bandito is a speedy offroader that is fun to drive on and off the road. Turn the volume up and listen to that engine."/>
+	<CarPic CarID="522" TypeID="0" CarName="NRG-500" Stars="4" Description="The daddy of the bikes. Nothing beats this. It's light"/>
+	<CarPic CarID="602" TypeID="1" CarName="Alpha" Stars="5" Description="One of the poorer sports cars. It feels a little overweight with sluggish handling and slight understeer. It's acceleration is disapointing too."/>
+	<CarPic CarID="429" TypeID="1" CarName="Banshee" Stars="5" Description="The wailing banshee is back. And it's better than ever. Looks great and drives even better. Awesome acceleration and slight oversteer make this a thrilling ride."/>
+	<CarPic CarID="496" TypeID="1" CarName="Blista Compact" Stars="2" Description="Moves better than it looks. It's quick and nippy"/>
+	<CarPic CarID="402" TypeID="1" CarName="Buffalo" Stars="5" Description="Jump in one of these and turn up the volume. Awesome fun to drive and great style goes with it. You can find one spawned outside catalina's hideout in Fern Ridge."/>
+	<CarPic CarID="541" TypeID="1" CarName="Bullet" Stars="5" Description="Awesome car. Looks stunning"/>
+	<CarPic CarID="415" TypeID="1" CarName="Cheetah" Stars="5" Description="The cheetah is back and as sexy as ever. No praise is needed"/>
+	<CarPic CarID="589" TypeID="1" CarName="Club" Stars="3" Description="Pretty speedy coupe. Nothing too hot about this car"/>
+	<CarPic CarID="587" TypeID="1" CarName="Euros" Stars="5" Description="A rare car which only seems to spawn underneath the sphynx at the camel's toe in LV"/>
+	<CarPic CarID="565" TypeID="1" CarName="Flash" Stars="5" Description="Probably the best sporty hatchback. It's quick and sticks to road really well. Acceleration is great too."/>
+	<CarPic CarID="494" TypeID="1" CarName="Hotring Racer" Stars="2" Description="Like a true nascar"/>
+	<CarPic CarID="502" TypeID="1" CarName="Hotring Racer A" Stars="2" Description="Like a true nascar"/>
+	<CarPic CarID="503" TypeID="1" CarName="Hotring Racer B" Stars="2" Description="Like a true nascar"/>
+	<CarPic CarID="411" TypeID="1" CarName="Infernus" Stars="5" Description="This is arguably the fastest car in the game. The best version of the infernus yet"/>
+	<CarPic CarID="559" TypeID="1" CarName="Jester" Stars="5" Description="Good car. It's not the fastest"/>
+	<CarPic CarID="475" TypeID="1" CarName="Sabre" Stars="3" Description="The sabre has the true spirit of a muscle car. Over powered and difficult to control. It's still makes a fun drive."/>
+	<CarPic CarID="506" TypeID="1" CarName="Super GT" Stars="5" Description="A great looking car and quick too. But it's a bit of a handful at times and tricky to handle at high speed. Not recommended for a high pursuit"/>
+	<CarPic CarID="451" TypeID="1" CarName="Turismo" Stars="4" Description="If you can find one of these rare sports cars"/>
+	<CarPic CarID="558" TypeID="1" CarName="Uranus" Stars="5" Description="Could be mistaken for an ordinary saloon"/>
+	<CarPic CarID="477" TypeID="1" CarName="ZR-350" Stars="5" Description="I wouldnt say the best looking"/>
+	<CarPic CarID="568" TypeID="2" CarName="Bandito" Stars="3" Description="A rare off road vehicle. The bandito is a speedy offroader that is fun to drive on and off the road. Turn the volume up and listen to that engine."/>
+	<CarPic CarID="424" TypeID="2" CarName="BF Injection" Stars="5" Description="The best version of the BF Injection in any GTA"/>
+	<CarPic CarID="573" TypeID="2" CarName="Dune" Stars="2" Description="You would be forgiven for thinking that this piece of machinery is useless off road. Far from it"/>
+	<CarPic CarID="579" TypeID="2" CarName="Huntley" Stars="5" Description="The huntley is a superb 4x4 that looks great too. Its handling is well balanced and sharp. The acceleration could be better"/>
+	<CarPic CarID="400" TypeID="2" CarName="Landstalker" Stars="2" Description="Vastly improved in this version of GTA. It no longer threatens to turn over at every bump like it used to"/>
+	<CarPic CarID="500" TypeID="2" CarName="Mesa" Stars="2" Description="This rare off roader should be jacked as soon as you see it. Not because it's particularly amazing to drive"/>
+	<CarPic CarID="444" TypeID="2" CarName="Monster Truck" Stars="2" Description="The daddy of off road vehicles. Great fun to drive off and on the road. There is a normal monster truck without the special paint job which can be imported from the vehicle export ship later on in the game."/>
+	<CarPic CarID="556" TypeID="2" CarName="Monster Truck A" Stars="2" Description="The daddy of off road vehicles. Great fun to drive off and on the road."/>
+	<CarPic CarID="557" TypeID="2" CarName="Monster Truck B" Stars="2" Description="The daddy of off road vehicles. Great fun to drive off and on the road."/>
+	<CarPic CarID="470" TypeID="2" CarName="Patriot" Stars="3" Description="The ultimate off road vehicle. Nothing handles rough terrain like this thing. That's why it's so hard to get hold of. You can steal one from the secret military base in the desert."/>
+	<CarPic CarID="489" TypeID="2" CarName="Rancher" Stars="3" Description="The rancher is a pretty good off road vehicle. It's powerful and responsive"/>
+	<CarPic CarID="505" TypeID="2" CarName="Rancher Lure" Stars="3" Description="The rancher is a pretty good off road vehicle. It's powerful and responsive"/>
+	<CarPic CarID="495" TypeID="2" CarName="Sandking" Stars="3" Description="Made for off roading. A rare vehicle that spawns underneath the huge satellite dish in the desert. Nothing much can stop this baby. Looks great too."/>
+	<CarPic CarID="536" TypeID="3" CarName="Blade" Stars="4" Description="A great lowrider. It's got style"/>
+	<CarPic CarID="575" TypeID="3" CarName="Broadway" Stars="1" Description="This car is used for the pimping missions. It's pretty fast"/>
+	<CarPic CarID="534" TypeID="3" CarName="Remington" Stars="5" Description="A very stylish lowrider that's got the speed as well. Can be a bit of a handful at times"/>
+	<CarPic CarID="567" TypeID="3" CarName="Savanna" Stars="1" Description="One of the better Lowriders. It's fast with pretty good handling. Easy on the brakes though. If you slam on them hard"/>
+	<CarPic CarID="535" TypeID="3" CarName="Slamvan" Stars="5" Description="By far the best lowrider you can get. Fast and good handling too. You can mod this baby into one cool looking ride."/>
+	<CarPic CarID="566" TypeID="3" CarName="Tahoma" Stars="5" Description="Possibly a glitch"/>
+	<CarPic CarID="576" TypeID="3" CarName="Tornado" Stars="1" Description="One of the Vagos lowriders usually seen driven around Vagos territory later in the game. This is a true 50's style lowrider with performance to match it's style."/>
+	<CarPic CarID="412" TypeID="3" CarName="Voodoo" Stars="1" Description="It's as crap as it looks. Fast"/>
+	<CarPic CarID="480" TypeID="4" CarName="Comet" Stars="5" Description="Hold on to your hat as you go for a ride in this seriously fast racer. Not easy to control"/>
+	<CarPic CarID="533" TypeID="4" CarName="Feltzer" Stars="4" Description="A pretty quick car with good handling. Not the best car by a long way"/>
+	<CarPic CarID="439" TypeID="4" CarName="Stallion" Stars="1" Description="Still the same piece of junk as it's always been. Difficult to control and not that fast either. Comes in a hard top version too."/>
+	<CarPic CarID="555" TypeID="4" CarName="Windsor" Stars="5" Description="Some may find this vintage motor a handful"/>
+	<CarPic CarID="445" TypeID="5" CarName="Admiral" Stars="2" Description="The admiral"/>
+	<CarPic CarID="504" TypeID="5" CarName="Bloodring Banger" Stars="2" Description="This is found in the blood bowl stadium event in San Fierro. A big heavy"/>
+	<CarPic CarID="401" TypeID="5" CarName="Bravura" Stars="1" Description="The best way to describe this car is sensible. It's quick"/>
+	<CarPic CarID="518" TypeID="5" CarName="Buccaneer" Stars="2" Description="This car seems to have every characteristic of a low rider"/>
+	<CarPic CarID="527" TypeID="5" CarName="Cadrona" Stars="1" Description="A car that's not going to turn heads"/>
+	<CarPic CarID="542" TypeID="5" CarName="Clover" Stars="1" Description="Despite it's looks"/>
+	<CarPic CarID="507" TypeID="5" CarName="Elegant" Stars="3" Description="A big car and so handles like one. Although it's fairly fast and the handling is good"/>
+	<CarPic CarID="562" TypeID="5" CarName="Elegy" Stars="5" Description="One of my favourite cars in the game. It's not the fastest"/>
+	<CarPic CarID="585" TypeID="5" CarName="Emperor" Stars="3" Description="Just a simple"/>
+	<CarPic CarID="419" TypeID="5" CarName="Esperanto" Stars="2" Description="The Esperanto makes a return in San Andreas. And it's still as heavy and slow as before. You can really see the effort needed to get this thing up to speed"/>
+	<CarPic CarID="526" TypeID="5" CarName="Fortune" Stars="2" Description="A solid saloon car. You will do well to find another saloon as fun to drive as this one."/>
+	<CarPic CarID="466" TypeID="5" CarName="Glendale" Stars="2" Description="A big heavy old car"/>
+	<CarPic CarID="604" TypeID="5" CarName="Glendale (Damaged)" Stars="1" Description="Damaged version of Glendale."/>
+	<CarPic CarID="492" TypeID="5" CarName="Greenwood" Stars="1" Description="This is the car parked outside Sweet's house. It's a cruiser"/>
+	<CarPic CarID="474" TypeID="5" CarName="Hermes" Stars="4" Description="The hermes makes a return"/>
+	<CarPic CarID="546" TypeID="5" CarName="Intruder" Stars="2" Description="A rather dull"/>
+	<CarPic CarID="517" TypeID="5" CarName="Majestic" Stars="1" Description="You wouldnt want to take your girlfriend out in this"/>
+	<CarPic CarID="410" TypeID="5" CarName="Manana" Stars="1" Description="Lame"/>
+	<CarPic CarID="551" TypeID="5" CarName="Merit" Stars="5" Description="For a big saloon this one's pretty fast. Unfortunatley because it's big"/>
+	<CarPic CarID="418" TypeID="5" CarName="Moonbeam" Stars="3" Description="This SUV would probably be in a close race with a tractor. Slow as hell."/>
+	<CarPic CarID="516" TypeID="5" CarName="Nebula" Stars="1" Description="A slow"/>
+	<CarPic CarID="467" TypeID="5" CarName="Oceanic" Stars="2" Description="The vagos main ride. Head into vagos territory and you'll soon see one. However seeing as it's pretty crap in all departments"/>
+	<CarPic CarID="404" TypeID="5" CarName="Perennial" Stars="1" Description="This car has been bad since GTA3 and it still is. It's responsive enough"/>
+	<CarPic CarID="603" TypeID="5" CarName="Pheonix" Stars="2" Description="This car is pretty much the same as in Vice City. Fairly high powered but can be a bit of a handful at times. They are never found on the streets"/>
+	<CarPic CarID="426" TypeID="5" CarName="Premier" Stars="5" Description="An average saloon. Handling is good"/>
+	<CarPic CarID="436" TypeID="5" CarName="Previon" Stars="1" Description="An ok saloon car. Nothing special about it"/>
+	<CarPic CarID="547" TypeID="5" CarName="Primo" Stars="3" Description="This tends to be the car to forget about. Not because it's crap"/>
+	<CarPic CarID="479" TypeID="5" CarName="Regina" Stars="2" Description="What the regina lacks in speed and style it makes up for in handling. It handles better than some top saloon cars"/>
+	<CarPic CarID="405" TypeID="5" CarName="Sentinel" Stars="5" Description="Like the Sentinel's in the previous gta's. This is a great car. Not the fastest but it's quick enough for a good getaway and easy to control. It's got class to boot."/>
+	<CarPic CarID="458" TypeID="5" CarName="Solair" Stars="2" Description="This one handles better than you would think. It's fairly quick and easy to handle. It's not the fastest car in the world"/>
+	<CarPic CarID="580" TypeID="5" CarName="Stafford" Stars="3" Description="A big rich luxury car"/>
+	<CarPic CarID="561" TypeID="5" CarName="Stratum" Stars="5" Description="Unfortunately this is a pretty hard car to drive. It suffers from terrible ndersteer meaning it's a real dog to get round those corners. Acceleration is pretty poor also."/>
+	<CarPic CarID="560" TypeID="5" CarName="Sultan" Stars="5" Description="A totally responsive"/>
+	<CarPic CarID="550" TypeID="5" CarName="Sunrise" Stars="3" Description="Great saloon car. It's big but it's fast and the handling is great."/>
+	<CarPic CarID="549" TypeID="5" CarName="Tampa" Stars="1" Description="This hunk of junk definitley isnt worth the long find. Pretty rare car that isnt so rewarding"/>
+	<CarPic CarID="540" TypeID="5" CarName="Vincent" Stars="2" Description="Another big saloon car. It handles pretty well but the accelation is poor and it's not very exciting to look at. Your girlfriends will agree."/>
+	<CarPic CarID="491" TypeID="5" CarName="Virgo" Stars="2" Description="This car is built for cruising not high speed chases. Having said that"/>
+	<CarPic CarID="421" TypeID="5" CarName="Washington" Stars="5" Description="The washington is a car of prestige and as such"/>
+	<CarPic CarID="529" TypeID="5" CarName="Willard" Stars="2" Description="This is probably one of the most unbalanced cars to drive. One moment you are battling understeer and the next"/>
+	<CarPic CarID="435" TypeID="6" CarName="Artic Trailer 1" Stars="1" Description="Trailer"/>
+	<CarPic CarID="450" TypeID="6" CarName="Artic Trailer 2" Stars="1" Description="Trailer"/>
+	<CarPic CarID="591" TypeID="6" CarName="Artic Trailer 3" Stars="1" Description="Trailer"/>
+	<CarPic CarID="606" TypeID="6" CarName="Bagbox Trailer A" Stars="1" Description="Trailer"/>
+	<CarPic CarID="607" TypeID="6" CarName="Bagbox Trailer B" Stars="1" Description="Trailer"/>
+	<CarPic CarID="499" TypeID="6" CarName="Benson" Stars="1" Description="Obviously not fast and not fun to drive. strangely this sounds like a big truck when it's everything but."/>
+	<CarPic CarID="422" TypeID="6" CarName="Bobcat" Stars="1" Description="Looks crap"/>
+	<CarPic CarID="498" TypeID="6" CarName="Boxville" Stars="1" Description="A big box on wheels. No reason to drive one of these unless you have to."/>
+	<CarPic CarID="609" TypeID="6" CarName="Boxville (Burgler)" Stars="1" Description="Just the same as a normal boxville except black and can be used to start the burglary missions at night time. Just get in one and activate the burglar mission in the normal way."/>
+	<CarPic CarID="482" TypeID="6" CarName="Burrito" Stars="2" Description="I really love this van. Although it's hard to control due to it's excess power through the rear wheels"/>
+	<CarPic CarID="524" TypeID="6" CarName="Cement Truck" Stars="1" Description="You would think this is a slow heavy vehicle. Well it's heavy but not as slow as you think. It's pretty quick and has pretty good handling."/>
+	<CarPic CarID="578" TypeID="6" CarName="DFT-30" Stars="1" Description="For a truck"/>
+	<CarPic CarID="610" TypeID="6" CarName="Farm Trailer" Stars="1" Description="Trailer"/>
+	<CarPic CarID="455" TypeID="6" CarName="Flatbed" Stars="1" Description="It's slow"/>
+	<CarPic CarID="403" TypeID="6" CarName="Linerunner" Stars="1" Description="This linerunner is one of the quicker trucks and easier to control than the Roadtrain. It can be used to tow trailers."/>
+	<CarPic CarID="414" TypeID="6" CarName="Mule" Stars="1" Description="Just like it's name"/>
+	<CarPic CarID="582" TypeID="6" CarName="News Van" Stars="2" Description="It's a sluggish van with a satellite dish on the top. That's the only special thing about it."/>
+	<CarPic CarID="443" TypeID="6" CarName="Packer" Stars="2" Description="Tough to drive through the streets"/>
+	<CarPic CarID="514" TypeID="6" CarName="Petrol Tanker" Stars="1" Description="Another truck capable of hauling a trailer. This is the older looking equivalent to the linerunner. Despite it looking abit older"/>
+	<CarPic CarID="584" TypeID="6" CarName="Petrol Trailer" Stars="1" Description="Trailer"/>
+	<CarPic CarID="600" TypeID="6" CarName="Picador" Stars="2" Description="The picador is a quick truck but has bad understeer. Some versions of it carry a couple of planks of wood in the back which can impede your view."/>
+	<CarPic CarID="413" TypeID="6" CarName="Pony" Stars="1" Description="This van has it's suspension so highly taught"/>
+	<CarPic CarID="515" TypeID="6" CarName="Roadtrain" Stars="1" Description="Big Ass Truck"/>
+	<CarPic CarID="440" TypeID="6" CarName="Rumpo" Stars="1" Description="A big crappy van. It's slow"/>
+	<CarPic CarID="543" TypeID="6" CarName="Sadler" Stars="2" Description="If you have to drive a pickup"/>
+	<CarPic CarID="605" TypeID="6" CarName="Sadler (Damaged)" Stars="2" Description="Damaged version of Sadler. If you have to drive a pickup"/>
+	<CarPic CarID="459" TypeID="6" CarName="Topfun" Stars="1" Description="This is the van that only in special locations start the RC missions when you get in."/>
+	<CarPic CarID="531" TypeID="6" CarName="Tractor" Stars="2" Description="It's a tractor so it's not going to break the land speed record. However"/>
+	<CarPic CarID="408" TypeID="6" CarName="Trashmaster" Stars="1" Description="Trashmaster"/>
+	<CarPic CarID="608" TypeID="6" CarName="Tugstair Trailer" Stars="1" Description="Trailer"/>
+	<CarPic CarID="611" TypeID="6" CarName="Utililty Trailer" Stars="1" Description="Trailer"/>
+	<CarPic CarID="552" TypeID="6" CarName="Utlity Van" Stars="1" Description="The utility van has pretty good speed for a vehicle of this size"/>
+	<CarPic CarID="478" TypeID="6" CarName="Walton" Stars="1" Description="Too slow to enjoy driving."/>
+	<CarPic CarID="456" TypeID="6" CarName="Yankee" Stars="1" Description="You'll be asleep before you get upto 2nd gear. A really lame van that should only used as a target for you rocket launcher."/>
+	<CarPic CarID="554" TypeID="6" CarName="Yosemite" Stars="2" Description="This truck is better than the bobcat but suffers from awful understeer. Don't think about using this in a hot pursuit"/>
+	<CarPic CarID="416" TypeID="7" CarName="Ambulance" Stars="2" Description="Fast and bulky is a dangerous combination in a vehicle"/>
+	<CarPic CarID="433" TypeID="7" CarName="Barracks" Stars="2" Description="The barracks is a great truck for ramming missions"/>
+	<CarPic CarID="431" TypeID="7" CarName="Bus" Stars="2" Description="Handles just like you would think. Slow"/>
+	<CarPic CarID="438" TypeID="7" CarName="Cabbie" Stars="1" Description="Same model from the previous gta games. Still slow. Still cumbersome. The other taxi is a better model to do the taxi driver mission in."/>
+	<CarPic CarID="437" TypeID="7" CarName="Coach" Stars="3" Description="The coach is quicker than the bus"/>
+	<CarPic CarID="523" TypeID="7" CarName="Copbike (HPV1000)" Stars="2" Description="The standard police motorcyle. A very good bike"/>
+	<CarPic CarID="427" TypeID="7" CarName="Enforcer" Stars="2" Description="In my opinion this vehicle isnt worth the effort of getting one"/>
+	<CarPic CarID="490" TypeID="7" CarName="FBI Rancher" Stars="2" Description="A black turbo boosted rancher. The extra speed doesnt make it too difficult to drive and is a cool addition to your garage. Getting one isnt too tough if you have body armour and decent gun and work your way up to 5 star wanted level."/>
+	<CarPic CarID="528" TypeID="7" CarName="FBI Truck" Stars="1" Description="FBI Truck. Can be used for vigilant missions."/>
+	<CarPic CarID="407" TypeID="7" CarName="Firetruck" Stars="1" Description="Fastest truck you can get. You can also fire water from the hose on the top. Use fire and rotate turret controls to aim. Is used for the fire fighter missions."/>
+	<CarPic CarID="544" TypeID="7" CarName="Firetruck (LS)" Stars="1" Description="Fire Truck for Los Santos"/>
+	<CarPic CarID="596" TypeID="7" CarName="Police Car (LSPD)" Stars="3" Description="It's fast as you would expect but suffers from understeer. This is the Los Santos version of the police car."/>
+	<CarPic CarID="598" TypeID="7" CarName="Police Car (LVPD)" Stars="3" Description="It's fast as you would expect but suffers from understeer. This is the Las Venturas version of the police car."/>
+	<CarPic CarID="599" TypeID="7" CarName="Police Car (Rancher)" Stars="3" Description="The Rural Police Ranger is similar to the Rancher with a bit more speed of course. It is of course great off road as well as on the road. It's size poses a problem if you are traversing the traffic."/>
+	<CarPic CarID="597" TypeID="7" CarName="Police Car (SFPD)" Stars="3" Description="It's fast as you would expect but suffers from understeer. This is the San Fierro version of the police car."/>
+	<CarPic CarID="432" TypeID="7" CarName="Rhino (Tank)" Stars="2" Description="This little baby is the mutts nuts and this time it's relatively easy to get. You can either break into east side of the army base in the desert and steal one. Or if you fancy the long route"/>
+	<CarPic CarID="601" TypeID="7" CarName="S.W.A.T. Tank" Stars="1" Description="A very rare swat tank that i've only found during the final mission 'end of the line'. Has a water canon just like the fire engine and is great for ramming cars."/>
+	<CarPic CarID="420" TypeID="7" CarName="Taxi" Stars="1" Description="This is a better taxi than the premier. The handling is good and sharp just what you need for nipping in and out of traffic. Acceleration could be better."/>
+	<CarPic CarID="548" TypeID="8" CarName="Cargobob" Stars="2" Description="A bulky military transport helicopter that"/>
+	<CarPic CarID="425" TypeID="8" CarName="Hunter" Stars="2" Description="We all know this little beauty. Still as awesome as ever"/>
+	<CarPic CarID="417" TypeID="8" CarName="Leviathan" Stars="2" Description="A good helicopter for beginners. It's bulk makes it stable and easy to operate. It's not too fast though. Has a magnet during the mission where you use it"/>
+	<CarPic CarID="487" TypeID="8" CarName="Maverick" Stars="2" Description="The maverick seems to have lost some of it's fun value from Vice City. It's not quite as easy to control and landing can end up in a jumbled mess"/>
+	<CarPic CarID="497" TypeID="8" CarName="Police Maverick" Stars="2" Description="The police version of the maverick is better although there is no special guns attached. I prefer this helicopter over the normal maverick as it appears to have more control and speed."/>
+	<CarPic CarID="563" TypeID="8" CarName="Raindance" Stars="2" Description="A large"/>
+	<CarPic CarID="447" TypeID="8" CarName="Seasparrow" Stars="3" Description="The seasparrow still has those guns attached and fully loaded. It has very responsive controls"/>
+	<CarPic CarID="469" TypeID="8" CarName="Sparrow" Stars="2" Description="The sparrow is just the same as the seasparrow"/>
+	<CarPic CarID="488" TypeID="8" CarName="VCN Maverick" Stars="2" Description="This is the VCN News version of Maverick."/>
+	<CarPic CarID="592" TypeID="9" CarName="Andomeda" Stars="1" Description="This is the so called plane you see in the mission 'Stowaway'"/>
+	<CarPic CarID="577" TypeID="9" CarName="AT-400" Stars="1" Description="Most of you will have flown in this by going to the airport and buying a flight. However"/>
+	<CarPic CarID="511" TypeID="9" CarName="B-Eagle" Stars="2" Description="Pretty average plane. Simple to fly"/>
+	<CarPic CarID="512" TypeID="9" CarName="Crop Duster" Stars="2" Description="The crop duster is very decent plane to fly. It's easy to control and you can pull of some stunts in it. There is one at the top of a hill above the tunnel"/>
+	<CarPic CarID="593" TypeID="9" CarName="Dodo" Stars="2" Description="The dodo is a highly manouverable plane which requires a little bit more skill to fly. It's not as manourable as the Stuntplane"/>
+	<CarPic CarID="520" TypeID="9" CarName="Hydra" Stars="2" Description="Obviously this is the best plane in the game. High speed"/>
+	<CarPic CarID="553" TypeID="9" CarName="Nevada" Stars="2" Description="A double engined"/>
+	<CarPic CarID="476" TypeID="9" CarName="Rustler" Stars="2" Description="The classic spitfire look a like. This plane is great fun to fly"/>
+	<CarPic CarID="519" TypeID="9" CarName="Shamal" Stars="2" Description="The shamal is a nifty passenger jet that is fast and manouverable. You can climb pretty high in the sky in one of these are commonly found around the airports."/>
+	<CarPic CarID="460" TypeID="9" CarName="Skimmer" Stars="2" Description="Very similar to the dodo"/>
+	<CarPic CarID="513" TypeID="9" CarName="Stuntplane" Stars="2" Description="The stunt plane is built for high manouverability and so needs a gentle hand to control. It's all to easy to try and pull of one stunt to many and end up in an inescapable mess. It's still great fun though."/>
+	<CarPic CarID="581" TypeID="10" CarName="BF-400" Stars="3" Description="Similar bike to the well known PCJ-600"/>
+	<CarPic CarID="509" TypeID="10" CarName="Bike" Stars="1" Description="Nothing much to say about the bike really. It doesnt have a distinct advantage over the other bikes"/>
+	<CarPic CarID="481" TypeID="10" CarName="BMX" Stars="1" Description="The BMX is a cool bike that can be used to bunny hop even high walls once you increase you skill on it. Good fun can be had from jumping traffic."/>
+	<CarPic CarID="462" TypeID="10" CarName="Faggio" Stars="1" Description="The fact that this isn't easy to find isnt a problem. It's slow and will not go down well with your girlfriend. Forget about this one."/>
+	<CarPic CarID="521" TypeID="10" CarName="FCR-900" Stars="3" Description="Fairly rare bike that's similar to the PCJ-600 so it's even harder to find on the street. You can get one by obtaining at least all silver in bike school."/>
+	<CarPic CarID="463" TypeID="10" CarName="Freeway" Stars="3" Description="The Freeway is one of the poorer bikes in my opinion. It's got style and class and is fun to cruise around on"/>
+	<CarPic CarID="510" TypeID="10" CarName="Mountain Bike" Stars="1" Description="The fastest push bike you can get but can't jump as high as the bmx. Good for going up rough terrains"/>
+	<CarPic CarID="522" TypeID="10" CarName="NRG-500" Stars="4" Description="The daddy of the bikes. Nothing beats this. It's light"/>
+	<CarPic CarID="461" TypeID="10" CarName="PCJ-600" Stars="3" Description="The familiar bike makes a return in San Andreas. But it's no longer the best bike. Still fast and nimble"/>
+	<CarPic CarID="448" TypeID="10" CarName="Pizzaboy" Stars="2" Description="This is the special pizza version of the Faggio. Handles just the same. This time there is no pizza boy mission."/>
+	<CarPic CarID="471" TypeID="10" CarName="Quad" Stars="2" Description="It might have 4 wheels"/>
+	<CarPic CarID="468" TypeID="10" CarName="Sanchez" Stars="3" Description="This is just like the good old sanchez from Vice City. Very quick and even better off road. Great fun to drive about rough terrain."/>
+	<CarPic CarID="586" TypeID="10" CarName="Wayfarer" Stars="3" Description="The wayfarer is your average style bike. It's nimble and quick enough in a pursuit"/>
+	<CarPic CarID="472" TypeID="11" CarName="Coastguard" Stars="2" Description="Despite it's appearance"/>
+	<CarPic CarID="473" TypeID="11" CarName="Dinghy" Stars="1" Description="The smallest and most manouverable boat. Not quite a handful as it was in Vice City"/>
+	<CarPic CarID="493" TypeID="11" CarName="Jetmax" Stars="5" Description="You only have to look at this and know that it's going to go like shit off a stick. Get all gold in boat school and one of these will spawn outside in the harbour."/>
+	<CarPic CarID="595" TypeID="11" CarName="Launch" Stars="4" Description="Military boat with minigun mounted on the back. You'll have to forego 5  Stars going into the naval base in San Fierro to be able to get one of these and even then it isnt that fast"/>
+	<CarPic CarID="484" TypeID="11" CarName="Marquis" Stars="3" Description="Suprisingly low sex appeal for this luxury yacht. It's top speed isnt bad but turning is a nightmare. Dont take this up twisty channels."/>
+	<CarPic CarID="430" TypeID="11" CarName="Predator" Stars="2" Description="No not an 8 foot tall alien with ugly face"/>
+	<CarPic CarID="453" TypeID="11" CarName="Reefer" Stars="4" Description="Why this has so much sex appeal is a mystery"/>
+	<CarPic CarID="452" TypeID="11" CarName="Speeder" Stars="5" Description="One of the faster boats. Very narrow and pretty manouverable. There are better boats though."/>
+	<CarPic CarID="446" TypeID="11" CarName="Squallo" Stars="5" Description="Very fast"/>
+	<CarPic CarID="454" TypeID="11" CarName="Tropic" Stars="1" Description="A speedy luxury boat for a family cruise. Better than the reefer"/>
+	<CarPic CarID="485" TypeID="12" CarName="Baggage" Stars="2" Description="If your going to use a special airport vehicle"/>
+	<CarPic CarID="457" TypeID="12" CarName="Caddy" Stars="4" Description="The good ole caddy is back again. Pretty much the same as the Vice City caddy. Entering the caddy gives you a golf club in your arsenal if you havent already got a melee weapon."/>
+	<CarPic CarID="483" TypeID="12" CarName="Camper" Stars="2" Description="A true hippy wagon. It's slow but has responsive handling which can get you around those tight bends. Watch out for the back end as it tends to swing out."/>
+	<CarPic CarID="532" TypeID="12" CarName="Combine Harvester" Stars="2" Description="A pain in the arse to drive due to the steering being at the back. But it's still fun to mince a few pedestrians with."/>
+	<CarPic CarID="486" TypeID="12" CarName="Dozer" Stars="2" Description="The dozer is another vehicle with steering at the rear"/>
+	<CarPic CarID="406" TypeID="12" CarName="Dumper" Stars="1" Description="Who needs a monster truck when you can have one of these. One will spawn in the quarry after you complete all of the quarry missions."/>
+	<CarPic CarID="530" TypeID="12" CarName="Forklift" Stars="1" Description="Easy on the gas. It's a little tricky to manouvere this piece of machinery due to sensitive steering. However it has potential for some very fun situations due to it's fully working forks. Use right analogue stick to operate them."/>
+	<CarPic CarID="571" TypeID="12" CarName="Go Kart" Stars="1" Description="Even though this has got a low top speed"/>
+	<CarPic CarID="588" TypeID="12" CarName="Hotdog" Stars="1" Description="Found Dotted about the countryside"/>
+	<CarPic CarID="434" TypeID="12" CarName="Hotknife" Stars="5" Description="You'll be pleased to know"/>
+	<CarPic CarID="545" TypeID="12" CarName="Hustler" Stars="2" Description="The hustler is the true gangter car. A good fun drive with slight oversteer. You can't really go wrong with this."/>
+	<CarPic CarID="508" TypeID="12" CarName="Journey" Stars="1" Description="This is a camper van edition. Not too much fun to drive."/>
+	<CarPic CarID="572" TypeID="12" CarName="Mower" Stars="2" Description="The mower is another novelty vehicle. I know what your thinking though"/>
+	<CarPic CarID="423" TypeID="12" CarName="Mr Whoopee" Stars="1" Description="The Mr Whoopee van is back and this time there is no mission associated with it. This means"/>
+	<CarPic CarID="442" TypeID="12" CarName="Romero" Stars="1" Description="Romero's hearse makes a return in San Andreas and now it's a little easier to get hold of. Even so"/>
+	<CarPic CarID="428" TypeID="12" CarName="Securicar" Stars="1" Description="It's tough as hell"/>
+	<CarPic CarID="409" TypeID="12" CarName="Stretch" Stars="5" Description="It's a limo"/>
+	<CarPic CarID="574" TypeID="12" CarName="Sweeper" Stars="1" Description="More of a novelty vehicle"/>
+	<CarPic CarID="525" TypeID="12" CarName="Towtruck" Stars="1" Description="This vehicle is unique because you can actually tow stuff with it. Use the right analogue controls to raise and lower the hook and back up to any vehicle to tow it. You can even tow locked vehicles to your garage to unlock them."/>
+	<CarPic CarID="583" TypeID="12" CarName="Tug" Stars="3" Description="Slow and erratic handling"/>
+	<CarPic CarID="539" TypeID="12" CarName="Vortex" Stars="2" Description="It's a hovercraft! So you can drive on and off land. However"/>
+</CarPics>

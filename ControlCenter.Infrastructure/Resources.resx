@@ -119,24 +119,24 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="GTASACarPics" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASACarPics.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+    <value>Resources\GTASACarPics.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="GTASACars" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASACars.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>Resources\GTASACars.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="GTASACarTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASACarTypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+    <value>Resources\GTASACarTypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="GTASACheats" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASACheats.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+    <value>Resources\GTASACheats.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="GTASAColors" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASAColors.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>Resources\GTASAColors.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="GTASALocations" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASALocations.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+    <value>Resources\GTASALocations.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="GTASAShortcuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\GTA SA Control Center\Resources\Data\GTASAShortcuts.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+    <value>Resources\GTASAShortcuts.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
 </root>

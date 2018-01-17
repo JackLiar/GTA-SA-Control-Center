@@ -343,23 +343,13 @@ type WarpLocs() =
         locs.[index]
 
 module GlobalVariables =
-    open System.Collections
-    open System.Globalization
     open System.IO
     open System.Linq
-    open System.Reflection
-    open System.Resources
     open System.Text
     open System.Xml
 
-    /// Get specific resource from dll's resource
-    let GetResource =
-        let rm = ResourceManager("ControlCenter.Infrastructure.Resources", Assembly.GetExecutingAssembly())
-        let resourceSet = rm.GetResourceSet(CultureInfo.CurrentUICulture, true, true) :> IEnumerable
-        fun name -> resourceSet.Cast<DictionaryEntry>().FirstOrDefault(fun r -> (string)r.Key = name).Value
-
     /// Get Colors from GTASAColors.xml
-    let ParseColors() =
+    let internal ParseColors() =
 
         let mutable result : GTASAColor list = []
 
@@ -373,20 +363,25 @@ module GlobalVariables =
             Convert.ToInt32(_sb.ToString(), 16)
         
         // Open the .xml file and generate a GTASAColor list
+        let doc = new XmlDocument()
         try
-            let doc = new XmlDocument()
             doc.Load(".\GTASAColors.xml")
-            doc.SelectSingleNode("Colors").ChildNodes.Cast<XmlNode>()
-                |> Seq.iter (fun n ->
-                    let color = { Rgb = RgbString2RbgLong n.Attributes.["Rgb"].Value;
-                        ColorCode = Int32.Parse n.Attributes.["Id"].Value;
-                        Description = n.Attributes.["ToolTip"].Value}
-                    result <- color :: result)
         with
-            | :? FileNotFoundException as e ->
-                let xml = GetResource "GTASAColors" :?> string
-                File.WriteAllText(".\GTASAColors.xml", xml)
+            | :? FileNotFoundException -> Prerequisite.RegenerateXml "GTASAColors"
             | _ as e -> printfn "%A" e
+        
+        doc.SelectSingleNode("Colors").ChildNodes.Cast<XmlNode>()
+            |> Seq.iter (fun n ->
+                let color = { Rgb = RgbString2RbgLong n.Attributes.["Rgb"].Value;
+                    ColorCode = Int32.Parse n.Attributes.["Id"].Value;
+                    Description = n.Attributes.["ToolTip"].Value}
+                result <- color :: result)
         result.Reverse().ToArray()
 
+    // Define Global Variables
+    // immutable variables
     let GTASAColors : GTASAColor array = [||]
+
+    // mutable variables
+    let mutable IsCarPicsReady : bool = false
+    let mutable ZeroTune : int list = []

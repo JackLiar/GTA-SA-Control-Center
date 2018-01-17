@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Locations>
+	<Location UID="64EFF8C6-E20E-8C4B-ACFC-1895B23C0EEF" Folder="GTA SA Locations\Flowers" Description="Flower 01" LocationData="1928.68;-1774.21;13.54;90"/>
+	<Location UID="263A5859-51F8-2541-B515-2B00123ED5B9" Folder="GTA SA Locations\Flowers" Description="Flower 02" LocationData="1875.91;-1917.18;15.03;90"/>
+	<Location UID="4DCC5450-50D6-BB44-BE3A-BF0834B13AAF" Folder="GTA SA Locations\Flowers" Description="Flower 03" LocationData="2019.6;-1214.15;21.47;90"/>
+	<Location UID="59FA678C-3387-3E44-9E3C-25EAA5E780A7" Folder="GTA SA Locations\Flowers" Description="Flower 04" LocationData="2209.77;-1001.69;63.71;90"/>
+	<Location UID="14B7B2C0-2890-304F-9DF1-CD28B2B08F1A" Folder="GTA SA Locations\Flowers" Description="Flower 05" LocationData="1000.34;-1858.58;12.3;90"/>
+	<Location UID="8ECC1C35-B27D-7E41-B7CB-06E5BA2EF929" Folder="GTA SA Locations\Flowers" Description="Flower 06" LocationData="911.11;-1120.31;24.03;90"/>
+	<Location UID="D6344AE4-D6D6-EF4E-ADC1-5A6D017CE85F" Folder="GTA SA Locations\Flowers" Description="Flower 07" LocationData="929.0;-750.0;105.82;90"/>
+	<Location UID="1C0792E8-0EB3-5543-AF74-96427FE39DC3" Folder="GTA SA Locations\Flowers" Description="Flower 08" LocationData="1129.09;-2052.82;69.0;90"/>
+	<Location UID="AF415559-BE74-FC46-8968-5D72154F511F" Folder="GTA SA Locations\Flowers" Description="Flower 09" LocationData="-92.74;-1425.46;12.75;90"/>
+	<Location UID="34CADA6D-74D6-6648-AD9C-858069B74082" Folder="GTA SA Locations\Flowers" Description="Flower 10" LocationData="-77.65;-1167.18;2.16;90"/>
+	<Location UID="DC403F45-47D9-EA4F-8128-44162B23D663" Folder="GTA SA Locations\Flowers" Description="Flower 11" LocationData="34.0;-2649.0;40.73;90"/>
+	<Location UID="46155B3F-6318-8549-8C65-16CE00482C32" Folder="GTA SA Locations\Flowers" Description="Flower 12" LocationData="-739.0;-1262.0;68.12;90"/>
+	<Location UID="002EEE32-F05E-F240-9D0E-2F712816680E" Folder="GTA SA Locations\Flowers" Description="Flower 13" LocationData="-2177.0;-2423.0;30.63;90"/>
+	<Location UID="3314F132-DAA7-AB48-955E-C08AB6ECF011" Folder="GTA SA Locations\Flowers" Description="Flower 14" LocationData="-615.0;-861.0;105.72;90"/>
+	<Location UID="1677702B-B154-AC40-BA17-0F4C8248BE30" Folder="GTA SA Locations\Flowers" Description="Flower 15" LocationData="-2051.0;948.0;55.4;90"/>
+	<Location UID="65556ED6-61DF-B84D-87C4-14B3DF3298BB" Folder="GTA SA Locations\Flowers" Description="Flower 16" LocationData="-2658.0;-187.0;4.18;90"/>
+	<Location UID="B3723BD4-67AB-524C-88BF-81945F6A1400" Folder="GTA SA Locations\Flowers" Description="Flower 17" LocationData="-2649.0;734.97;27.96;90"/>
+	<Location UID="236583F9-E58E-174E-BA1F-AFF3550C0932" Folder="GTA SA Locations\Flowers" Description="Flower 18" LocationData="-1791.0;481.0;25.68;90"/>
+	<Location UID="06F85E8E-5937-244A-9E31-333D9C3FCC4E" Folder="GTA SA Locations\Flowers" Description="Flower 19" LocationData="-2797.0;1182.0;20.28;90"/>
+	<Location UID="6F5884FC-937A-324E-B226-19C94BA56DCF" Folder="GTA SA Locations\Flowers" Description="Flower 20" LocationData="-2589.623;-16.165;3.9662;90"/>
+	<Location UID="82653397-D3DA-E241-873E-527BA1834D2B" Folder="GTA SA Locations\Flowers" Description="Flower 21" LocationData="-2865.0;690.0;23.43;90"/>
+	<Location UID="0D3DAEE7-76E0-BE44-854F-764EE0E73737" Folder="GTA SA Locations\Flowers" Description="Flower 22" LocationData="-2339.0;-453.0;80.24;90"/>
+	<Location UID="03AF9A73-C3F1-D246-8629-2E0D8919D0F6" Folder="GTA SA Locations\Flowers" Description="Flower 23" LocationData="-1955.0;-748.0;36.22;90"/>
+	<Location UID="8C348E9D-A6E3-9745-9956-23D143B980BF" Folder="GTA SA Locations\Flowers" Description="Flower 24" LocationData="-2420.03;987.59;45.3;90"/>
+	<Location UID="F192E0D4-809D-4E4A-B750-143268EE6113" Folder="GTA SA Locations\Flowers" Description="Flower 25" LocationData="-326.56;2215.37;43.57;90"/>
+	<Location UID="A458022E-0C8B-4D40-8B59-286CB6059003" Folder="GTA SA Locations\Flowers" Description="Flower 26" LocationData="-1319.0;2705.0;50.27;90"/>
+	<Location UID="880478AE-6F17-264E-A5C0-55AA64558C15" Folder="GTA SA Locations\Flowers" Description="Flower 27" LocationData="-2474.94;2443.52;16.03;90"/>
+	<Location UID="AD5E3025-D55B-F049-BA48-95C7CAD0A686" Folder="GTA SA Locations\Flowers" Description="Flower 28" LocationData="-1670.64;2590.49;81.37;90"/>
+	<Location UID="DA738544-EC77-6C41-8108-A246B23D1386" Folder="GTA SA Locations\Flowers" Description="Flower 29" LocationData="-892.98;1971.66;60.61;90"/>
+	<Location UID="6E8C9AE9-277C-AA4F-858F-C92585F491CD" Folder="GTA SA Locations\Flowers" Description="Flower 30" LocationData="1576.86;2837.14;10.83;90"/>
+	<Location UID="20CDD66D-C9FE-374E-AEE8-BEBB938409F6" Folder="GTA SA Locations\Flowers" Description="Flower 31" LocationData="1492.72;2773.76;10.81;90"/>
+	<Location UID="28D419CE-9653-CF4A-9E41-64DDA62C8F7B" Folder="GTA SA Locations\Flowers" Description="Flower 32" LocationData="2642.03;1125.74;11.03;90"/>
+	<Location UID="7AE7415C-F49A-6043-9324-E006A160CEAB" Folder="GTA SA Locations\Flowers" Description="Flower 33" LocationData="2025.24;661.6;10.93;90"/>
+	<Location UID="15C9FAB7-ED0F-F64A-B5A8-036B4D818BE9" Folder="GTA SA Locations\Flowers" Description="Flower 34" LocationData="2181.82;1484.97;11.36;90"/>
+	<Location UID="5D3EC901-F459-C147-89C4-BA7AB94CA14D" Folder="GTA SA Locations\Flowers" Description="Flower 35" LocationData="2197.02;2476.33;11.0;90"/>
+	<Location UID="F42808A6-E98F-744D-B175-17EBC1458ADF" Folder="GTA SA Locations\Flowers" Description="Flower 36" LocationData="2212.0;2526.0;10.81;90"/>
+	<Location UID="C923543D-5D66-6E49-ACD3-F3869D9D7E0C" Folder="GTA SA Locations\Flowers" Description="Flower 37" LocationData="2715.79;1109.47;6.7;90"/>
+	<Location UID="A7BE054E-EAE1-1A42-9C72-5467FE9ED7A8" Folder="GTA SA Locations\Flowers" Description="Flower 38" LocationData="2489.25;918.28;11.02;90"/>
+	<Location UID="BC7C9605-DD98-0942-BD93-971C08872FA1" Folder="GTA SA Locations\Flowers" Description="Flower 39" LocationData="1472.08;1890.09;10.81;90"/>
+	<Location UID="B727780C-F192-6148-85FF-1847DA748C75" Folder="GTA SA Locations\Girlfriends" Description="GF Barbara" LocationData="-1404.344;2640.061;55.887;90"/>
+	<Location UID="88AC0067-CDD8-394A-95CC-91FBF7EC73CB" Folder="GTA SA Locations\Girlfriends" Description="GF Denise" LocationData="2402.54;-1727.254;12.874;90"/>
+	<Location UID="AEF92A40-842F-E847-BFE4-17FD8DA745FB" Folder="GTA SA Locations\Girlfriends" Description="GF Helena" LocationData="-373.616;-1441.395;25.927;90"/>
+	<Location UID="61AAC54B-506E-0649-A384-F5DB42E8E132" Folder="GTA SA Locations\Girlfriends" Description="GF Katie" LocationData="-2575.641;1142.277;55.382;90"/>
+	<Location UID="0A514402-CA3E-004F-8C53-FFE6A7E60147" Folder="GTA SA Locations\Girlfriends" Description="GF Michelle" LocationData="-1791.83;1193.698;24.561;90"/>
+	<Location UID="2BAD407A-C602-7C4C-948B-6ECCB9F20531" Folder="GTA SA Locations\Girlfriends" Description="GF Millie" LocationData="2037.287;2734.815;10.415;90"/>
+	<Location UID="337CA947-9F54-884C-8A08-3307EE167C51" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 01" LocationData="1224;2617;11;90"/>
+	<Location UID="49B1FFB2-01CC-9642-B8FE-AA7EB550A640" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 02" LocationData="2323;1284;97;90"/>
+	<Location UID="4C00AD9D-6233-FF47-99F1-4395C0590C2B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 03" LocationData="2035;2305;18;90"/>
+	<Location UID="A7F278A1-E277-B849-8050-250066801254" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 04" LocationData="2491;2263;15;90"/>
+	<Location UID="60C40E91-9D22-7641-84AB-CD7FAE65AF75" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 05" LocationData="1433;2796;20;90"/>
+	<Location UID="6A3F596C-E120-CE40-8180-DA7355F44625" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 06" LocationData="2071;712;11;90"/>
+	<Location UID="09B9589E-E094-B949-A548-32270597E321" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 07" LocationData="2239;1839;18;90"/>
+	<Location UID="A580BC98-857A-434A-9672-69A96C0124FE" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 08" LocationData="2583;2387;16;90"/>
+	<Location UID="C73819EF-0D91-B543-BF23-1AB000EBF268" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 09" LocationData="2864;857;13;90"/>
+	<Location UID="C5DA1958-B799-9C47-BA32-625169A7B5F8" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 10" LocationData="2612;2200;-1;90"/>
+	<Location UID="2FBF627C-CC0A-D649-B97B-712F064B74CF" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 11" LocationData="2274;1507;24;90"/>
+	<Location UID="809D51A7-5E31-BC48-8920-CE123976577C" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 12" LocationData="2184;2529;11;90"/>
+	<Location UID="90ED3992-4238-834A-AB7C-E5D47B83AB56" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 13" LocationData="1863;2314;15;90"/>
+	<Location UID="FE745255-7DF2-F146-B045-D2029D3C0927" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 14" LocationData="2054;2434;166;90"/>
+	<Location UID="A8A4A473-F393-C745-94DD-7B2088EF78F8" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 15" LocationData="1603;1435;11;90"/>
+	<Location UID="A185AB4F-9965-8940-8D60-2E5C22B71D0B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 16" LocationData="1362.92;1015.24;11;90"/>
+	<Location UID="7675E3D3-297C-064B-8BBF-FF22A275907D" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 17" LocationData="2058.7;2159.1;16;90"/>
+	<Location UID="4990C4C0-3515-634B-9E68-D0E1CBCA5590" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 18" LocationData="2003;1672;12;90"/>
+	<Location UID="FA5B8720-4C03-3047-98F3-D6DF6B89B411" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 19" LocationData="2238;1135;49;90"/>
+	<Location UID="654B750A-449A-2544-81AF-478DAC7FD749" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 20" LocationData="1934.06;988.79;22;90"/>
+	<Location UID="C9EF7A29-09E4-FA4B-8B0B-47B03F1DAE7B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 21" LocationData="1768;2847;9;90"/>
+	<Location UID="62C93A90-BA7D-B84D-9743-F8AA6061A051" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 22" LocationData="1084;1076;11;90"/>
+	<Location UID="46C6ED8D-2ED7-8A45-AA9C-618CAB2C348D" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 23" LocationData="2879;2522;11;90"/>
+	<Location UID="0207F072-693E-D840-8F78-C3F22263B30B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 24" LocationData="2371;2009;15;90"/>
+	<Location UID="81F674BA-E836-B847-B42D-12105F068DE9" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 25" LocationData="1521;1690;10.6;90"/>
+	<Location UID="A7C05A64-C95F-364C-873A-0AF1CCAAC7C4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 26" LocationData="2417;1281;21;90"/>
+	<Location UID="B9E74549-B7E9-1940-B808-C56044ADAF76" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 27" LocationData="1376;2304;15;90"/>
+	<Location UID="222C51E6-5BE4-4140-A845-AE82C0AA0737" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 28" LocationData="1393;1832;12.34;90"/>
+	<Location UID="A91ECECB-7100-BB47-9EAC-645B16EE30A4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 29" LocationData="984;2563;12;90"/>
+	<Location UID="01DFB6B0-4727-884D-85F4-951C5C06722B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 30" LocationData="1767;601;13;90"/>
+	<Location UID="2FE046A8-2194-7643-A0D5-2D502CC110AC" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 31" LocationData="2108;1003;46;90"/>
+	<Location UID="76DF84B0-B7BA-064A-BECB-7A37DDAE2DB4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 32" LocationData="2705.98;1862.52;24.41;90"/>
+	<Location UID="3FEC99B9-B873-BF46-9C2D-5E5B70F6CA15" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 33" LocationData="2493;922;16;90"/>
+	<Location UID="AF47F17A-80D7-9240-A82F-BF7384F9D351" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 34" LocationData="1881;2846;11;90"/>
+	<Location UID="30755B5E-6998-5145-B9E2-2EC8B6546A52" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 35" LocationData="2020;2352;11;90"/>
+	<Location UID="CC897CAC-B687-F449-8765-244392E27EB3" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 36" LocationData="1680.3;2226.86;16.11;90"/>
+	<Location UID="42034290-2A21-2849-B166-46B136B6FDDF" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 37" LocationData="1462;936;10;90"/>
+	<Location UID="836F6866-519A-9F4C-8F3C-CE05AFE98A88" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 38" LocationData="2125.5;789.23;11.45;90"/>
+	<Location UID="1ED38222-0FF0-2149-A6D5-3BD80400FC22" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 39" LocationData="2588;1902;15;90"/>
+	<Location UID="9BC50855-59BE-6A4C-89AF-B65B11260F40" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 40" LocationData="919;2070;11;90"/>
+	<Location UID="3953F627-E493-E149-98C6-5F9341780267" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 41" LocationData="2173;2465;11;90"/>
+	<Location UID="401F7058-A311-324B-8E84-0D5F672D44B4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 42" LocationData="2031.25;2207.33;11;90"/>
+	<Location UID="EC1A223C-3F87-8643-82B2-EFAB6C1C7A80" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 43" LocationData="2509;1144;19;90"/>
+	<Location UID="F789E376-26B2-DA4B-8F63-9A9AA5F2646F" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 44" LocationData="2215;1968;11;90"/>
+	<Location UID="E90B0DBE-6DEE-5447-9F34-2E81A4CCD8A4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 45" LocationData="2626;2841;11;90"/>
+	<Location UID="B8923DD2-5D15-FD4F-9268-D6CF0F5BC4B4" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 46" LocationData="2440.08;2161.07;20;90"/>
+	<Location UID="64531205-E3AD-CD49-A62B-F0025F0C6C67" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 47" LocationData="1582;2401;19;90"/>
+	<Location UID="84323381-2897-E145-BE2F-3627A2C8E843" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 48" LocationData="2077;1912;14;90"/>
+	<Location UID="9B2DAFA9-4912-784D-A24B-37E6CEBFBE69" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 49" LocationData="970;1787;11;90"/>
+	<Location UID="9A66C497-6983-9540-A397-D70A7A20B54B" Folder="GTA SA Locations\Horseshoes" Description="Horseshoe 50" LocationData="1526.22;751;29.04;90"/>
+	<Location UID="93516E97-7562-5D46-8476-AB498A9DBB12" Folder="GTA SA Locations\Misc" Description="Bomb Workshop" LocationData="1837.316;-1856.73;13.279;90"/>
+	<Location UID="6570881B-6E6E-7240-87AC-87F31C3AC43D" Folder="GTA SA Locations\Misc" Description="Liberty City (Step 1) (Go inside Ganton Gym first)" LocationData="1416.107000;0.268620;1000.926000;0.000000"/>
+	<Location UID="61B4C9C1-86FD-914A-8A61-7DDC6A210AD3" Folder="GTA SA Locations\Misc" Description="Liberty City (Step 2)" LocationData="-783.261400;503.134700;1381.600000;180"/>
+	<Location UID="F8E66450-F97C-294D-9FB1-390FD63CBE11" Folder="GTA SA Locations\Odd Jobs\Challenges" Description="BMX Challenge" LocationData="1946.903000;-1383.854000;18.570650;17.495700"/>
+	<Location UID="7C1E40FD-9BDB-BB4C-8879-D2BE0DDB896D" Folder="GTA SA Locations\Odd Jobs\Challenges" Description="Chiliad Challenge" LocationData="-2306.177000;-1645.642000;483.697100;162.058000"/>
+	<Location UID="D2DDD335-F72A-5749-BB7F-C8D35A276B41" Folder="GTA SA Locations\Odd Jobs\Challenges" Description="NRG-500 Challenge" LocationData="-1695.653000;72.912010;3.549483;1.269436"/>
+	<Location UID="804B7C01-ABB3-624D-A313-7A611256F884" Folder="GTA SA Locations\Odd Jobs\Courier Missions" Description="Burger Shot (Las Venturas)" LocationData="1890.066000;2090.777000;11.062500;142.922200"/>
+	<Location UID="2D42393F-6378-4342-B2B9-B58FAAC56632" Folder="GTA SA Locations\Odd Jobs\Courier Missions" Description="Hippy Shopper (San Fierro)" LocationData="-2592.980000;68.886310;4.335938;337.780800"/>
+	<Location UID="D6FB0797-E574-684A-ACCE-7CB7893AA3E6" Folder="GTA SA Locations\Odd Jobs\Courier Missions" Description="Roboi's Food Mart (Los Santos)" LocationData="1360.541000;-1750.922000;13.374060;161.944000"/>
+	<Location UID="6F9FE714-3A47-8549-80D7-AD1F55F16153" Folder="GTA SA Locations\Odd Jobs\Gym Moves" Description="Las Venturas (Kickboxing)" LocationData="1957.326000;2287.917000;10.158670;89.180330"/>
+	<Location UID="B8D864F8-248D-A648-867D-017BD58BB4F7" Folder="GTA SA Locations\Odd Jobs\Gym Moves" Description="Los Santos (Boxing)" LocationData="2225.610000;-1723.174000;13.017170;214.920800"/>
+	<Location UID="F84257C6-F44B-384D-9C4E-F314B0488F02" Folder="GTA SA Locations\Odd Jobs\Gym Moves" Description="San Fierro (Martial Arts)" LocationData="-2264.542000;-152.099200;34.658920;180.596400"/>
+	<Location UID="449F9E53-B41F-6B45-9759-02208F221C55" Folder="GTA SA Locations\Odd Jobs\Race Tournaments" Description="Las Venturas Airport Race Tournament" LocationData="1702.793000;1641.178000;10.582430;7.427214"/>
+	<Location UID="B93362FE-7F73-1D49-B92B-9D17974C6203" Folder="GTA SA Locations\Odd Jobs\Race Tournaments" Description="Las Venturas Race Tournament" LocationData="1642.444000;916.771200;10.664410;126.818100"/>
+	<Location UID="348B1C95-E2BC-AF45-B7D1-18267FC3A3EE" Folder="GTA SA Locations\Odd Jobs\Race Tournaments" Description="Los Santos Race Tournament" LocationData="1768.739000;-1699.618000;13.479560;153.941900"/>
+	<Location UID="FE7A8D5A-1DD8-7645-894A-4B2E40B4845E" Folder="GTA SA Locations\Odd Jobs\Race Tournaments" Description="San Fierro race Tournament" LocationData="-1916.959000;285.362700;41.046880;112.469300"/>
+	<Location UID="8CCDD8A3-2FE9-984D-8701-8C61BBE54735" Folder="GTA SA Locations\Odd Jobs\Schools" Description="Bike School (Las Venturas)" LocationData="1167.100000;1369.407000;10.812510;195.873000"/>
+	<Location UID="9A5D9EBA-EE05-284F-9897-F8981DC4F5D2" Folder="GTA SA Locations\Odd Jobs\Schools" Description="Boat School (Desert)" LocationData="-2188.587000;2407.630000;4.968695;319.630300"/>
+	<Location UID="832114CE-9101-6445-BEA7-338597CA4EF0" Folder="GTA SA Locations\Odd Jobs\Schools" Description="Driving School (San Fierro)" LocationData="-2025.768000;-95.048030;35.164060;168.408800"/>
+	<Location UID="6F3FE8DA-B85A-3D45-AE2F-04925084722A" Folder="GTA SA Locations\Odd Jobs\Schools" Description="Flying School (Desert)" LocationData="405.755700;2538.075000;16.546200;248.228100"/>
+	<Location UID="2BCDC06E-312B-1448-B7AD-36D0364209CC" Folder="GTA SA Locations\Odd Jobs\Stadium Events" Description="8-Track" LocationData="2690.875000;-1697.722000;10.464210;215.586800"/>
+	<Location UID="07BF03B1-73D4-0145-9CE9-36904424A973" Folder="GTA SA Locations\Odd Jobs\Stadium Events" Description="Blood Bowl" LocationData="-2129.102000;-444.389500;35.534350;270.408300"/>
+	<Location UID="0E59AC74-C4CF-0C46-8BE5-C0E33261F4B2" Folder="GTA SA Locations\Odd Jobs\Stadium Events" Description="Dirt Track (Mon and Tue only)" LocationData="1108.987000;1605.899000;12.546880;110.157900"/>
+	<Location UID="DBD83AD7-E50E-624C-9B75-69B72527D6C3" Folder="GTA SA Locations\Odd Jobs\Stadium Events" Description="Kickstart" LocationData="1108.987000;1605.899000;12.546880;110.157900"/>
+	<Location UID="8157F175-0CE6-4944-A7C6-11A320AE4C0D" Folder="GTA SA Locations\Odd Jobs\Triathlon (Sat and Sun only)" Description="Triathlon Fisher's Lagoon" LocationData="2146.415000;-74.165370;3.184616;62.353940"/>
+	<Location UID="CA877ECF-B2EA-7041-9DAF-8561ED66A643" Folder="GTA SA Locations\Odd Jobs\Triathlon (Sat and Sun only)" Description="Triathlon Santa Maria Beach" LocationData="187.278400;-1867.068000;3.011861;150.401400"/>
+	<Location UID="561A0CF5-063F-3449-A3EF-E1DB75842F42" Folder="GTA SA Locations\Odd Jobs" Description="Trucking" LocationData="-73.913660;-1127.773000;1.078125;156.568300"/>
+	<Location UID="3659B0F2-8893-4B44-BF43-75D38F092142" Folder="GTA SA Locations\Odd Jobs" Description="Valet Parking" LocationData="-1753.873000;951.401200;24.742190;0.031307"/>
+	<Location UID="364031D1-106C-214E-9307-109D5C16E80E" Folder="GTA SA Locations\Odd Jobs\Vehicle Missions" Description="Burglarmobil" LocationData="2259.931000;-1788.477000;13.554560;85.020120"/>
+	<Location UID="B2A79E2A-C2AA-D540-8A57-7A0170FB3817" Folder="GTA SA Locations\Odd Jobs\Vehicle Missions" Description="Freight Train" LocationData="1689.310000;-1951.020000;14.359380;268.103400"/>
+	<Location UID="89E4A379-8CA8-714E-8184-1217C329532C" Folder="GTA SA Locations\Odd Jobs\Vehicle Missions" Description="Pimpmobile" LocationData="1916.451000;-1794.205000;13.382810;272.084700"/>
+	<Location UID="9A8211AE-79FB-554A-806C-7A262D438452" Folder="GTA SA Locations\Oysters" Description="Oyster 01" LocationData="979;-2210;-3;90"/>
+	<Location UID="658EB6E6-7955-7945-A7F4-E165D6DAF793" Folder="GTA SA Locations\Oysters" Description="Oyster 02" LocationData="2750;-2584;-5;90"/>
+	<Location UID="32EB35DB-ACDD-C542-B9F0-8AAB1C9ED0DE" Folder="GTA SA Locations\Oysters" Description="Oyster 03" LocationData="1279;-806;85;90"/>
+	<Location UID="B304746F-3E7D-9945-AE35-05BEA6C669E1" Folder="GTA SA Locations\Oysters" Description="Oyster 04" LocationData="2945.13;-2051.93;-3;90"/>
+	<Location UID="D9289C97-769D-804A-B5CA-92989F96E57D" Folder="GTA SA Locations\Oysters" Description="Oyster 05" LocationData="67;-1018;-5;90"/>
+	<Location UID="2CEBCE99-444F-5244-9922-271A6FCAAE8A" Folder="GTA SA Locations\Oysters" Description="Oyster 06" LocationData="2327;-2662;-5;90"/>
+	<Location UID="77DF1020-197D-C64C-AE58-03A305FF7A6C" Folder="GTA SA Locations\Oysters" Description="Oyster 07" LocationData="2621;-2506;-5;90"/>
+	<Location UID="61D44E18-8242-2145-B5CE-8007761A9604" Folder="GTA SA Locations\Oysters" Description="Oyster 08" LocationData="1249;-2687;-1;90"/>
+	<Location UID="9B61953E-2526-2A47-860A-28FC0D104C9B" Folder="GTA SA Locations\Oysters" Description="Oyster 09" LocationData="725;-1849;-5;90"/>
+	<Location UID="6C13B7AE-6C1E-8446-91E5-BC08023B4BEC" Folder="GTA SA Locations\Oysters" Description="Oyster 10" LocationData="723;-1586;-3;90"/>
+	<Location UID="49935586-DE41-094A-A3D4-CEAE9058BA9A" Folder="GTA SA Locations\Oysters" Description="Oyster 11" LocationData="155;-1975;-8;90"/>
+	<Location UID="A8D924C6-F30B-BA47-8647-62A6530B6235" Folder="GTA SA Locations\Oysters" Description="Oyster 12" LocationData="1968;-1203;17;90"/>
+	<Location UID="020657D7-6B1E-9C4C-9B8E-18E6E312968C" Folder="GTA SA Locations\Oysters" Description="Oyster 13" LocationData="-2657;1564;-6;90"/>
+	<Location UID="DA32FB9C-2D08-5540-8788-A440B86359FE" Folder="GTA SA Locations\Oysters" Description="Oyster 14" LocationData="-1252;501;-8;90"/>
+	<Location UID="914D4203-A1DD-9D4C-B8F8-CD3771DC9A2C" Folder="GTA SA Locations\Oysters" Description="Oyster 15" LocationData="-1625;4;-10;90"/>
+	<Location UID="D56F5EEF-B134-4845-9A1B-8285F22814EA" Folder="GTA SA Locations\Oysters" Description="Oyster 16" LocationData="-1484;1489;-10;90"/>
+	<Location UID="DCA1A327-31CD-124D-B549-D6B7B48DD360" Folder="GTA SA Locations\Oysters" Description="Oyster 17" LocationData="-2505.406;1543.724;-22.555;90"/>
+	<Location UID="8790FBE3-1D81-DC45-A421-13D46639211B" Folder="GTA SA Locations\Oysters" Description="Oyster 18" LocationData="-2727;-469;-5;90"/>
+	<Location UID="2F7EDE75-E109-F543-A837-F353114E705F" Folder="GTA SA Locations\Oysters" Description="Oyster 19" LocationData="-1266;966;-10;90"/>
+	<Location UID="F82B8650-622F-B248-BA1E-4666A1323D69" Folder="GTA SA Locations\Oysters" Description="Oyster 20" LocationData="-1013;478;-7;90"/>
+	<Location UID="A4D497E4-AF2E-8144-B6B7-F2021994CCD2" Folder="GTA SA Locations\Oysters" Description="Oyster 21" LocationData="-1364;390;-5;90"/>
+	<Location UID="DAF38FEB-1A71-EE40-B27F-9DC1DB39FB63" Folder="GTA SA Locations\Oysters" Description="Oyster 22" LocationData="2578;2382;16;90"/>
+	<Location UID="A721B75B-215D-B448-8050-30E481EE8203" Folder="GTA SA Locations\Oysters" Description="Oyster 23" LocationData="2090;1898;8;90"/>
+	<Location UID="B91637FA-BEF1-3B4B-95C9-A85AD3DFF5F0" Folder="GTA SA Locations\Oysters" Description="Oyster 24" LocationData="2130;1152;7;90"/>
+	<Location UID="3CD45987-A6FD-A143-B191-1A0E09A2EF25" Folder="GTA SA Locations\Oysters" Description="Oyster 25" LocationData="2013;1670;7;90"/>
+	<Location UID="CEA5AB68-E2CB-C84F-965C-78BFB0265A35" Folder="GTA SA Locations\Oysters" Description="Oyster 26" LocationData="2531;1569;9;90"/>
+	<Location UID="AA1400FB-8019-B04E-BEAA-58881C9ADDDD" Folder="GTA SA Locations\Oysters" Description="Oyster 27" LocationData="2998;2998;-10;90"/>
+	<Location UID="E95532EA-C476-8349-A740-23F0BFE0C10C" Folder="GTA SA Locations\Oysters" Description="Oyster 28" LocationData="-832;925;-2;90"/>
+	<Location UID="9CDE20C4-3F7F-0F41-A191-E021FF1B8FBB" Folder="GTA SA Locations\Oysters" Description="Oyster 29" LocationData="486;-253;-4;90"/>
+	<Location UID="DDE044C5-03EF-EE49-88BD-A9BDDFDFD3C0" Folder="GTA SA Locations\Oysters" Description="Oyster 30" LocationData="-90;-910;-5;90"/>
+	<Location UID="80844957-8BCB-D843-A2C4-F685253F49A1" Folder="GTA SA Locations\Oysters" Description="Oyster 31" LocationData="26.43;-1320.94;-10.04;90"/>
+	<Location UID="B4EDBFFD-0E57-9B42-9641-B7CB8A6D1E1A" Folder="GTA SA Locations\Oysters" Description="Oyster 32" LocationData="-207;-1682;-8;90"/>
+	<Location UID="A4810A33-54C9-0141-9740-78526E4F5063" Folder="GTA SA Locations\Oysters" Description="Oyster 33" LocationData="-1672;-1641;-2;90"/>
+	<Location UID="9417A28D-F09A-7C4E-A4B7-03DCE391C62B" Folder="GTA SA Locations\Oysters" Description="Oyster 34" LocationData="-1175;-2639;-2.5;90"/>
+	<Location UID="3507512E-3EB3-554F-96AE-DB5CF58FF7F2" Folder="GTA SA Locations\Oysters" Description="Oyster 35" LocationData="-1097;-2858;-8;90"/>
+	<Location UID="C5855515-1C15-6A43-9B5A-9696AB065081" Folder="GTA SA Locations\Oysters" Description="Oyster 36" LocationData="-2889;-1042;-9;90"/>
+	<Location UID="5EA4C8E8-3266-9546-87B4-BFEA3C836D10" Folder="GTA SA Locations\Oysters" Description="Oyster 37" LocationData="-659;874;-2;90"/>
+	<Location UID="D3C0E542-A86A-2F47-967B-F0A6386A8622" Folder="GTA SA Locations\Oysters" Description="Oyster 38" LocationData="-955;2628;35;90"/>
+	<Location UID="483BF962-BC3D-2445-9674-4B8CF0935F18" Folder="GTA SA Locations\Oysters" Description="Oyster 39" LocationData="-1066;2197;32;90"/>
+	<Location UID="20D15A11-2DEE-354A-A305-9FEEAA6778C0" Folder="GTA SA Locations\Oysters" Description="Oyster 40" LocationData="40;-531;-8;90"/>
+	<Location UID="552786ED-2694-3F4C-82A7-F95D2D6B6064" Folder="GTA SA Locations\Oysters" Description="Oyster 41" LocationData="-765;247;-8;90"/>
+	<Location UID="540752FA-BC13-6E4E-B3AF-88CED1F10021" Folder="GTA SA Locations\Oysters" Description="Oyster 42" LocationData="2098;-108;-2;90"/>
+	<Location UID="F96BE055-41E4-544A-A575-0388575D9E45" Folder="GTA SA Locations\Oysters" Description="Oyster 43" LocationData="2767;470;-8;90"/>
+	<Location UID="98F0531D-F942-8441-AD12-03CAB45F9798" Folder="GTA SA Locations\Oysters" Description="Oyster 44" LocationData="-783;2116;35;90"/>
+	<Location UID="D44FF827-C247-604B-BF34-05814E6DB653" Folder="GTA SA Locations\Oysters" Description="Oyster 45" LocationData="-821;1374;-8;90"/>
+	<Location UID="6C3BE772-5505-0E46-92B6-69F4243868B1" Folder="GTA SA Locations\Oysters" Description="Oyster 46" LocationData="-2110.5;2329.72;-7.5;90"/>
+	<Location UID="4A0196B6-3E92-2448-9FC4-9892276C2531" Folder="GTA SA Locations\Oysters" Description="Oyster 47" LocationData="-1538;1708;-3.27;90"/>
+	<Location UID="2B0D2E0E-9CCA-4C4F-82AF-061DAD3FADED" Folder="GTA SA Locations\Oysters" Description="Oyster 48" LocationData="-2685;2153;-5;90"/>
+	<Location UID="12F35C88-3FBE-6D43-969C-F099CA2D92BB" Folder="GTA SA Locations\Oysters" Description="Oyster 49" LocationData="796;2939;-5;90"/>
+	<Location UID="B6019680-2322-A24B-B5BE-F14521A95F7A" Folder="GTA SA Locations\Oysters" Description="Oyster 50" LocationData="2179;235;-5;90"/>
+	<Location UID="B52B73CC-C7A7-2448-B703-A78E3B9C32AC" Folder="GTA SA Locations\Photos" Description="Photo 01" LocationData="-2537.550000;-628.129000;147.906300;210.683100"/>
+	<Location UID="76AF38E2-7741-9B4F-BA7F-88C5664FDAD5" Folder="GTA SA Locations\Photos" Description="Photo 02" LocationData="-2778.930000;-305.833400;7.046766;261.007400"/>
+	<Location UID="439AEB3D-5E74-CC49-82E8-68B2FDD15AC8" Folder="GTA SA Locations\Photos" Description="Photo 03" LocationData="-1784.670000;-568.363200;16.484380;256.749900"/>
+	<Location UID="5283EF21-3E1A-504A-A1A1-DBEFE95CC4B1" Folder="GTA SA Locations\Photos" Description="Photo 04" LocationData="-1541.740000;901.966600;7.265625;287.147500"/>
+	<Location UID="FEC202E6-EC93-BB41-A473-6B847479D533" Folder="GTA SA Locations\Photos" Description="Photo 05" LocationData="-1318.490000;912.212100;46.630260;316.162000"/>
+	<Location UID="F15C8B2C-DB3D-FD43-9266-A5EF3B3BAF88" Folder="GTA SA Locations\Photos" Description="Photo 06" LocationData="-1674.495000;393.838400;7.187500;319.140200"/>
+	<Location UID="7E89DCCF-0196-E341-AD67-0F17741BE535" Folder="GTA SA Locations\Photos" Description="Photo 07" LocationData="-1823.781000;-97.015380;15.109380;88.731900"/>
+	<Location UID="6667A1D6-9799-0F4F-B9CE-2B0D3464D594" Folder="GTA SA Locations\Photos" Description="Photo 08" LocationData="-2716.935000;-270.992800;7.187500;28.841780"/>
+	<Location UID="D5064F16-C1D0-AA45-9F6D-341DDF17E370" Folder="GTA SA Locations\Photos" Description="Photo 09" LocationData="-2846.170000;374.391100;4.500000;266.596800"/>
+	<Location UID="999423FE-C2D1-FE44-9D98-48B3C44F0304" Folder="GTA SA Locations\Photos" Description="Photo 10" LocationData="-2742.964000;783.072000;54.239150;88.924110"/>
+	<Location UID="149C223C-909D-8F4F-B12E-14B2462158E5" Folder="GTA SA Locations\Photos" Description="Photo 11" LocationData="-2681.526000;1532.490000;60.907180;359.058600"/>
+	<Location UID="52696522-80F2-064D-8CA2-753E50D728F3" Folder="GTA SA Locations\Photos" Description="Photo 12" LocationData="-2433.055000;1542.883000;31.859380;86.061780"/>
+	<Location UID="9420A2C7-E981-DA40-BF5A-BCAEF4A8CFBE" Folder="GTA SA Locations\Photos" Description="Photo 13" LocationData="-1857.522000;1427.140000;7.179646;35.423750"/>
+	<Location UID="3C1067D6-0137-B446-AA88-991BBFBE03A0" Folder="GTA SA Locations\Photos" Description="Photo 14" LocationData="-1590.894000;625.006300;42.628300;315.750000"/>
+	<Location UID="5FF79D2D-7014-1847-A7CC-F5F45C08EA21" Folder="GTA SA Locations\Photos" Description="Photo 15" LocationData="-1283.385000;494.849000;18.234380;91.064030"/>
+	<Location UID="03384D9C-B627-0B48-B880-626BE19DAA17" Folder="GTA SA Locations\Photos" Description="Photo 16" LocationData="-1941.005000;98.211800;26.273440;0.638702"/>
+	<Location UID="1FDA8F25-028B-BE47-A58D-E74DB453B85A" Folder="GTA SA Locations\Photos" Description="Photo 17" LocationData="-2109.114000;449.126700;92.142140;74.369320"/>
+	<Location UID="7F4A5274-4813-5143-A0F4-CB1A62D679C9" Folder="GTA SA Locations\Photos" Description="Photo 18" LocationData="-2279.980000;544.692600;44.734380;312.885000"/>
+	<Location UID="6CC5B135-D0DA-284C-B349-2764A4BD348F" Folder="GTA SA Locations\Photos" Description="Photo 19" LocationData="-2020.853000;437.321400;139.742200;59.049680"/>
+	<Location UID="F8FDC552-EEC2-3749-939B-BA33043190D4" Folder="GTA SA Locations\Photos" Description="Photo 20" LocationData="-1933.186000;642.401700;46.562500;47.419350"/>
+	<Location UID="675B510E-29E7-9B4F-8640-6F46FD201D55" Folder="GTA SA Locations\Photos" Description="Photo 21" LocationData="-2084.601000;926.955600;68.547640;272.065100"/>
+	<Location UID="79671A2A-F084-864A-A293-F94C8BC3E237" Folder="GTA SA Locations\Photos" Description="Photo 22" LocationData="-2375.688000;1017.252000;54.011320;274.521800"/>
+	<Location UID="F9589173-53EC-4743-8EDF-B2CC629FB19C" Folder="GTA SA Locations\Photos" Description="Photo 23" LocationData="-2033.402000;1065.745000;55.826170;88.639290"/>
+	<Location UID="889B655B-5B56-6347-9723-0CDDAF9A5059" Folder="GTA SA Locations\Photos" Description="Photo 24" LocationData="-1773.614000;1020.751000;97.703900;210.878300"/>
+	<Location UID="F826FBCE-7B19-3747-9ADB-4865F49A9E5E" Folder="GTA SA Locations\Photos" Description="Photo 25" LocationData="-1917.051000;909.153800;35.847240;136.931500"/>
+	<Location UID="97B80A02-4924-1C48-8530-FE6DBE258BF8" Folder="GTA SA Locations\Photos" Description="Photo 26" LocationData="-1841.027000;1138.178000;67.828130;181.796700"/>
+	<Location UID="A7051CB9-888B-7244-8E6D-F35085928692" Folder="GTA SA Locations\Photos" Description="Photo 27" LocationData="-1725.471000;1321.585000;7.187500;310.910000"/>
+	<Location UID="A551E417-A1F4-3A40-926B-ED870F1672B7" Folder="GTA SA Locations\Photos" Description="Photo 28" LocationData="-2282.131000;537.961300;44.734380;90.552250"/>
+	<Location UID="6A7A8138-EFBB-E94F-87F2-BDBC2679E628" Folder="GTA SA Locations\Photos" Description="Photo 29" LocationData="-2442.018000;721.956000;35.022340;0.094821"/>
+	<Location UID="7BDAA7BD-7DA3-EF48-B4B5-F0D034648F37" Folder="GTA SA Locations\Photos" Description="Photo 30" LocationData="-2727.290000;382.905400;4.374998;101.587800"/>
+	<Location UID="36514EE7-AFDE-CE42-AE6E-F3BC93B2A9DF" Folder="GTA SA Locations\Photos" Description="Photo 31" LocationData="-2889.814000;-866.798300;6.406889;187.937100"/>
+	<Location UID="C2834D37-342C-F245-8F12-D451AC2DE03F" Folder="GTA SA Locations\Photos" Description="Photo 32" LocationData="-2081.798000;-858.452000;66.875000;0.194371"/>
+	<Location UID="199E7458-57A0-934B-968B-93051FC360B2" Folder="GTA SA Locations\Photos" Description="Photo 33" LocationData="-1954.681000;-804.086900;41.828130;358.889800"/>
+	<Location UID="87D8ED89-7A8F-DF49-B9F6-E5F92ED0FFB4" Folder="GTA SA Locations\Photos" Description="Photo 34" LocationData="-982.996000;-370.196900;36.658060;334.753600"/>
+	<Location UID="4C313137-4086-2E49-8F07-CE39ECDED2E6" Folder="GTA SA Locations\Photos" Description="Photo 35" LocationData="-1707.609000;3.520086;11.652240;335.940400"/>
+	<Location UID="7C460CF7-0AF8-EC43-A71B-BC72E6C6DAB0" Folder="GTA SA Locations\Photos" Description="Photo 36" LocationData="-2080.406000;242.633700;105.889000;359.674000"/>
+	<Location UID="1124D9AC-FAAF-7C48-9B67-75F4ADAFB4D9" Folder="GTA SA Locations\Photos" Description="Photo 37" LocationData="-2388.538000;315.251700;35.171880;62.325630"/>
+	<Location UID="EA4ACB37-A1B8-9145-BF6C-9AA2183B0F84" Folder="GTA SA Locations\Photos" Description="Photo 38" LocationData="-2278.168000;731.353500;49.445310;271.676600"/>
+	<Location UID="3CA0334C-E069-5B4A-89EA-68B5F848D3F2" Folder="GTA SA Locations\Photos" Description="Photo 39" LocationData="-2494.911000;385.731200;35.114410;242.148700"/>
+	<Location UID="486611B9-C110-0A4D-A78B-24312A7E1589" Folder="GTA SA Locations\Photos" Description="Photo 40" LocationData="-1144.728000;-134.407900;14.143970;228.395900"/>
+	<Location UID="FAB290FF-8196-D844-B90B-27AE6F937FA1" Folder="GTA SA Locations\Photos" Description="Photo 41" LocationData="-1246.019000;22.973530;32.887200;44.269730"/>
+	<Location UID="E2046174-B440-344F-AB95-29673387F974" Folder="GTA SA Locations\Photos" Description="Photo 42" LocationData="-2472.238000;32.206360;30.477630;277.997900"/>
+	<Location UID="CBE70316-62DE-AA41-94AD-6E33216ED28B" Folder="GTA SA Locations\Photos" Description="Photo 43" LocationData="-2597.915000;143.777400;4.335938;339.534600"/>
+	<Location UID="2AE468D3-EAC5-EB43-A7E5-D85A5A907BE9" Folder="GTA SA Locations\Photos" Description="Photo 44" LocationData="-2621.131000;-11.184700;6.132813;264.464000"/>
+	<Location UID="658036B7-7DEA-D442-9BEB-5873E4E90A50" Folder="GTA SA Locations\Photos" Description="Photo 45" LocationData="-2619.149000;25.068640;4.335938;136.198500"/>
+	<Location UID="4F622674-8F1E-484A-B217-B93E1E59132B" Folder="GTA SA Locations\Photos" Description="Photo 46" LocationData="-2611.786000;31.045140;4.328125;323.149800"/>
+	<Location UID="5CF36CDE-8E18-9F45-A0D3-27F68E511DAE" Folder="GTA SA Locations\Photos" Description="Photo 47" LocationData="-1641.642000;1309.595000;7.177832;324.873800"/>
+	<Location UID="6B9FCDEB-ADAF-3242-8B62-F2281C93A231" Folder="GTA SA Locations\Photos" Description="Photo 48" LocationData="-2324.356000;190.040100;35.312500;314.550700"/>
+	<Location UID="4F7B3FCD-7397-894E-9702-4467C0DE44E7" Folder="GTA SA Locations\Photos" Description="Photo 49" LocationData="-2343.571000;-62.345270;35.320310;182.114900"/>
+	<Location UID="712A1FBA-4BE1-294B-9872-E5F4F146D6D1" Folder="GTA SA Locations\Photos" Description="Photo 50" LocationData="-1926.294000;486.363600;35.171880;328.612500"/>
+	<Location UID="2E5FC282-8C3B-904C-8DD6-DEE968CE06CD" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 01" LocationData="-2281.338000;-1724.779000;471.179900;185.097700"/>
+	<Location UID="A7B5393D-867C-C340-8B36-08516497A61C" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 02" LocationData="-2349.719000;-1816.851000;433.311200;81.778760"/>
+	<Location UID="D2FD31D7-7BE4-4E43-889D-CDCA7455A9EE" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 03" LocationData="-2441.368000;-1721.353000;432.881000;81.187870"/>
+	<Location UID="D723953D-6C0B-A94B-9F43-C813EC190658" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 04" LocationData="-2442.562000;-1809.486000;410.368900;96.670060"/>
+	<Location UID="AC2753A2-C463-604D-933E-C0498CC3B976" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 05" LocationData="-2525.004000;-1717.872000;402.538400;21.363940"/>
+	<Location UID="43E44787-8130-464C-A7E3-2C1F6E1D4378" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 06" LocationData="-2553.333000;-1667.668000;399.539200;150.853000"/>
+	<Location UID="EC6388C9-D22B-E546-B90D-81089115EA27" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 07" LocationData="-2531.503000;-1801.761000;376.187000;91.858060"/>
+	<Location UID="A2FABB96-14C9-CA45-8CA9-86D39C0E1759" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 08" LocationData="-2594.211000;-1630.080000;344.081400;163.493000"/>
+	<Location UID="C6832612-ABC7-D842-84EF-27D6DEB8E742" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 09" LocationData="-2526.770000;-1889.547000;293.724700;51.499100"/>
+	<Location UID="181C55FA-C233-9046-A528-F12F892381C6" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 10" LocationData="-2651.048000;-1734.355000;257.738800;165.179400"/>
+	<Location UID="9D0F0B83-66DF-C247-A0DD-08715D6BE0E1" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 11" LocationData="-2494.189000;-2027.757000;154.318100;208.069600"/>
+	<Location UID="6AF4FE71-6F77-5B4E-A440-6CBB5992974E" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 12" LocationData="-2435.990000;-2085.017000;124.354600;248.471300"/>
+	<Location UID="2CF772E4-5ADD-8D47-8D69-62053D7E8E13" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 13" LocationData="-2329.269000;-2099.438000;114.604900;284.840100"/>
+	<Location UID="CE2D70F8-9258-6D43-B56A-26CD3163EAAC" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 14" LocationData="-2224.822000;-2051.181000;120.024600;317.755800"/>
+	<Location UID="8AD54BBC-6FEB-C94B-9319-E702CC86E9FA" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 15" LocationData="-2176.968000;-2000.389000;119.224500;311.658500"/>
+	<Location UID="D8C4F97D-14E2-3C4A-B6D6-75C42CDA72C6" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 16" LocationData="-2100.245000;-1895.207000;109.638800;164.967000"/>
+	<Location UID="1C07BFB3-E0EF-F64D-B26B-6AE3E360C32A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 17" LocationData="-2158.775000;-2034.395000;92.838620;148.998800"/>
+	<Location UID="6FAA8745-38A9-CE4E-9B8E-6DB3571D8F2F" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 1: Scotch Bonnet Yellow Run" Description="Checkpoint 18" LocationData="-2366.907000;-2192.824000;33.620590;115.205800"/>
+	<Location UID="A1F8DA82-8A0C-B649-8FA2-03CF511D363A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 01" LocationData="-2280.943000;-1725.295000;470.958300;189.433700"/>
+	<Location UID="89FA341B-DE8A-1941-BFB9-B3D71F2F2312" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 02" LocationData="-2348.786000;-1816.394000;433.443400;78.698210"/>
+	<Location UID="ED4E621A-5847-4B47-B690-18E34E876CD3" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 03" LocationData="-2457.660000;-1728.115000;429.008300;160.142800"/>
+	<Location UID="ED09A140-C25E-D449-9A90-E0C2A0663A2B" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 04" LocationData="-2454.460000;-1808.947000;408.864400;67.229000"/>
+	<Location UID="89198735-8E88-0E4C-B523-77D81C4BFAD3" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 05" LocationData="-2520.580000;-1714.485000;402.353300;5.396469"/>
+	<Location UID="B7D93952-9650-FE4B-ACAF-F0C10715DE92" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 06" LocationData="-2473.955000;-1474.017000;390.733400;293.486300"/>
+	<Location UID="E5528C75-634A-5F4F-9027-91244E0C0DA8" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 07" LocationData="-2331.030000;-1452.405000;382.466400;245.400500"/>
+	<Location UID="51D88877-1344-1641-BC47-42A27CBD55F3" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 08" LocationData="-2256.017000;-1488.467000;378.916100;212.144000"/>
+	<Location UID="0146EFA8-BE31-9C49-BD8D-19F804C89678" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 09" LocationData="-2195.039000;-1715.866000;376.738100;341.748600"/>
+	<Location UID="1CF771B3-3BFE-0547-9041-6CBDF6675BE6" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 10" LocationData="-2204.398000;-1535.092000;361.046700;19.445750"/>
+	<Location UID="D2620BC9-6448-2A4A-8023-3AA151D1672F" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 11" LocationData="-2274.646000;-1431.205000;356.266000;57.132030"/>
+	<Location UID="7082F214-5723-3F42-B732-6E48D51508DD" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 12" LocationData="-2410.940000;-1392.585000;359.373700;92.065880"/>
+	<Location UID="E552E84E-9841-6F47-86E3-792E9D91FF60" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 13" LocationData="-2572.930000;-1467.703000;359.018700;329.013900"/>
+	<Location UID="BCD5B8AF-628A-814F-A01C-C35D0277FF94" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 14" LocationData="-2445.269000;-1372.957000;339.045000;303.669400"/>
+	<Location UID="4B807D50-24AD-4547-B278-D556D36E267F" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 15" LocationData="-2350.629000;-1286.983000;308.321700;91.867210"/>
+	<Location UID="F4C030B9-E673-644D-81AB-A32F6D6B04FF" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 16" LocationData="-2502.829000;-1273.215000;274.302100;110.037000"/>
+	<Location UID="929FD460-89FA-7C4B-9E46-E30008BCED7E" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 17" LocationData="-2588.697000;-1359.173000;265.861300;95.744030"/>
+	<Location UID="60503D54-3840-3047-A46C-5A28F2E280B5" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 18" LocationData="-2672.737000;-1384.517000;254.244000;353.409100"/>
+	<Location UID="F9E34D34-C643-0545-A9B9-7D6291AC28E9" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 19" LocationData="-2612.558000;-1286.733000;221.442700;317.667400"/>
+	<Location UID="AA736C68-38B3-1E4C-8F37-1E9CF7B1FA6A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 20" LocationData="-2532.082000;-1116.489000;177.008000;134.881500"/>
+	<Location UID="283C5A90-EC8A-0545-A292-BBC38120F344" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 21" LocationData="-2629.318000;-1164.749000;168.714000;129.053300"/>
+	<Location UID="42B07AA8-A911-6143-BD72-A026CFCD28C4" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 22" LocationData="-2745.989000;-1372.436000;144.712900;163.302700"/>
+	<Location UID="B45568DE-67E6-0F47-A5BA-B5532F576714" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 23" LocationData="-2772.130000;-1663.939000;141.607600;169.948300"/>
+	<Location UID="0CFCE9B1-A8E7-9946-BEFD-61834D48B71B" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 24" LocationData="-2741.107000;-1873.568000;140.630300;256.695500"/>
+	<Location UID="1734BCD4-733C-B349-87E7-76E347885059" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 25" LocationData="-2622.871000;-2062.613000;130.119800;198.745300"/>
+	<Location UID="5654F6D9-95FD-1F46-87DA-3AFF28D55A01" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 26" LocationData="-2445.007000;-2086.315000;124.997600;254.756700"/>
+	<Location UID="0F024EBD-E03D-6146-B723-BF90CEBB520D" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 27" LocationData="-2345.320000;-2102.409000;113.240800;273.469500"/>
+	<Location UID="1457983C-33E6-0D49-8C5A-A233D0A1544C" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 28" LocationData="-2100.505000;-1891.650000;110.276800;166.276400"/>
+	<Location UID="CED64D05-3DF6-9640-9A9D-405EE73E31FC" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 29" LocationData="-2153.431000;-2025.241000;93.665390;150.979900"/>
+	<Location UID="851DDA13-E346-3E46-B7B1-64DBB0CFF93C" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 30" LocationData="-2231.174000;-2113.851000;69.606860;132.552100"/>
+	<Location UID="1354AC67-0268-FA4C-A20F-C4ED0394D0D2" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 2: Birdseye Winder" Description="Checkpoint 31" LocationData="-2366.563000;-2192.364000;33.624040;113.847100"/>
+	<Location UID="0F249D53-7C40-5646-B56D-7A6DD0A813FA" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 01" LocationData="-2348.234000;-1940.668000;298.657000;265.597100"/>
+	<Location UID="CCB3C058-4835-9D4B-907B-0D0168411218" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 02" LocationData="-2290.418000;-1940.374000;272.859600;281.652500"/>
+	<Location UID="5D6343F3-D21E-5A47-A357-3DB17EDFE0E1" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 03" LocationData="-2239.594000;-1928.415000;245.566000;297.200800"/>
+	<Location UID="01F15F79-06B5-754E-A1B9-D5804FF8EB40" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 04" LocationData="-2207.690000;-1914.553000;240.767300;277.077800"/>
+	<Location UID="3C39109F-64A9-2141-ABFA-DC7114BFD7AF" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 05" LocationData="-2176.505000;-1906.513000;234.828100;314.534800"/>
+	<Location UID="AAE5F8C4-370A-2E42-B990-BB3F510E0C3A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 06" LocationData="-2169.250000;-1888.305000;232.993400;10.399280"/>
+	<Location UID="C32047BC-53E0-074D-B757-8DDE53A109E2" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 07" LocationData="-2171.769000;-1863.528000;223.272700;359.388000"/>
+	<Location UID="58721BD4-B90E-9E43-B332-C16913FD1AFF" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 08" LocationData="-2172.437000;-1846.384000;219.738900;2.917805"/>
+	<Location UID="1E992197-6C5E-874B-927B-E253486582D0" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 09" LocationData="-2151.099000;-1794.330000;211.270400;296.020600"/>
+	<Location UID="4B6723C2-F8DB-B941-9F44-432BED5474B5" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 10" LocationData="-2131.208000;-1777.562000;208.733500;303.362000"/>
+	<Location UID="AC704FD0-23BE-804E-856D-9E3FD18D012A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 11" LocationData="-2109.679000;-1756.738000;196.885100;326.112200"/>
+	<Location UID="A06FACF8-84AE-E74E-B9DE-1F3EEE222526" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 12" LocationData="-2072.937000;-1654.483000;176.649100;350.269900"/>
+	<Location UID="D809CDA4-E10C-CB44-B949-EC11F265891A" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 13" LocationData="-2053.155000;-1572.761000;139.535500;291.824000"/>
+	<Location UID="DA8F18A2-ED5F-5C42-A10D-3F217C6E7D71" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 14" LocationData="-2039.598000;-1513.983000;125.359400;24.665340"/>
+	<Location UID="A4B2CF41-A626-6C49-92FB-78F08C78D8C5" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 15" LocationData="-2038.027000;-1435.341000;96.451420;224.794800"/>
+	<Location UID="14821B93-D4B6-3845-9228-58E39C6D8658" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 16" LocationData="-1992.227000;-1593.165000;87.682290;186.475500"/>
+	<Location UID="57FA5DCF-B4B0-8743-AE60-3EF915F42A67" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 17" LocationData="-2025.443000;-1783.676000;96.106730;163.981500"/>
+	<Location UID="579711C5-8933-1E48-8703-E5E4584BBA38" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 18" LocationData="-2097.614000;-1883.406000;110.650300;165.271000"/>
+	<Location UID="BD153792-5128-8540-A26A-F8A358D1F5B0" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 19" LocationData="-2116.459000;-1943.159000;100.724600;165.903900"/>
+	<Location UID="4D5C1F8A-D68C-F947-9B4E-F38690FD1FBD" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 20" LocationData="-2228.850000;-2111.542000;70.560490;130.256800"/>
+	<Location UID="B3AAD0C0-F1AB-C84C-B8C7-648CBF79CAF3" Folder="GTA SA Locations\Race Helper\Chiliad Challenge 3: Cobra Run" Description="Checkpoint 21" LocationData="-2367.015000;-2192.736000;33.621100;115.560900"/>
+	<Location UID="B3167DFE-F4E0-534B-B3B9-AE1C14915EF9" Folder="GTA SA Locations\Safehouses\Countryside" Description="Angel Pine 1" LocationData="-2038.517;-2530.141;30.228;90"/>
+	<Location UID="989F687B-6214-3942-A1D1-52E62D9A08FC" Folder="GTA SA Locations\Safehouses\Countryside" Description="Angel Pine 2" LocationData="-2074.844;-2302.031;30.226;90"/>
+	<Location UID="BCD3913A-281F-AA43-A887-720626F875DF" Folder="GTA SA Locations\Safehouses\Countryside" Description="Blueberry" LocationData="225.532;-117.209;1.187;181.998"/>
+	<Location UID="00BE18C2-F282-AE4B-BA59-1E2553F8BA7F" Folder="GTA SA Locations\Safehouses\Countryside" Description="Dillimore" LocationData="785.878;-513.586;16.257;178.630"/>
+	<Location UID="0563027B-D345-404F-B33C-63CBB10649A5" Folder="GTA SA Locations\Safehouses\Countryside" Description="Fern Ridge" LocationData="880.188;-35.172;63.248;90"/>
+	<Location UID="570A0A30-5FE3-674D-B726-E5162DDE1A2B" Folder="GTA SA Locations\Safehouses\Countryside" Description="Palomino Creek" LocationData="2231.993;159.883;26.744;181.753"/>
+	<Location UID="9B29A637-2F7C-8043-A8B8-BD99FBF814A0" Folder="GTA SA Locations\Safehouses\Countryside" Description="Whetstone" LocationData="-1443.066;-1533.754;101.758;0"/>
+	<Location UID="8F58F09F-BF02-1C4C-90AD-14A17650AEBA" Folder="GTA SA Locations\Safehouses\Desert" Description="El Quebrados" LocationData="-1536.981;2640.041;55.528;0"/>
+	<Location UID="30D8A4A5-CAC6-9548-A8AF-F10FDD184BCB" Folder="GTA SA Locations\Safehouses\Desert" Description="Fort Carson" LocationData="-360.301;1165.025;19.370;229.963"/>
+	<Location UID="8B1AFD19-6F96-8742-B88D-BEF08B029FAD" Folder="GTA SA Locations\Safehouses\Desert" Description="Tierra Robada 1" LocationData="-704.043;961.750;12.007;90"/>
+	<Location UID="7E480F87-1DB6-FE4A-ABF5-9FAD5330F1A4" Folder="GTA SA Locations\Safehouses\Desert" Description="Tierra Robada 2" LocationData="-1044.490;1543.261;32.684;311.233"/>
+	<Location UID="A620CCD9-C59E-FD40-9983-3366092040B3" Folder="GTA SA Locations\Safehouses\Desert" Description="Verdant Meadows" LocationData="425.823;2521.110;16.094;88.879"/>
+	<Location UID="FE999DBE-40DB-8946-9340-AF5108C14117" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Camel's Toe" LocationData="2234.381;1285.571;10.509;0"/>
+	<Location UID="1F9B090A-7AB4-9E47-A023-D0D999C8383A" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Clown's Pocket" LocationData="2219.460;1837.730;10.820;2.715"/>
+	<Location UID="E5F91C80-7CEA-5948-9A18-06B395D71942" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Creek" LocationData="2816.201;2155.880;10.426;359.997"/>
+	<Location UID="17D83DB5-ACE8-E445-B7DC-84E4CCA1AA48" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Four Dragons Casino" LocationData="2034.918;1002.826;10.419;90"/>
+	<Location UID="9E2AF614-3E6C-9C44-98EB-27C0B4D10B60" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Old Venturas Strip" LocationData="2368.445;2162.211;10.825;136.643"/>
+	<Location UID="9F763AA8-3C6C-DD49-ADF4-44AD24F546D5" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Prickle Pine" LocationData="1290.155;2532.631;10.281;359.926"/>
+	<Location UID="60E34094-30A3-6D47-BF42-9B05242402CC" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Redsands West" LocationData="1399.878;1903.433;11.017;90"/>
+	<Location UID="F9674D85-9BC9-E046-81EB-9B95B992BEFC" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Rockshore West" LocationData="2442.506;698.107;11.171;90"/>
+	<Location UID="D496EB18-EBDF-B74B-B1C8-B3AD8DE7C372" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="The Pirates in Men's Pants" LocationData="2039.840;1623.566;10.358;180"/>
+	<Location UID="532AABE3-D8E4-0947-9E06-1F8A287A9243" Folder="GTA SA Locations\Safehouses\Las Venturas" Description="Whitewood Estates" LocationData="922.398;2012.875;11.150;90"/>
+	<Location UID="F4A53CE8-D0F5-ED4C-855A-7BF0E1A3DD0C" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Ganton (Johnson House)" LocationData="2499.978;-1679.716;13.256;90"/>
+	<Location UID="BC8F477B-9AC0-5C43-9367-5A9CE8015C16" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Jefferson" LocationData="2102.820;-1287.684;24.093;180.137"/>
+	<Location UID="6B419BD0-637F-BF4B-B112-7AEB42565B20" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Mulholland 1" LocationData="1246.353;-780.166;90.397;175.721"/>
+	<Location UID="F9B6E6D5-2AEB-0343-870F-6CF2BB42CB4B" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Mulholland 2" LocationData="1339.439;-623.463;109.027;90"/>
+	<Location UID="857B1B6E-8155-994F-92BC-BEC4D8C0BDDD" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Santa Maria Beach" LocationData="318.927;-1775.797;4.672;90"/>
+	<Location UID="F8C26450-F8C3-9C41-ADCF-23E3937B901D" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Verdant Bluffs (El Corona)" LocationData="1687.503;-2106.201;13.439;90"/>
+	<Location UID="CB96E3AB-B9B9-204A-A013-E47FE5328168" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Verona Beach" LocationData="903.214;-1658.882;13.145;90"/>
+	<Location UID="79F38E7F-29A5-C949-A605-9645A0CD2C5D" Folder="GTA SA Locations\Safehouses\Los Santos" Description="Willowfield" LocationData="2484.511;-2007.674;12.914;90"/>
+	<Location UID="B6588673-9740-6B4C-8E2B-0BCAE7148CBE" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Calton Heights" LocationData="-2105.438;901.622;76.130;11.035"/>
+	<Location UID="2ECA972B-9911-C340-ADBB-D013743A3B99" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Chinatown" LocationData="-2219.593;728.326;48.863;90"/>
+	<Location UID="D7A0A3F4-5E0C-5B40-9CD4-6285001D3F7A" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Doherty (Driving School)" LocationData="-2018.963;-52.938;34.940;269.545"/>
+	<Location UID="41D9FA5D-46AD-414B-82CB-742B32E05378" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Doherty (Garage)" LocationData="-2025.076;142.036;28.728;90"/>
+	<Location UID="9204B389-F5F3-FC4B-8386-D88ED63CAF03" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Hashbury" LocationData="-2460.498;-126.027;25.495;90"/>
+	<Location UID="644D2FD2-9C21-404A-A1BD-6D225419FB84" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Paradiso" LocationData="-2698.276;814.445;49.721;90"/>
+	<Location UID="7DF4CF2A-EFCA-1041-AF2E-8DD5B8798C45" Folder="GTA SA Locations\Safehouses\San Fierro" Description="Queens" LocationData="-2413.314;330.866;34.661;146.624"/>
+	<Location UID="3E74FFBA-E186-404A-90EB-90DB55BDBD7E" Folder="GTA SA Locations\Tags" Description="Tag 001 (Done by Storyline)" LocationData="2100.638;-1649.044;13.453;277.929"/>
+	<Location UID="BBFD664E-E8E1-2843-98F5-834306FA7717" Folder="GTA SA Locations\Tags" Description="Tag 002 (Done by Storyline)" LocationData="2067.800;-1653.841;13.547;91.181"/>
+	<Location UID="D169AA56-5A91-F24F-8414-7FB54C5A422A" Folder="GTA SA Locations\Tags" Description="Tag 003 (Done by Storyline)" LocationData="2044.746;-1636.393;13.547;272.869"/>
+	<Location UID="E4C5637F-46F3-3A4B-81FA-0ACBE3C58357" Folder="GTA SA Locations\Tags" Description="Tag 004 (Done by Storyline)" LocationData="2352.364;-1508.318;24.000;271.733"/>
+	<Location UID="1C0F7959-14E5-164A-94E5-B89F64F41E92" Folder="GTA SA Locations\Tags" Description="Tag 005 (Done by Storyline)" LocationData="2394.179;-1471.674;23.922;0.337"/>
+	<Location UID="2E600BC3-FFF5-E344-A8C7-30805CEFBC89" Folder="GTA SA Locations\Tags" Description="Tag 006 (Done by Storyline)" LocationData="2399.490;-1551.684;28.000;180.818"/>
+	<Location UID="6DB26D68-BB54-414C-9FC5-4DE20E024E4C" Folder="GTA SA Locations\Tags" Description="Tag 007" LocationData="2421.745;-1682.660;13.794;266.093"/>
+	<Location UID="04894CD1-D713-D940-A52A-7F267B79EE64" Folder="GTA SA Locations\Tags" Description="Tag 008" LocationData="2272.954;-1689.444;13.652;0"/>
+	<Location UID="B991B62A-F8E8-5842-8719-981545EC8239" Folder="GTA SA Locations\Tags" Description="Tag 009" LocationData="2072.618;-1579.047;13.457;270"/>
+	<Location UID="52E6172F-BDF1-664F-AF94-2B0A1EEBE943" Folder="GTA SA Locations\Tags" Description="Tag 010" LocationData="1958.385;-1576.321;13.585;225"/>
+	<Location UID="2DD61083-4CDC-7343-82D2-B28D67832403" Folder="GTA SA Locations\Tags" Description="Tag 011" LocationData="1767.411;-1617.243;14.471;160.498"/>
+	<Location UID="1C3A424E-DA2E-7149-992B-7C39FCD83878" Folder="GTA SA Locations\Tags" Description="Tag 012" LocationData="1836.122;-1640.308;13.361;270"/>
+	<Location UID="3BE6693A-CB26-5C41-9F96-B98FF348B8A5" Folder="GTA SA Locations\Tags" Description="Tag 013" LocationData="1800.811;-1708.467;13.534;90"/>
+	<Location UID="6D57579B-763F-EC4B-8042-8A33131BD8E6" Folder="GTA SA Locations\Tags" Description="Tag 014" LocationData="1724.732;-1739.473;13.547;180"/>
+	<Location UID="BF7815F2-56AB-DA46-B081-FD2115D3944D" Folder="GTA SA Locations\Tags" Description="Tag 015" LocationData="1837.716;-1813.015;3.984;163.632"/>
+	<Location UID="0D474F69-1C6B-1149-814A-47992E18B43E" Folder="GTA SA Locations\Tags" Description="Tag 016" LocationData="1909.934;-1778.047;17.976;180"/>
+	<Location UID="A683526A-7124-1944-A2D6-1AEA5433F3D2" Folder="GTA SA Locations\Tags" Description="Tag 017" LocationData="2034.417;-1803.195;13.547;4.480"/>
+	<Location UID="10AA5A60-E333-1047-A66A-25DC0DBF8C6D" Folder="GTA SA Locations\Tags" Description="Tag 018" LocationData="2162.814;-1788.723;13.517;359.154"/>
+	<Location UID="458F1894-3E9E-1A4D-8780-ADABF8693456" Folder="GTA SA Locations\Tags" Description="Tag 019" LocationData="2065.419;-1899.307;13.554;0"/>
+	<Location UID="C8CD7BD3-4D7D-F549-803C-C2E4AFE6CC56" Folder="GTA SA Locations\Tags" Description="Tag 020" LocationData="1849.993;-1878.049;13.515;0"/>
+	<Location UID="8823746B-CE2D-9E4B-893B-3EB6B98FA1C8" Folder="GTA SA Locations\Tags" Description="Tag 021" LocationData="1887.603;-1982.708;13.547;273.543"/>
+	<Location UID="FA4BD16D-30E3-D541-8EB3-6A6FFFD3043E" Folder="GTA SA Locations\Tags" Description="Tag 022" LocationData="1951.875;-2034.381;13.546;90"/>
+	<Location UID="F24E1367-FE4F-074A-BDB0-DB86439A7E74" Folder="GTA SA Locations\Tags" Description="Tag 023" LocationData="1809.700;-2092.254;13.546;90"/>
+	<Location UID="0AC26DE9-CA3F-B44A-B4E5-10D6069D7EA5" Folder="GTA SA Locations\Tags" Description="Tag 024" LocationData="1784.004;-2158.092;13.546;0"/>
+	<Location UID="2A751C29-A126-484B-ACC6-372A0FFCA440" Folder="GTA SA Locations\Tags" Description="Tag 025" LocationData="1936.818;-2137.243;13.702;0"/>
+	<Location UID="B8CE5EC5-60A0-8C4C-8369-B077E06874C0" Folder="GTA SA Locations\Tags" Description="Tag 026" LocationData="2174.626;-2166.029;13.546;45"/>
+	<Location UID="5F878270-D9E1-334D-9FCD-EF9E3818C58F" Folder="GTA SA Locations\Tags" Description="Tag 027" LocationData="2135.385;-2013.690;8.222;48.442"/>
+	<Location UID="5C081584-1D4D-A049-A465-E405156058ED" Folder="GTA SA Locations\Tags" Description="Tag 028" LocationData="2275.255;-2267.073;13.547;46.875"/>
+	<Location UID="837E44DB-8967-9543-8C12-5838AB47AFC6" Folder="GTA SA Locations\Tags" Description="Tag 029" LocationData="2378.639;-2167.094;24.305;315"/>
+	<Location UID="7A3C6C73-9B1A-564F-876D-F6B4476347DE" Folder="GTA SA Locations\Tags" Description="Tag 030" LocationData="2274.604;-2529.159;8.290;90"/>
+	<Location UID="8C0372F3-6159-CF4F-88B7-2A9A5F1B1B02" Folder="GTA SA Locations\Tags" Description="Tag 031" LocationData="1572.839;-2693.122;13.549;270"/>
+	<Location UID="E756487C-A1E5-EB4B-9E3A-7480E484E79F" Folder="GTA SA Locations\Tags" Description="Tag 032" LocationData="1624.391;-2298.980;13.542;0"/>
+	<Location UID="5FB7E547-BE97-844A-858C-2E5F8B4BBB9E" Folder="GTA SA Locations\Tags" Description="Tag 033" LocationData="1119.716;-2010.043;74.429;45"/>
+	<Location UID="89720227-0086-014C-91D7-38A5E96ADA2F" Folder="GTA SA Locations\Tags" Description="Tag 034" LocationData="1069.711;-1864.918;13.547;270"/>
+	<Location UID="54F733CF-DB7F-164F-9907-42AB89167466" Folder="GTA SA Locations\Tags" Description="Tag 035" LocationData="811.464;-1796.570;13.023;135"/>
+	<Location UID="027F3592-0F0C-7B45-8DAF-F626BAE70DD3" Folder="GTA SA Locations\Tags" Description="Tag 036" LocationData="482.468;-1763.293;5.539;0"/>
+	<Location UID="8DF433A8-CA09-6B43-BA0C-66678306214B" Folder="GTA SA Locations\Tags" Description="Tag 037" LocationData="400.404;-2067.188;10.747;90"/>
+	<Location UID="E1352CFA-F17A-3341-B0A2-195CAAB212F1" Folder="GTA SA Locations\Tags" Description="Tag 038" LocationData="584.783;-1502.197;15.294;90"/>
+	<Location UID="95854768-7F61-384A-8BA1-15FEA0853580" Folder="GTA SA Locations\Tags" Description="Tag 039" LocationData="730.360;-1484.720;1.969;0"/>
+	<Location UID="7386996F-A311-174E-ADD0-C3720E912388" Folder="GTA SA Locations\Tags" Description="Tag 040" LocationData="949.711;-1466.711;17.148;90"/>
+	<Location UID="2DDD70DD-185D-A043-8361-410E74AC64FE" Folder="GTA SA Locations\Tags" Description="Tag 041" LocationData="466.382;-1285.899;15.421;340"/>
+	<Location UID="9F9A01BD-B41F-7B4F-8BF6-8FF41B80EB0B" Folder="GTA SA Locations\Tags" Description="Tag 042" LocationData="944.097;-984.563;38.700;190.832"/>
+	<Location UID="05B23149-2495-714B-8CC4-52C8C60D4D31" Folder="GTA SA Locations\Tags" Description="Tag 043" LocationData="1074.157;-1013.039;34.836;90"/>
+	<Location UID="2A802F2F-554D-F746-8555-D5E18BAEBD40" Folder="GTA SA Locations\Tags" Description="Tag 044" LocationData="1207.281;-1163.964;23.342;94.325"/>
+	<Location UID="62B93F13-64B1-CF4F-89A8-A2149389D219" Folder="GTA SA Locations\Tags" Description="Tag 045" LocationData="1097.243;-1292.424;17.046;270"/>
+	<Location UID="3F355143-BEE3-AB4A-8F3B-54750F3E0BA0" Folder="GTA SA Locations\Tags" Description="Tag 046" LocationData="1295.013;-1463.538;10.047;184.542"/>
+	<Location UID="C67CDE10-1D67-3448-A331-EA8F61DF234B" Folder="GTA SA Locations\Tags" Description="Tag 047" LocationData="1271.688;-1664.139;19.734;0.927"/>
+	<Location UID="06087972-4400-B146-9A25-FF88BA780CC8" Folder="GTA SA Locations\Tags" Description="Tag 048" LocationData="1331.991;-1725.364;13.547;359.070"/>
+	<Location UID="D4E511FC-07F1-7F46-AB4A-851639325E9C" Folder="GTA SA Locations\Tags" Description="Tag 049" LocationData="1448.114;-1754.151;13.546;180"/>
+	<Location UID="35EFE95F-C810-BA4F-90BB-B4D93AA6DA7C" Folder="GTA SA Locations\Tags" Description="Tag 050" LocationData="1549.645;-1716.130;13.546;0"/>
+	<Location UID="D0B167E2-2E2E-E840-9340-509037A12126" Folder="GTA SA Locations\Tags" Description="Tag 051" LocationData="1746.763;-1358.297;15.767;180"/>
+	<Location UID="3ED58983-D12C-1D40-A06A-C68E16B7E2CB" Folder="GTA SA Locations\Tags" Description="Tag 052" LocationData="1687.498;-1237.658;14.984;180"/>
+	<Location UID="8963E6A5-5C63-3B42-ACC6-3DCFC732CAEC" Folder="GTA SA Locations\Tags" Description="Tag 053" LocationData="1498.660;-1205.964;23.598;180"/>
+	<Location UID="77CCC3DD-886A-A243-BA00-4978A09138CA" Folder="GTA SA Locations\Tags" Description="Tag 054" LocationData="1520.961;-1011.362;23.953;90"/>
+	<Location UID="5CCC78E6-F570-9E49-B253-6DA8D192F6AB" Folder="GTA SA Locations\Tags" Description="Tag 055" LocationData="1730.939;-963.124;40.938;270"/>
+	<Location UID="F1BBF379-5F7D-DE46-A9E2-D726EDF296E9" Folder="GTA SA Locations\Tags" Description="Tag 056" LocationData="1913.228;-1064.635;24.124;90"/>
+	<Location UID="14EAC9F4-0E0C-8444-A829-86906FD41BCD" Folder="GTA SA Locations\Tags" Description="Tag 057" LocationData="2061.379;-996.183;47.976;250"/>
+	<Location UID="7DCCA3E0-8446-3543-9A76-85A0F7CCE4AE" Folder="GTA SA Locations\Tags" Description="Tag 058" LocationData="2075.973;-1070.312;27.308;225"/>
+	<Location UID="6484147C-799A-5B49-8FAA-E5F30D2B0247" Folder="GTA SA Locations\Tags" Description="Tag 059" LocationData="2121.713;-1060.012;25.208;237.206"/>
+	<Location UID="8CCE999A-7071-5245-87EC-39D64BC7FB6F" Folder="GTA SA Locations\Tags" Description="Tag 060" LocationData="2240.197;-998.132;59.582;150"/>
+	<Location UID="28F95251-5FCA-9D45-A20F-7EFA975D78CC" Folder="GTA SA Locations\Tags" Description="Tag 061" LocationData="2282.719;-1119.017;26.898;90.878"/>
+	<Location UID="D7FFA194-9D14-5F4D-975D-A88C24F6EC9C" Folder="GTA SA Locations\Tags" Description="Tag 062" LocationData="2224.817;-1194.034;25.440;0"/>
+	<Location UID="5E0FF53C-65B1-E340-854B-D0DF27245D7B" Folder="GTA SA Locations\Tags" Description="Tag 063" LocationData="2119.264;-1195.638;23.817;180"/>
+	<Location UID="DF90932A-5570-1A4E-89CB-816609857036" Folder="GTA SA Locations\Tags" Description="Tag 064" LocationData="1967.098;-1176.204;20.030;0"/>
+	<Location UID="4FCE7EE6-92D9-1B40-87F5-5D4FBA4092B4" Folder="GTA SA Locations\Tags" Description="Tag 065" LocationData="1968.360;-1290.456;23.984;266.613"/>
+	<Location UID="88898048-B1D0-014D-ACD8-78247FD12F1D" Folder="GTA SA Locations\Tags" Description="Tag 066" LocationData="1974.226;-1353.350;23.793;0"/>
+	<Location UID="58880997-F145-5340-8788-EDF487A54FB4" Folder="GTA SA Locations\Tags" Description="Tag 067" LocationData="2091.776;-1416.434;23.974;328.906"/>
+	<Location UID="99E5B68B-A338-7A47-A4BB-F0906B26762E" Folder="GTA SA Locations\Tags" Description="Tag 068" LocationData="2182.146;-1466.358;25.539;180"/>
+	<Location UID="807E3F58-56C5-ED4B-935D-DCB63A087E4C" Folder="GTA SA Locations\Tags" Description="Tag 069" LocationData="2235.465;-1367.453;24.531;90"/>
+	<Location UID="F4199857-6028-4D4C-8CF1-EC7A04407256" Folder="GTA SA Locations\Tags" Description="Tag 070" LocationData="2132.208;-1260.967;23.992;0"/>
+	<Location UID="781D063F-5FF1-FC42-963E-DAF8096284E4" Folder="GTA SA Locations\Tags" Description="Tag 071" LocationData="2324.297;-1252.486;22.500;133.492"/>
+	<Location UID="40311965-C6EA-2F45-AEA5-EB3A805161ED" Folder="GTA SA Locations\Tags" Description="Tag 072" LocationData="2346.417;-1352.023;24.017;0"/>
+	<Location UID="F48F70BA-A6DB-EA43-9AE6-DA5590049225" Folder="GTA SA Locations\Tags" Description="Tag 073" LocationData="2462.108;-1543.504;24.344;0"/>
+	<Location UID="979B47E2-1662-BE4C-939E-E5FDD1E86135" Folder="GTA SA Locations\Tags" Description="Tag 074" LocationData="2520.394;-1478.661;23.994;268.250"/>
+	<Location UID="897E0EC6-C2CE-AC46-98B8-AB77A264AF5E" Folder="GTA SA Locations\Tags" Description="Tag 075" LocationData="2541.438;-1363.430;31.327;270"/>
+	<Location UID="2158B53A-4A69-D84F-8501-F38BC75502E5" Folder="GTA SA Locations\Tags" Description="Tag 076" LocationData="2537.782;-1353.086;30.726;90"/>
+	<Location UID="6C4D0A80-4DD6-074C-8584-D6E38E89FEB0" Folder="GTA SA Locations\Tags" Description="Tag 077" LocationData="2579.622;-1274.288;46.141;270"/>
+	<Location UID="21411D41-3E60-5040-A9AC-CAC31C216C61" Folder="GTA SA Locations\Tags" Description="Tag 078" LocationData="2601.579;-1196.557;61.221;200"/>
+	<Location UID="B1018ECB-AB35-9D43-B6A9-C50283BBA22B" Folder="GTA SA Locations\Tags" Description="Tag 079" LocationData="2576.711;-1144.210;47.849;0"/>
+	<Location UID="FD5F5E01-77C3-0A4D-9BDF-963464F1B70A" Folder="GTA SA Locations\Tags" Description="Tag 080" LocationData="2621.352;-1094.372;69.608;0"/>
+	<Location UID="89474996-1AF3-CC4C-BFD0-E9BBC70BCEF4" Folder="GTA SA Locations\Tags" Description="Tag 081" LocationData="2798.014;-1096.248;30.718;180"/>
+	<Location UID="6F12A1E0-AEB0-2746-8092-9EC8E8E7361F" Folder="GTA SA Locations\Tags" Description="Tag 082" LocationData="2820.303;-1189.204;25.217;180"/>
+	<Location UID="91038E5B-65AD-2C44-8C3C-637BEC032874" Folder="GTA SA Locations\Tags" Description="Tag 083" LocationData="2767.409;-1197.038;68.885;90"/>
+	<Location UID="346FDAEF-1A75-9346-BC50-807132F28045" Folder="GTA SA Locations\Tags" Description="Tag 084" LocationData="2841.793;-1314.262;18.546;0"/>
+	<Location UID="C75908B0-B1B1-0640-BB2A-F3202B11DB08" Folder="GTA SA Locations\Tags" Description="Tag 085" LocationData="2819.425;-1465.254;16.256;270"/>
+	<Location UID="0EF067B0-718D-8443-A8A3-8822B2F7CC8D" Folder="GTA SA Locations\Tags" Description="Tag 086" LocationData="2754.528;-1388.207;39.375;270"/>
+	<Location UID="EC0E58EB-1961-AD4E-B56F-C2647685F43C" Folder="GTA SA Locations\Tags" Description="Tag 087" LocationData="2669.374;-1469.278;30.561;90"/>
+	<Location UID="7C6B233C-97A6-EA44-9997-E02D844E6A00" Folder="GTA SA Locations\Tags" Description="Tag 088" LocationData="2613.026;-1392.138;34.812;0"/>
+	<Location UID="A89F00B6-A958-3F41-B607-A83BBA3AB902" Folder="GTA SA Locations\Tags" Description="Tag 089" LocationData="2769.120;-1621.010;10.927;90"/>
+	<Location UID="51AD5992-A7D7-F848-BA66-8E18E56A417B" Folder="GTA SA Locations\Tags" Description="Tag 090" LocationData="2768.663;-1821.469;11.848;26.691"/>
+	<Location UID="A94B2FE4-272A-F840-95B7-5EC306046B2B" Folder="GTA SA Locations\Tags" Description="Tag 091" LocationData="2875.857;-1909.443;7.794;90"/>
+	<Location UID="D3CBACBC-4418-3B4E-B5F3-32B1A5BF60DA" Folder="GTA SA Locations\Tags" Description="Tag 092" LocationData="2794.455;-1905.185;13.539;180"/>
+	<Location UID="D89CB5AA-C499-1744-8EB7-16161938FE66" Folder="GTA SA Locations\Tags" Description="Tag 093" LocationData="2814.561;-1942.169;11.109;90"/>
+	<Location UID="CA5DA6C0-A7CE-2744-8147-9DC1B587A49A" Folder="GTA SA Locations\Tags" Description="Tag 094" LocationData="2764.239;-2012.256;13.554;90"/>
+	<Location UID="79B500AD-A43D-2C4C-BBDB-5C2D2AD4C2DB" Folder="GTA SA Locations\Tags" Description="Tag 095" LocationData="2706.175;-1968.158;13.547;88.732"/>
+	<Location UID="17E01D14-F029-D940-AAFB-6389FB25673A" Folder="GTA SA Locations\Tags" Description="Tag 096" LocationData="2489.187;-1957.386;13.592;180"/>
+	<Location UID="82EF4325-7731-1D48-961B-B43E098A1C96" Folder="GTA SA Locations\Tags" Description="Tag 097" LocationData="2392.103;-1916.790;13.383;0"/>
+	<Location UID="C9150A37-FFCC-0B4D-AC71-36910175C14D" Folder="GTA SA Locations\Tags" Description="Tag 098" LocationData="2430.186;-2001.233;13.547;0"/>
+	<Location UID="76E5F7B2-F089-1E48-A5E2-AFB6E76331D8" Folder="GTA SA Locations\Tags" Description="Tag 099" LocationData="2588.621;-2063.699;4.190;90"/>
+	<Location UID="6BD15AC3-3C95-A545-9736-DE93F76D4F12" Folder="GTA SA Locations\Tags" Description="Tag 100" LocationData="2705.726;-2144.231;11.071;90"/>
+	<Location UID="05FBE504-7D8F-0044-ABB7-6D944B97BE18" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 01" LocationData="1939.136;-1968.052;17.665;90"/>
+	<Location UID="B4C00210-6B6B-714A-A741-7D90062BD569" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 02" LocationData="2209.275;-1843.686;19.096;90"/>
+	<Location UID="72AF6D63-BB49-A84A-8EE0-4CD9046058AB" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 03" LocationData="1177.215;-1696.761;21.368;90"/>
+	<Location UID="0E53AAA2-4E99-1946-B871-9048E16D2B68" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 04" LocationData="2278.29;-1357.857;31.326;90"/>
+	<Location UID="8C9968A7-7224-044A-BF5F-9B1AB7854AC7" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 05" LocationData="2335.351;-2163.947;18.515;90"/>
+	<Location UID="6E100856-CE38-9E44-91A3-974C24DC6AFD" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 06" LocationData="2825.933;-1582.66;18.126;90"/>
+	<Location UID="2169EC5F-2ACC-844C-B0A0-52EDFACCD8CA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 07" LocationData="2460.176;-2567.911;18.816;90"/>
+	<Location UID="BB1010A8-8459-EA46-892B-05B0A6EF8D61" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 08" LocationData="1832.453;-2386.805;17.925;90"/>
+	<Location UID="60973F76-7146-EB40-9ABB-AA4FF686C939" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 09" LocationData="1839.745;-2514.476;16.177;90"/>
+	<Location UID="C1FA9E62-C0CB-7F49-A5E2-141BB86F76FB" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 10" LocationData="2634.397;-2107.984;17.089;90"/>
+	<Location UID="4D89BC8F-197E-A048-B5F0-EF499BDD2099" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 11" LocationData="2352.3;-1259.068;28.996;90"/>
+	<Location UID="189A1E4D-62AD-3849-A330-6A9A89B0143E" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 12" LocationData="1013.163;-1270.362;24.446;90"/>
+	<Location UID="26B9126A-3BD4-B046-8D04-810A04A514C9" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 13" LocationData="-973.357;-223.231;53.372;90"/>
+	<Location UID="7AF930A5-14C2-6646-8E32-3AD6C29986AE" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 14" LocationData="-2637.069;780.395;50.017;90"/>
+	<Location UID="2E4EA1A7-F12D-4641-AB26-3458DE8BDA8F" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 15" LocationData="-2520.199;1169.203;59.553;90"/>
+	<Location UID="C6177CE9-1FD8-7446-BC35-8380912F2B08" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 16" LocationData="-1794.982;1211.612;35.679;90"/>
+	<Location UID="F1646C97-DD0A-D343-ABCF-F160A003C030" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 17" LocationData="-2659.551;1533.67;53.2;90"/>
+	<Location UID="BF378958-D857-5342-B72C-0B84407CF531" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 18" LocationData="-1690.662;1110.392;57.278;90"/>
+	<Location UID="ED4909C2-205D-CB42-BFAB-E9765EB70FFA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 19" LocationData="-2145.461;-112.026;44.345;90"/>
+	<Location UID="D29FFCE5-483D-FC4E-963B-66243858516D" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 20" LocationData="-267.774;2662.036;68.741;90"/>
+	<Location UID="7C8C1E42-7454-0F4B-8898-8F92D9180209" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 21" LocationData="-249.69;2590.805;66.119;90"/>
+	<Location UID="58A65A0C-9AAD-3947-BC82-B0FEAB42ACC4" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 22" LocationData="-871.503;2308.79;164.574;90"/>
+	<Location UID="FB1CEC11-F94F-A845-A051-87299CC76D05" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 23" LocationData="2073.713;2366.653;50.853;90"/>
+	<Location UID="0534DC03-B5BA-8948-A164-200F18E79381" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 24" LocationData="2170.946;2402.609;62.291;90"/>
+	<Location UID="04AF5F43-CE27-A049-90DF-7234AED66432" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 25" LocationData="2418.056;1353.234;12.364;90"/>
+	<Location UID="12498437-0AE6-2F42-88A0-28C0AEDB9ACD" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 26" LocationData="2407.308;1364.378;14.573;90"/>
+	<Location UID="60F753C2-B2E6-AD4C-919C-5BF1CDB8A5B1" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 27" LocationData="2784.763;2208.72;15.193;90"/>
+	<Location UID="5168805D-B35E-8144-9A46-C789E0C34AB2" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 28" LocationData="1482.383;2037.004;17.058;90"/>
+	<Location UID="D62D606D-8AB3-F84A-BB29-0E1D3B49BA98" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 29" LocationData="1976.397;2593.686;17.213;90"/>
+	<Location UID="52C23E6A-D7BF-6C42-98FC-C8188338D58B" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 30" LocationData="1636.264;2399.712;15.89;90"/>
+	<Location UID="1FC810F6-03CF-A64B-9127-1585474B89AA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 31" LocationData="2119.23;2385.213;33.709;90"/>
+	<Location UID="3A8FE276-1E4C-B445-8CF8-2FF62759768D" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 32" LocationData="-2082.529;-2498.932;33.968;90"/>
+	<Location UID="7C1CE3BB-951B-EE4C-A1C3-8E3F10D6095E" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 33" LocationData="2112.408;97.9;39.993;90"/>
+	<Location UID="9DB0B316-AEFC-034B-95ED-D751577F0B2E" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 34" LocationData="-2100.413;-1743.595;199.731;90"/>
+	<Location UID="EBEE150E-5008-FC42-844A-AEC85CB3911D" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 35" LocationData="-2287.671;-2800.778;22.054;90"/>
+	<Location UID="FEA21865-30B6-C44A-8DAF-7A7966182CDA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 36" LocationData="110.89;2428.049;23.794;90"/>
+	<Location UID="FF762806-8A46-2D40-80FA-85A24FCBA6DC" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 37" LocationData="-894.496;2693.199;44.73;90"/>
+	<Location UID="74BB5F46-8251-404C-B350-AC8B71F89CE2" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 38" LocationData="89.994;-243.205;7.558;90"/>
+	<Location UID="59058582-3458-5041-AE43-9DE492576758" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 39" LocationData="160.799;-160.248;6.145;90"/>
+	<Location UID="3C196D9C-33DB-D746-B33E-C520EE5F65FB" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 40" LocationData="-72.3;17.7;8.413;90"/>
+	<Location UID="37B4FAF9-07DD-4F42-8A8F-A8CAB3881544" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 41" LocationData="-39.799;53.301;6.922;90"/>
+	<Location UID="76329039-A301-234C-A44D-1B9391766E35" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 42" LocationData="638.75;-520.071;18.852;90"/>
+	<Location UID="EE3E50A0-B123-514C-806C-F1D37B0A0378" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 43" LocationData="1749.723;779.603;13.476;90"/>
+	<Location UID="E8681011-4EFD-9F4A-9786-92BB84B7CF88" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 44" LocationData="110.245;-257.993;6.274;90"/>
+	<Location UID="5989A91E-EAEF-6B4D-B292-CA89DBB0ED15" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 45" LocationData="2125.642;95.254;37.396;90"/>
+	<Location UID="3295AC48-5710-134A-87C1-C38C0888BF55" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 46" LocationData="-344.647;-9.881;44.961;90"/>
+	<Location UID="9903EDF4-9DF7-BC4E-9A2E-B5B48F190F4F" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 47" LocationData="-2589.18;1164.37;59.826;90"/>
+	<Location UID="0BAAB477-43E6-B74B-B86A-E8000C5F5001" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 48" LocationData="-2292.044;1097.71;84.735;90"/>
+	<Location UID="38861F55-E000-9743-A415-5684D01CE7D3" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 49" LocationData="-2408.285;723.298;38.684;90"/>
+	<Location UID="9B4662B8-E7FE-AD4F-89A3-4AB3506572C8" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 50" LocationData="-2116.356;925.683;87.819;90"/>
+	<Location UID="EB6D70A3-76DC-AB45-A9CE-5C03F69C21F6" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 51" LocationData="-1903.192;223.347;37.797;90"/>
+	<Location UID="DA4D6045-AC8C-2341-959C-E51BE70473CC" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 52" LocationData="-1687.323;-162.201;17.86;90"/>
+	<Location UID="171C95C5-4C4D-E44D-A7D3-F6BD3CE99FC8" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 53" LocationData="-1729.924;-364.528;18.225;90"/>
+	<Location UID="41CAEB1C-D61C-D244-98A5-04BB1D7BD3DA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 54" LocationData="-1972.099;-543.09;38.986;90"/>
+	<Location UID="97E7A326-5FDC-3C4C-B9B2-94660F7C7CA3" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 55" LocationData="2770.214;-1177.477;70.753;90"/>
+	<Location UID="6BBEFE3B-E3F2-9C4F-A7BA-84EE28D42900" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 56" LocationData="2248.838;-2463.258;15.105;90"/>
+	<Location UID="348AD23D-14C4-E946-9F53-94539625D6B2" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 57" LocationData="2248.832;-2627.623;15.181;90"/>
+	<Location UID="15BC472D-A43F-8741-82F1-915E3A6D8D1E" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 58" LocationData="2326.122;-1508.751;27.007;90"/>
+	<Location UID="7D7D2BAF-5AA4-FE43-B0D3-9BD9E28355D3" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 59" LocationData="1623.574;-1110.956;61.818;90"/>
+	<Location UID="92D9E00B-EDF8-154B-B6C1-C8A819228481" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 60" LocationData="1679.646;-962.221;65.674;90"/>
+	<Location UID="D28ECFEB-3275-9A4B-8BDA-D60523157FBB" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 61" LocationData="1667.167;-992.858;32.759;90"/>
+	<Location UID="52FAF0B8-CAD9-3A44-B9A5-1577DEE2B4BF" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 62" LocationData="347;-1662.299;35.822;90"/>
+	<Location UID="A2BF6CAF-E11E-1E46-958A-A61ADED59EF9" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 63" LocationData="743.153;-1132.819;25.799;90"/>
+	<Location UID="4318F6D2-EAE1-F647-B004-960B85907CFA" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 64" LocationData="1395.562;-1460.566;12.391;90"/>
+	<Location UID="46A153DE-03CC-B34C-908E-F658603C25C0" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 65" LocationData="1586.489;312.888;23.997;90"/>
+	<Location UID="502E5A12-5C2A-8146-8493-F06565C1F7C2" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 66" LocationData="2058.1;-2677.517;15.495;90"/>
+	<Location UID="71E072B0-6AE6-A747-96E2-FB1E93083617" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 67" LocationData="586.01;-1773.769;15.231;90"/>
+	<Location UID="C4182D10-7C04-7F42-ACAA-666BBF76FEF0" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 68" LocationData="2172.078;2430.507;61.747;90"/>
+	<Location UID="88DA683D-6497-384B-B414-56085D79AAEC" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 69" LocationData="2176.132;2268.196;13.468;90"/>
+	<Location UID="C298AD43-1F93-EA4C-B2C8-6C096F48571A" Folder="GTA SA Locations\Unique Jumps" Description="Unique Jump 70" LocationData="-2213.773;-311.079;38.534;90"/>
+</Locations>

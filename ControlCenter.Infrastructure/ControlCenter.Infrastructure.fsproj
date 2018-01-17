@@ -55,8 +55,8 @@
     <Compile Include="AssemblyInfo.fs" />
     <EmbeddedResource Include="Resources.resx" />
     <Content Include="packages.config" />
-    <Compile Include="GlobalVariables.fs" />
     <Compile Include="Prerequisite.fs" />
+    <Compile Include="GlobalVariables.fs" />
     <None Include="Script1.fsx" />
   </ItemGroup>
   <ItemGroup>

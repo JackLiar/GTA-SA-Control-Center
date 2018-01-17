@@ -134,18 +134,13 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Resources\GTASACarPics.dat" />
-    <None Include="Resources\GTASACheats.dat" />
-    <None Include="Resources\GTASAConfig.dat" />
-    <None Include="Resources\GTASAConsole.ini" />
-    <None Include="Resources\GTASAData.dat" />
-    <None Include="Resources\GTASALocs.dat" />
     <None Include="Resources\unlocked.ico" />
   </ItemGroup>
   <ItemGroup>
@@ -153,11 +148,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Accept16.ico" />
-    <Resource Include="Resources\Data\GTASACars.xml" />
-    <Resource Include="Resources\Data\GTASAColors.xml">
-      <SubType>Designer</SubType>
-    </Resource>
-    <Resource Include="Resources\Data\GTASAShortcuts.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj">
@@ -172,12 +162,6 @@
       <Project>{044fcebb-e35c-42fc-93eb-1c98e902dc50}</Project>
       <Name>ControlCenter.VehicleAndGameData</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\Data\GTASACarPics.xml" />
-    <Resource Include="Resources\Data\GTASACarTypes.xml" />
-    <Resource Include="Resources\Data\GTASACheats.xml" />
-    <Resource Include="Resources\Data\GTASALocations.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

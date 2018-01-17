@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CarTypes>
+    <CarType ID="0" Name="Favorites"/>
+    <CarType ID="1" Name="Sports Cars"/>
+    <CarType ID="2" Name="Off-road"/>
+    <CarType ID="3" Name="Lowriders"/>
+    <CarType ID="4" Name="Convertibles"/>
+    <CarType ID="5" Name="Other Cars"/>
+    <CarType ID="6" Name="Industrial Vehicles"/>
+    <CarType ID="7" Name="Public Service"/>
+    <CarType ID="8" Name="Helicopters"/>
+    <CarType ID="9" Name="Planes"/>
+    <CarType ID="10" Name="Bikes"/>
+    <CarType ID="11" Name="Boats"/>
+    <CarType ID="12" Name="Unique Vehicles"/>
+</CarTypes>

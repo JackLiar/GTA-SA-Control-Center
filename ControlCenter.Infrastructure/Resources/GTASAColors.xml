@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Colors>
+  <Color Rgb="0,0,0" ID="0" ToolTip="black" />
+  <Color Rgb="245,245,245" ID="1" ToolTip="white" />
+  <Color Rgb="42,119,161" ID="2" ToolTip="police car blue" />
+  <Color Rgb="132,4,16" ID="3" ToolTip="cherry red" />
+  <Color Rgb="38,55,57" ID="4" ToolTip="mIDnight blue" />
+  <Color Rgb="134,68,110" ID="5" ToolTip="temple curtain purple" />
+  <Color Rgb="215,142,16" ID="6" ToolTip="taxi yellow" />
+  <Color Rgb="76,117,183" ID="7" ToolTip="striking blue" />
+  <Color Rgb="189,190,198" ID="8" ToolTip="light blue grey" />
+  <Color Rgb="94,112,114" ID="9" ToolTip="hoods" />
+  <Color Rgb="70,89,122" ID="10" ToolTip="saxony blue poly" />
+  <Color Rgb="101,106,121" ID="11" ToolTip="concord blue poly" />
+  <Color Rgb="93,126,141" ID="12" ToolTip="jasper green poly" />
+  <Color Rgb="88,89,90" ID="13" ToolTip="pewter gray poly" />
+  <Color Rgb="214,218,214" ID="14" ToolTip="frost white" />
+  <Color Rgb="156,161,163" ID="15" ToolTip="silver stone poly" />
+  <Color Rgb="51,95,63" ID="16" ToolTip="rio red" />
+  <Color Rgb="115,14,26" ID="17" ToolTip="torino red pearl" />
+  <Color Rgb="123,10,42" ID="18" ToolTip="formula red" />
+  <Color Rgb="159,157,148" ID="19" ToolTip="honey beige poly" />
+  <Color Rgb="59,78,120" ID="20" ToolTip="mariner blue" />
+  <Color Rgb="115,46,62" ID="21" ToolTip="blaze red" />
+  <Color Rgb="105,30,59" ID="22" ToolTip="classic red" />
+  <Color Rgb="150,145,140" ID="23" ToolTip="winning silver poly" />
+  <Color Rgb="81,84,89" ID="24" ToolTip="steel gray poly" />
+  <Color Rgb="63,62,69" ID="25" ToolTip="shadow silver poly" />
+  <Color Rgb="165,169,167" ID="26" ToolTip="silver stone poly" />
+  <Color Rgb="99,92,90" ID="27" ToolTip="warm grey mica" />
+  <Color Rgb="61,74,104" ID="28" ToolTip="harbor blue poly" />
+  <Color Rgb="151,149,146" ID="29" ToolTip="porcelain silver poly" />
+  <Color Rgb="66,31,33" ID="30" ToolTip="mellow burgundy" />
+  <Color Rgb="95,39,43" ID="31" ToolTip="graceful red mica" />
+  <Color Rgb="132,148,171" ID="32" ToolTip="currant blue poly" />
+  <Color Rgb="118,123,124" ID="33" ToolTip="gray poly" />
+  <Color Rgb="100,100,100" ID="34" ToolTip="arctic white" />
+  <Color Rgb="90,87,82" ID="35" ToolTip="anthracite gray poly" />
+  <Color Rgb="37,37,39" ID="36" ToolTip="black poly" />
+  <Color Rgb="45,58,53" ID="37" ToolTip="dark green poly" />
+  <Color Rgb="147,163,150" ID="38" ToolTip="seafoam poly" />
+  <Color Rgb="109,122,136" ID="39" ToolTip="diamond blue poly" />
+  <Color Rgb="34,25,24" ID="40" ToolTip="biston brown poly" />
+  <Color Rgb="111,103,95" ID="41" ToolTip="desert taupe poly" />
+  <Color Rgb="124,28,42" ID="42" ToolTip="garnet red poly" />
+  <Color Rgb="95,10,21" ID="43" ToolTip="desert red" />
+  <Color Rgb="25,56,38" ID="44" ToolTip="green" />
+  <Color Rgb="93,27,32" ID="45" ToolTip="cabernet red poly" />
+  <Color Rgb="157,152,114" ID="46" ToolTip="light ivory" />
+  <Color Rgb="122,117,96" ID="47" ToolTip="pueblo beige" />
+  <Color Rgb="152,149,134" ID="48" ToolTip="smoke silver poly" />
+  <Color Rgb="173,176,176" ID="49" ToolTip="astra silver poly" />
+  <Color Rgb="132,137,136" ID="50" ToolTip="ascot gray" />
+  <Color Rgb="48,79,69" ID="51" ToolTip="agate green" />
+  <Color Rgb="77,98,104" ID="52" ToolTip="petrol blue green poly" />
+  <Color Rgb="22,34,72" ID="53" ToolTip="surf blue" />
+  <Color Rgb="39,47,75" ID="54" ToolTip="nautical blue poly" />
+  <Color Rgb="125,98,86" ID="55" ToolTip="woodrose poly" />
+  <Color Rgb="158,164,171" ID="56" ToolTip="crystal blue poly" />
+  <Color Rgb="156,141,113" ID="57" ToolTip="bisque frost poly" />
+  <Color Rgb="109,24,34" ID="58" ToolTip="currant red solID" />
+  <Color Rgb="78,104,129" ID="59" ToolTip="lt.crystal blue poly" />
+  <Color Rgb="156,156,152" ID="60" ToolTip="lt.titanium poly" />
+  <Color Rgb="145,115,71" ID="61" ToolTip="race yellow solID" />
+  <Color Rgb="102,28,38" ID="62" ToolTip="brt.currant red poly" />
+  <Color Rgb="148,157,159" ID="63" ToolTip="clear crystal blue frost poly" />
+  <Color Rgb="164,167,165" ID="64" ToolTip="silver poly" />
+  <Color Rgb="142,140,70" ID="65" ToolTip="pastel alabaster" />
+  <Color Rgb="52,26,30" ID="66" ToolTip="mID currant red poly" />
+  <Color Rgb="106,122,140" ID="67" ToolTip="med regatta blue poly" />
+  <Color Rgb="170,173,142" ID="68" ToolTip="oxford white solID" />
+  <Color Rgb="171,152,143" ID="69" ToolTip="alabaster solID" />
+  <Color Rgb="133,31,46" ID="70" ToolTip="elec.currant red poly" />
+  <Color Rgb="111,130,151" ID="71" ToolTip="spinnaker blue solID" />
+  <Color Rgb="88,88,83" ID="72" ToolTip="dk.titanium poly" />
+  <Color Rgb="154,167,144" ID="73" ToolTip="pastel alabaster solID" />
+  <Color Rgb="96,26,35" ID="74" ToolTip="med.cabernet solID" />
+  <Color Rgb="32,32,44" ID="75" ToolTip="twilight blue poly" />
+  <Color Rgb="164,160,150" ID="76" ToolTip="titanium frost poly" />
+  <Color Rgb="170,157,132" ID="77" ToolTip="sandalwood frost poly" />
+  <Color Rgb="120,34,43" ID="78" ToolTip="wild strawberry poly" />
+  <Color Rgb="14,49,109" ID="79" ToolTip="ultra blue poly" />
+  <Color Rgb="114,42,63" ID="80" ToolTip="vermilion solID" />
+  <Color Rgb="123,113,94" ID="81" ToolTip="med.sandalwood poly" />
+  <Color Rgb="116,29,40" ID="82" ToolTip="med.red solID" />
+  <Color Rgb="30,46,50" ID="83" ToolTip="deep jewel green" />
+  <Color Rgb="77,50,47" ID="84" ToolTip="med.woodrose poly" />
+  <Color Rgb="124,27,68" ID="85" ToolTip="vermillion solID" />
+  <Color Rgb="46,91,32" ID="86" ToolTip="green" />
+  <Color Rgb="57,90,131" ID="87" ToolTip="bright blue poly" />
+  <Color Rgb="109,40,55" ID="88" ToolTip="bright red" />
+  <Color Rgb="167,162,143" ID="89" ToolTip="lt.champagne poly" />
+  <Color Rgb="175,177,177" ID="90" ToolTip="silver poly" />
+  <Color Rgb="54,65,85" ID="91" ToolTip="steel blue poly" />
+  <Color Rgb="109,108,110" ID="92" ToolTip="medium gray poly" />
+  <Color Rgb="15,106,137" ID="93" ToolTip="arctic pearl" />
+  <Color Rgb="32,75,107" ID="94" ToolTip="nassau blue poly" />
+  <Color Rgb="43,62,87" ID="95" ToolTip="med.sapphire blue poly" />
+  <Color Rgb="155,159,157" ID="96" ToolTip="silver poly" />
+  <Color Rgb="108,132,149" ID="97" ToolTip="lt.sapphire blue poly" />
+  <Color Rgb="77,93,96" ID="98" ToolTip="malachite poly" />
+  <Color Rgb="174,155,127" ID="99" ToolTip="flax" />
+  <Color Rgb="64,108,143" ID="100" ToolTip="med.maui blue poly" />
+  <Color Rgb="31,37,59" ID="101" ToolTip="dk.sapphire blue poly" />
+  <Color Rgb="171,146,118" ID="102" ToolTip="copper beige" />
+  <Color Rgb="19,69,115" ID="103" ToolTip="bright blue poly" />
+  <Color Rgb="150,129,108" ID="104" ToolTip="med.flax" />
+  <Color Rgb="100,104,106" ID="105" ToolTip="med.gray poly" />
+  <Color Rgb="16,80,130" ID="106" ToolTip="bright blue poly" />
+  <Color Rgb="161,153,131" ID="107" ToolTip="lt.driftwood poly" />
+  <Color Rgb="56,86,148" ID="108" ToolTip="blue" />
+  <Color Rgb="82,86,97" ID="109" ToolTip="steel gray poly" />
+  <Color Rgb="127,105,86" ID="110" ToolTip="lt.beechwood poly" />
+  <Color Rgb="140,146,154" ID="111" ToolTip="slate gray" />
+  <Color Rgb="89,110,135" ID="112" ToolTip="lt.sapphire blue poly" />
+  <Color Rgb="71,53,50" ID="113" ToolTip="dk.beechwood poly" />
+  <Color Rgb="68,98,79" ID="114" ToolTip="torch red" />
+  <Color Rgb="115,10,39" ID="115" ToolTip="bright red" />
+  <Color Rgb="34,52,87" ID="116" ToolTip="med.sapphire blue firemist" />
+  <Color Rgb="100,13,27" ID="117" ToolTip="med.garnet red poly" />
+  <Color Rgb="163,173,198" ID="118" ToolTip="white diamond pearl" />
+  <Color Rgb="105,88,83" ID="119" ToolTip="dk.sable poly" />
+  <Color Rgb="155,139,128" ID="120" ToolTip="antelope beige" />
+  <Color Rgb="98,11,28" ID="121" ToolTip="brilliant red poly" />
+  <Color Rgb="91,93,94" ID="122" ToolTip="gun metal poly" />
+  <Color Rgb="98,68,40" ID="123" ToolTip="med.beechwood poly" />
+  <Color Rgb="115,24,39" ID="124" ToolTip="brilliant red poly" />
+  <Color Rgb="27,55,109" ID="125" ToolTip="bright blue poly" />
+  <Color Rgb="236,106,174" ID="126" ToolTip="pink" />
+</Colors>

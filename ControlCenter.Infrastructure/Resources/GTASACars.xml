@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cars>
+    <Car ID="445" CarName="Admiral" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="400000" isParkable="1" MinorColor="34" MajorColor="34" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="602" CarName="Alpha" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="200000" isParkable="1" MinorColor="58" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="416" CarName="Ambulance" Type="car" Dim.X="220" Dim.Y="650" Dim.Z="200" hHandling="4" isParkable="1" MinorColor="1" MajorColor="3"/>
+    <Car ID="592" CarName="Andromeda" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="440000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="435" CarName="ArticTrailer1" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="0000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="450" CarName="ArticTrailer2" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="0000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="591" CarName="ArticTrailer3" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="0000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="577" CarName="AT-400" Type="plane" Dim.X="4000" Dim.Y="10000" Dim.Z="400" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="3"/>
+    <Car ID="511" CarName="BEagle" Type="plane" Dim.X="600" Dim.Y="1000" Dim.Z="120" hHandling="400000" isParkable="1" MinorColor="3" MajorColor="90"/>
+    <Car ID="606" CarName="BagboxTrailerA" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="4" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="607" CarName="BagboxTrailerB" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="4" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="485" CarName="Baggage" Type="car" Dim.X="200" Dim.Y="350" Dim.Z="280" hHandling="4" isParkable="1" MinorColor="1" MajorColor="73"/>
+    <Car ID="568" CarName="Bandito" Type="car" Dim.X="200" Dim.Y="390" Dim.Z="150" hHandling="308400" isParkable="1" MinorColor="2" MajorColor="39"/>
+    <Car ID="429" CarName="Banshee" Type="car" Dim.X="200" Dim.Y="440" Dim.Z="130" hHandling="200000" isParkable="1" MinorColor="12" MajorColor="12" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="433" CarName="Barracks" Type="car" Dim.X="330" Dim.Y="770" Dim.Z="420" hHandling="100000" isParkable="1" MinorColor="43" MajorColor="0"/>
+    <Car ID="499" CarName="Benson" Type="car" Dim.X="230" Dim.Y="650" Dim.Z="330" hHandling="1" isParkable="1" MinorColor="109" MajorColor="25"/>
+    <Car ID="424" CarName="BFInjection" Type="car" Dim.X="200" Dim.Y="350" Dim.Z="250" hHandling="308200" isParkable="1" MinorColor="1" MajorColor="0"/>
+    <Car ID="581" CarName="BF400" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="54" MajorColor="1"/>
+    <Car ID="509" CarName="Bike" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="7" MajorColor="1"/>
+    <Car ID="536" CarName="Blade" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="12010000" isParkable="1" MinorColor="9" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;450;451;49E;49D;4A0;49F;468;44F;454"/>
+    <Car ID="496" CarName="Bl istaCompact" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="150" hHandling="C00000" isParkable="1" MinorColor="74" MajorColor="72" AllowedModifications="3F0;3F1;3F2;43E;43F;3EE;3EF;3F3;3FB;3FF;3E9;3EB;3EA;477;3FC"/>
+    <Car ID="504" CarName="BloodringA" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="230" hHandling="10800200" isParkable="1" MinorColor="51" MajorColor="39"/>
+    <Car ID="481" CarName="BMX" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="422" CarName="Bobcat" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="230" hHandling="104004" isParkable="1" MinorColor="96" MajorColor="25" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3F5;3EF"/>
+    <Car ID="498" CarName="Boxville" Type="car" Dim.X="300" Dim.Y="650" Dim.Z="380" hHandling="201" isParkable="1" MinorColor="11" MajorColor="123"/>
+    <Car ID="609" CarName="Boxville(Burgler)" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="201" isParkable="1" MinorColor="36" MajorColor="36"/>
+    <Car ID="401" CarName="Bravura" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="1" isParkable="1" MinorColor="41" MajorColor="41" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;477;479;3FC;3FB;3F5;3EE;3E9;3EB;3EF"/>
+    <Car ID="575" CarName="Broadway" Type="car" Dim.X="200" Dim.Y="470" Dim.Z="190" hHandling="2012100" isParkable="1" MinorColor="12" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;414;413;496;497;498;499;412"/>
+    <Car ID="518" CarName="Buccaneer" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="4" isParkable="1" MinorColor="2" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;477;479;3FC;3FA;3F5;3EE;3E9;3FF;3EB;3EF"/>
+    <Car ID="402" CarName="Buffalo" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="10200000" isParkable="1" MinorColor="10" MajorColor="10" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="541" CarName="Bullet" Type="car" Dim.X="200" Dim.Y="440" Dim.Z="130" hHandling="204000" isParkable="1" MinorColor="51" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="482" CarName="Burrito" Type="car" Dim.X="230" Dim.Y="500" Dim.Z="230" hHandling="400000" isParkable="1" MinorColor="41" MajorColor="41"/>
+    <Car ID="431" CarName="Bus" Type="car" Dim.X="290" Dim.Y="800" Dim.Z="300" hHandling="0" isParkable="1" MinorColor="71" MajorColor="59"/>
+    <Car ID="438" CarName="Cabbie" Type="car" Dim.X="220" Dim.Y="500" Dim.Z="230" hHandling="0" isParkable="1" MinorColor="6" MajorColor="76" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="527" CarName="Cadrona" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="2" isParkable="1" MinorColor="52" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FD;3FC;3FA;3E9;3F6;3F7;3EF"/>
+    <Car ID="483" CarName="Camper" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="250" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="31"/>
+    <Car ID="548" CarName="Cargobob" Type="heli" Dim.X="450" Dim.Y="1000" Dim.Z="350" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="524" CarName="CementTruck" Type="car" Dim.X="250" Dim.Y="800" Dim.Z="350" hHandling="40200" isParkable="1" MinorColor="60" MajorColor="24"/>
+    <Car ID="415" CarName="Cheetah" Type="car" Dim.X="200" Dim.Y="450" Dim.Z="140" hHandling="208000" isParkable="1" MinorColor="20" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FB;3FA;3E9;3FF;3EB;3EF"/>
+    <Car ID="542" CarName="Clover" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="180" hHandling="10008004" isParkable="1" MinorColor="13" MajorColor="118" AllowedModifications="3F0;3F1;3F2;43E;43F;479;3FC;3FD;3FB;3FA;3F6;3F7"/>
+    <Car ID="589" CarName="Club" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="150" hHandling="C00000" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;479;3FC;3FA;400;3F5;3EE;3F8;3E8;3EF"/>
+    <Car ID="437" CarName="Coach" Type="car" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="200000" isParkable="1" MinorColor="54" MajorColor="7"/>
+    <Car ID="472" CarName="Coastguard" Type="boat" Dim.X="300" Dim.Y="750" Dim.Z="200" hHandling="0" isParkable="1" MinorColor="56" MajorColor="15"/>
+    <Car ID="532" CarName="CombineHarvester" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="20" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="480" CarName="Comet" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="160" hHandling="0" isParkable="1" MinorColor="73" MajorColor="45" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="523" CarName="Copbike" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="596" CarName="CopcarLA" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="10200008" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="599" CarName="CopcarRU" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="308800" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="597" CarName="CopcarSF" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="10200008" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="598" CarName="CopcarVG" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="10200008" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="512" CarName="Cropduster" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400020" isParkable="1" MinorColor="17" MajorColor="39"/>
+    <Car ID="578" CarName="DFT-30" Type="car" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="200" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="473" CarName="Dinghy" Type="boat" Dim.X="250" Dim.Y="400" Dim.Z="160" hHandling="0" isParkable="1" MinorColor="56" MajorColor="15"/>
+    <Car ID="593" CarName="Dodo" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400000" isParkable="1" MinorColor="51" MajorColor="1"/>
+    <Car ID="486" CarName="Dozer" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="340220" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="406" CarName="Dumper" Type="mtruck" Dim.X="800" Dim.Y="2000" Dim.Z="800" hHandling="1340201" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="573" CarName="Duner IDe" Type="mtruck" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="1300005" isParkable="1" MinorColor="91" MajorColor="38"/>
+    <Car ID="507" CarName="Elegant" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="10400000" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="562" CarName="Elegy" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="4000001" isParkable="1" MinorColor="36" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;40A;40D;493;494;47D;47C;40E;40B;47B;47A;40C;40F"/>
+    <Car ID="585" CarName="Emperor" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="400000" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;477;479;3FC;3FB;3FA;3F5;3EE;3E9;3FF;3EB;3EF"/>
+    <Car ID="427" CarName="Enforcer" Type="car" Dim.X="240" Dim.Y="680" Dim.Z="290" hHandling="0" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="419" CarName="Esperanto" Type="car" Dim.X="240" Dim.Y="500" Dim.Z="200" hHandling="10000000" isParkable="1" MinorColor="45" MajorColor="75" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="587" CarName="Euros" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="36" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="462" CarName="Faggio" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="12" MajorColor="12"/>
+    <Car ID="610" CarName="FarmTrailer" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="4" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="490" CarName="FBIRancher" Type="car" Dim.X="240" Dim.Y="570" Dim.Z="250" hHandling="500000" isParkable="1" MinorColor="0" MajorColor="0"/>
+    <Car ID="528" CarName="FBITruck" Type="car" Dim.X="240" Dim.Y="680" Dim.Z="290" hHandling="0" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="521" CarName="FCR900" Type="bike" Dim.X="120" Dim.Y="220" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="74" MajorColor="74"/>
+    <Car ID="533" CarName="Feltzer" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="73" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="544" CarName="Firetruck(LA)" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="0" isParkable="1" MinorColor="3" MajorColor="1"/>
+    <Car ID="407" CarName="Firetruck(SA)" Type="car" Dim.X="290" Dim.Y="770" Dim.Z="380" hHandling="0" isParkable="1" MinorColor="3" MajorColor="1"/>
+    <Car ID="565" CarName="Flash" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="150" hHandling="4000001" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;416;415;481;480;47E;47F;41D;41E;419;41A;417;418"/>
+    <Car ID="455" CarName="Flatbed" Type="car" Dim.X="310" Dim.Y="770" Dim.Z="410" hHandling="0" isParkable="1" MinorColor="84" MajorColor="15"/>
+    <Car ID="530" CarName="Forklift" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="1040024" isParkable="1" MinorColor="110" MajorColor="1"/>
+    <Car ID="526" CarName="Fortune" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="170" hHandling="4" isParkable="1" MinorColor="2" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="463" CarName="Freeway" Type="bike" Dim.X="110" Dim.Y="220" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="79" MajorColor="79"/>
+    <Car ID="590" CarName="Freibox(trainbox)" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="200" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="537" CarName="Freight(train)" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="200" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="569" CarName="Freightflat(trainbox)" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="200" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="466" CarName="Glendale" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="170" hHandling="10800002" isParkable="1" MinorColor="67" MajorColor="76" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="604" CarName="Glendale(Damaged)" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="10800002" isParkable="1" MinorColor="67" MajorColor="76"/>
+    <Car ID="571" CarName="GoKart" Type="car" Dim.X="200" Dim.Y="400" Dim.Z="180" hHandling="308201" isParkable="1" MinorColor="2" MajorColor="35"/>
+    <Car ID="457" CarName="GolfCaddy" Type="car" Dim.X="120" Dim.Y="180" Dim.Z="40" hHandling="8804" isParkable="1" MinorColor="58" MajorColor="1"/>
+    <Car ID="492" CarName="Greenwood" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="10000001" isParkable="1" MinorColor="30" MajorColor="26" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3EE;3F8;3E8"/>
+    <Car ID="474" CarName="Hermes" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="1" isParkable="1" MinorColor="97" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="588" CarName="HotdogVan" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="250" hHandling="201" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="434" CarName="Hotknife" Type="car" Dim.X="220" Dim.Y="550" Dim.Z="250" hHandling="8000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="494" CarName="Hotring" Type="car" Dim.X="230" Dim.Y="450" Dim.Z="130" hHandling="C00000" isParkable="1" MinorColor="36" MajorColor="117"/>
+    <Car ID="502" CarName="HotringA" Type="car" Dim.X="230" Dim.Y="450" Dim.Z="130" hHandling="C00000" isParkable="1" MinorColor="7" MajorColor="94"/>
+    <Car ID="503" CarName="HotringB" Type="car" Dim.X="230" Dim.Y="450" Dim.Z="130" hHandling="C00000" isParkable="1" MinorColor="83" MajorColor="66"/>
+    <Car ID="425" CarName="Hunter" Type="heli" Dim.X="400" Dim.Y="1000" Dim.Z="300" hHandling="400000" isParkable="1" MinorColor="43" MajorColor="0"/>
+    <Car ID="579" CarName="Huntley" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="4404" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="545" CarName="Hustler" Type="car" Dim.X="190" Dim.Y="480" Dim.Z="180" hHandling="800000" isParkable="1" MinorColor="50" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="520" CarName="Hydra" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="411" CarName="Infernus" Type="car" Dim.X="200" Dim.Y="440" Dim.Z="130" hHandling="C04000" isParkable="1" MinorColor="12" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="546" CarName="Intruder" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="140" hHandling="2" isParkable="1" MinorColor="62" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3EC;477;479;3FB;3FA;400;3EE;3EA;3E9;3FF;3EF"/>
+    <Car ID="559" CarName="Jester" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="160" hHandling="4000000" isParkable="1" MinorColor="51" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;429;42A;488;495;487;489;48A;486;42B;42C;42D;42E"/>
+    <Car ID="493" CarName="Jetmax" Type="boat" Dim.X="320" Dim.Y="1000" Dim.Z="220" hHandling="0" isParkable="1" MinorColor="36" MajorColor="13"/>
+    <Car ID="508" CarName="Journey" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="1" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="400" CarName="Landstalker" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="500002" isParkable="1" MinorColor="4" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3FA;3F5;400"/>
+    <Car ID="595" CarName="Launch" Type="boat" Dim.X="320" Dim.Y="1000" Dim.Z="220" hHandling="0" isParkable="1" MinorColor="112" MajorColor="20"/>
+    <Car ID="417" CarName="Leviathan" Type="heli" Dim.X="400" Dim.Y="1000" Dim.Z="300" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="403" CarName="Linerunner" Type="car" Dim.X="260" Dim.Y="750" Dim.Z="350" hHandling="200" isParkable="1" MinorColor="36" MajorColor="1"/>
+    <Car ID="517" CarName="Majestic" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="10400000" isParkable="1" MinorColor="37" MajorColor="36" AllowedModifications="3F0;3F1;3F2;43E;43F;477;479;3FC;3FB;3FA;3EA;3FF;3F8;3EB;3EF"/>
+    <Car ID="410" CarName="Manana" Type="car" Dim.X="200" Dim.Y="450" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="4" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FB;3FD;3FC;3F5;400;3E9;3FF;3EB;3EF"/>
+    <Car ID="484" CarName="Marqu is" Type="boat" Dim.X="350" Dim.Y="1900" Dim.Z="400" hHandling="0" isParkable="1" MinorColor="12" MajorColor="35"/>
+    <Car ID="487" CarName="Maverick" Type="heli" Dim.X="400" Dim.Y="900" Dim.Z="350" hHandling="400000" isParkable="1" MinorColor="26" MajorColor="14"/>
+    <Car ID="551" CarName="Merit" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="400001" isParkable="1" MinorColor="67" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3FC;3FD;3FB;3FA;3EE;3EA;3FF;3F8;3EB"/>
+    <Car ID="500" CarName="Mesa" Type="car" Dim.X="200" Dim.Y="350" Dim.Z="220" hHandling="0" isParkable="1" MinorColor="75" MajorColor="84" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3F5;400"/>
+    <Car ID="556" CarName="MonsterA" Type="mtruck" Dim.X="210" Dim.Y="560" Dim.Z="300" hHandling="1300045" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="557" CarName="MonsterB" Type="mtruck" Dim.X="210" Dim.Y="560" Dim.Z="300" hHandling="1300045" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="444" CarName="MonsterTruck" Type="mtruck" Dim.X="210" Dim.Y="560" Dim.Z="300" hHandling="1300045" isParkable="1" MinorColor="32" MajorColor="36"/>
+    <Car ID="418" CarName="Moonbeam" Type="car" Dim.X="220" Dim.Y="550" Dim.Z="250" hHandling="0" isParkable="1" MinorColor="119" MajorColor="119" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3EE;3EA;3F8"/>
+    <Car ID="510" CarName="MountainBike" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="2" isParkable="1" MinorColor="43" MajorColor="43"/>
+    <Car ID="572" CarName="Mower" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="1308001" isParkable="1" MinorColor="94" MajorColor="1"/>
+    <Car ID="423" CarName="MrWhooper" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="250" hHandling="2" isParkable="1" MinorColor="1" MajorColor="16"/>
+    <Car ID="414" CarName="Mule" Type="car" Dim.X="230" Dim.Y="650" Dim.Z="330" hHandling="0" isParkable="1" MinorColor="25" MajorColor="1"/>
+    <Car ID="516" CarName="Nebula" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="400000" isParkable="1" MinorColor="116" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3EC;3FC;3FD;3FB;3FA;3EA;3F7;3F8;3E8;3EF"/>
+    <Car ID="553" CarName="Nevada" Type="plane" Dim.X="800" Dim.Y="2000" Dim.Z="220" hHandling="400020" isParkable="1" MinorColor="38" MajorColor="9"/>
+    <Car ID="582" CarName="NewsVan" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="250" hHandling="2" isParkable="1" MinorColor="41" MajorColor="10"/>
+    <Car ID="522" CarName="NRG500" Type="bike" Dim.X="120" Dim.Y="220" Dim.Z="150" hHandling="2" isParkable="1" MinorColor="3" MajorColor="3"/>
+    <Car ID="467" CarName="Oceanic" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="170" hHandling="10800000" isParkable="1" MinorColor="51" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="443" CarName="Packer" Type="car" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="440000" isParkable="1" MinorColor="4" MajorColor="1"/>
+    <Car ID="470" CarName="Patriot" Type="car" Dim.X="240" Dim.Y="570" Dim.Z="220" hHandling="300000" isParkable="1" MinorColor="43" MajorColor="0"/>
+    <Car ID="461" CarName="Pcj600" Type="bike" Dim.X="80" Dim.Y="180" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="36" MajorColor="1"/>
+    <Car ID="404" CarName="Perennial" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="113" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3F5;3EA;3F8;3E8;3EF"/>
+    <Car ID="514" CarName="Petro" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="1000001" isParkable="1" MinorColor="10" MajorColor="1"/>
+    <Car ID="584" CarName="PetrolTrailer" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="0000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="603" CarName="Pheonix" Type="car" Dim.X="230" Dim.Y="450" Dim.Z="160" hHandling="200000" isParkable="1" MinorColor="58" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;479;477;3FC;3FB;3FA;400;3EE;3E9;3FF;3EF"/>
+    <Car ID="600" CarName="Picador" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="104004" isParkable="1" MinorColor="81" MajorColor="8" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3FC;3FE;3FA;3F5;3EE;3EF"/>
+    <Car ID="448" CarName="Pizzaboy" Type="bike" Dim.X="110" Dim.Y="170" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="3" MajorColor="6"/>
+    <Car ID="497" CarName="PoliceMaverick" Type="heli" Dim.X="400" Dim.Y="900" Dim.Z="350" hHandling="400000" isParkable="1" MinorColor="0" MajorColor="1"/>
+    <Car ID="413" CarName="Pony" Type="car" Dim.X="200" Dim.Y="600" Dim.Z="260" hHandling="1" isParkable="1" MinorColor="87" MajorColor="1"/>
+    <Car ID="430" CarName="Predator" Type="boat" Dim.X="400" Dim.Y="1200" Dim.Z="300" hHandling="0" isParkable="1" MinorColor="46" MajorColor="26"/>
+    <Car ID="426" CarName="Premier" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="10200008" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3FD;3FB;3EE;3E9;3EB"/>
+    <Car ID="436" CarName="Previon" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="83" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FE;3FB;3F5;3EE;3E9;3EB;3EF"/>
+    <Car ID="547" CarName="Primo" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="122" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;477;3FC;3FD;3FB;3FA;3F8;3EB;3E8"/>
+    <Car ID="471" CarName="Quad" Type="car" Dim.X="180" Dim.Y="220" Dim.Z="180" hHandling="205" isParkable="1" MinorColor="120" MajorColor="117"/>
+    <Car ID="563" CarName="Raindancer" Type="heli" Dim.X="450" Dim.Y="1000" Dim.Z="350" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="6"/>
+    <Car ID="489" CarName="Rancher" Type="car" Dim.X="250" Dim.Y="550" Dim.Z="260" hHandling="100004" isParkable="1" MinorColor="13" MajorColor="118" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3FC;3FB;3FA;3F5;400;3EE;3EA;3F8;3E8"/>
+    <Car ID="505" CarName="RancherLure" Type="car" Dim.X="240" Dim.Y="570" Dim.Z="250" hHandling="100004" isParkable="1" MinorColor="13" MajorColor="118"/>
+    <Car ID="441" CarName="RcBandit" Type="car" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="0" isParkable="0" MinorColor="2" MajorColor="96"/>
+    <Car ID="464" CarName="RcBaron" Type="plane" Dim.X="80" Dim.Y="100" Dim.Z="20" hHandling="20" isParkable="0" MinorColor="14" MajorColor="75"/>
+    <Car ID="594" CarName="RcCam" Type="car" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="1000000" isParkable="0" MinorColor="14" MajorColor="75"/>
+    <Car ID="501" CarName="RcGoblin" Type="heli" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="0" isParkable="0" MinorColor="14" MajorColor="75"/>
+    <Car ID="465" CarName="RcRa IDer" Type="heli" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="0" isParkable="0" MinorColor="14" MajorColor="75"/>
+    <Car ID="564" CarName="RcTiger" Type="car" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="40" isParkable="0" MinorColor="14" MajorColor="75"/>
+    <Car ID="453" CarName="Reefer" Type="boat" Dim.X="350" Dim.Y="700" Dim.Z="400" hHandling="0" isParkable="1" MinorColor="56" MajorColor="56"/>
+    <Car ID="479" CarName="Regina" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="170" hHandling="1" isParkable="1" MinorColor="27" MajorColor="36" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="534" CarName="Remington" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="2410000" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;466;467;49B;4A1;44C;463;465;49C;49A;462;452"/>
+    <Car ID="432" CarName="Rhino(Tank)" Type="car" Dim.X="350" Dim.Y="800" Dim.Z="380" hHandling="308840" isParkable="1" MinorColor="43" MajorColor="0"/>
+    <Car ID="515" CarName="RoadTrain" Type="car" Dim.X="80" Dim.Y="150" Dim.Z="100" hHandling="200" isParkable="1" MinorColor="13" MajorColor="76"/>
+    <Car ID="442" CarName="Romero" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="0" MajorColor="0" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="440" CarName="Rumpo" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="210" hHandling="0" isParkable="1" MinorColor="34" MajorColor="34"/>
+    <Car ID="476" CarName="Rustler" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400020" isParkable="1" MinorColor="6" MajorColor="7"/>
+    <Car ID="601" CarName="S.W.A.T.Tank" Type="car" Dim.X="240" Dim.Y="680" Dim.Z="290" hHandling="1000000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="475" CarName="Sabre" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="190" hHandling="10000006" isParkable="1" MinorColor="2" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="543" CarName="Sadler" Type="car" Dim.X="200" Dim.Y="470" Dim.Z="200" hHandling="104004" isParkable="1" MinorColor="76" MajorColor="8"/>
+    <Car ID="605" CarName="Sadler(Damaged)" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="200" hHandling="104004" isParkable="1" MinorColor="61" MajorColor="8"/>
+    <Car ID="468" CarName="Sanchez" Type="bike" Dim.X="120" Dim.Y="220" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="6" MajorColor="6"/>
+    <Car ID="495" CarName="Sandking" Type="car" Dim.X="240" Dim.Y="570" Dim.Z="220" hHandling="318800" isParkable="1" MinorColor="123" MajorColor="124"/>
+    <Car ID="567" CarName="Savanna" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="2010000" isParkable="1" MinorColor="97" MajorColor="96" AllowedModifications="3F0;3F1;3F2;43E;43F;469;46C;4A5;4A4;4A3;4A2;46A;46B;46D"/>
+    <Car ID="447" CarName="Seasparrow" Type="heli" Dim.X="400" Dim.Y="800" Dim.Z="300" hHandling="400000" isParkable="1" MinorColor="75" MajorColor="2"/>
+    <Car ID="428" CarName="Securicar" Type="car" Dim.X="260" Dim.Y="680" Dim.Z="330" hHandling="4" isParkable="1" MinorColor="4" MajorColor="75"/>
+    <Car ID="405" CarName="Sentinel" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="400000" isParkable="1" MinorColor="11" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3FA;3E9;3F6;3FF;3E8"/>
+    <Car ID="519" CarName="Shamal" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="460" CarName="Skimmer" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="0" isParkable="1" MinorColor="1" MajorColor="3"/>
+    <Car ID="535" CarName="Slamvan" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="220" hHandling="2010000" isParkable="1" MinorColor="3" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;455;456;459;45A;45B;45C;45D;45E;45F"/>
+    <Car ID="458" CarName="Solair" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="91" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="469" CarName="Sparrow" Type="heli" Dim.X="400" Dim.Y="800" Dim.Z="300" hHandling="400000" isParkable="1" MinorColor="1" MajorColor="3"/>
+    <Car ID="452" CarName="Speeder" Type="boat" Dim.X="320" Dim.Y="1000" Dim.Z="220" hHandling="0" isParkable="1" MinorColor="1" MajorColor="3"/>
+    <Car ID="446" CarName="Squalo" Type="boat" Dim.X="400" Dim.Y="1200" Dim.Z="300" hHandling="0" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="580" CarName="Stafford" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="400000" isParkable="1" MinorColor="92" MajorColor="92" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FA;3EE;3E9;3FF;3EF"/>
+    <Car ID="439" CarName="Stallion" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="180" hHandling="4" isParkable="1" MinorColor="57" MajorColor="8" AllowedModifications="3F0;3F1;3F2;43E;43F;3EB;3FF;3E9;3EF;477;479;3F5"/>
+    <Car ID="561" CarName="Stratum" Type="car" Dim.X="190" Dim.Y="500" Dim.Z="140" hHandling="4000000" isParkable="1" MinorColor="57" MajorColor="8" AllowedModifications="3F0;3F1;3F2;43E;43F;428;423;483;485;482;484;41F;425;422;424;420;421"/>
+    <Car ID="538" CarName="Streak(train)" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="200" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="570" CarName="Streakconvoy" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="200" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="409" CarName="Stretch" Type="car" Dim.X="200" Dim.Y="730" Dim.Z="130" hHandling="10400001" isParkable="1" MinorColor="1" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="513" CarName="Stuntplane" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400020" isParkable="1" MinorColor="38" MajorColor="51"/>
+    <Car ID="560" CarName="Sultan" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="4000002" isParkable="1" MinorColor="52" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F;404;405;491;492;475;474;408;409;472;473;402;407"/>
+    <Car ID="550" CarName="Sunr ise" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="1" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;477;479;3FC;3FB;3FA;3EE;3E9;3FF;3EB"/>
+    <Car ID="506" CarName="SuperGT" Type="car" Dim.X="210" Dim.Y="520" Dim.Z="160" hHandling="208000" isParkable="1" MinorColor="3" MajorColor="3" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="574" CarName="Sweeper" Type="car" Dim.X="200" Dim.Y="350" Dim.Z="280" hHandling="1308201" isParkable="1" MinorColor="26" MajorColor="26"/>
+    <Car ID="566" CarName="Tahoma" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="12010000" isParkable="1" MinorColor="109" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="549" CarName="Tampa" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="180" hHandling="4" isParkable="1" MinorColor="74" MajorColor="39" AllowedModifications="3F0;3F1;3F2;43E;43F;3F4;3F3;477;479;3FC;3FB;3FA;3E9;3FF;3EB;3EF"/>
+    <Car ID="420" CarName="Taxi" Type="car" Dim.X="210" Dim.Y="540" Dim.Z="160" hHandling="200000" isParkable="1" MinorColor="6" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3FD;3FB;3E9;3EB"/>
+    <Car ID="459" CarName="Topfun" Type="car" Dim.X="200" Dim.Y="600" Dim.Z="260" hHandling="1" isParkable="1" MinorColor="26" MajorColor="26"/>
+    <Car ID="576" CarName="Tornado" Type="car" Dim.X="200" Dim.Y="470" Dim.Z="190" hHandling="2010000" isParkable="1" MinorColor="67" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;470;46F;4A7;4A6;4A8;4A9;46E"/>
+    <Car ID="525" CarName="Towtruck" Type="car" Dim.X="200" Dim.Y="500" Dim.Z="220" hHandling="1148200" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="531" CarName="Tractor" Type="car" Dim.X="190" Dim.Y="350" Dim.Z="180" hHandling="1340005" isParkable="1" MinorColor="2" MajorColor="35"/>
+    <Car ID="449" CarName="Tram" Type="train" Dim.X="250" Dim.Y="770" Dim.Z="290" hHandling="400000" isParkable="0" MinorColor="1" MajorColor="1"/>
+    <Car ID="408" CarName="Trashmaster" Type="car" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="200" isParkable="1" MinorColor="26" MajorColor="26"/>
+    <Car ID="454" CarName="Tropic" Type="boat" Dim.X="400" Dim.Y="1200" Dim.Z="300" hHandling="0" isParkable="1" MinorColor="26" MajorColor="26"/>
+    <Car ID="583" CarName="Tug" Type="car" Dim.X="200" Dim.Y="350" Dim.Z="280" hHandling="308200" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="608" CarName="TugstairTrailer" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="4" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="451" CarName="Tur ismo" Type="car" Dim.X="210" Dim.Y="520" Dim.Z="160" hHandling="C08401" isParkable="1" MinorColor="123" MajorColor="123" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="558" CarName="Uranus" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="4000001" isParkable="1" MinorColor="112" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;444;441;48E;48D;490;48F;440;443;48C;48B;442;445"/>
+    <Car ID="611" CarName="UtililtyTrailer" Type="trailer" Dim.X="290" Dim.Y="800" Dim.Z="360" hHandling="4" isParkable="1" MinorColor="1" MajorColor="1"/>
+    <Car ID="552" CarName="UtilityVan" Type="car" Dim.X="230" Dim.Y="650" Dim.Z="330" hHandling="0" isParkable="1" MinorColor="56" MajorColor="56"/>
+    <Car ID="488" CarName="VcnMaverick" Type="heli" Dim.X="400" Dim.Y="900" Dim.Z="350" hHandling="400000" isParkable="1" MinorColor="2" MajorColor="26"/>
+    <Car ID="540" CarName="Vincent" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="150" hHandling="2" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3EC;477;479;3FC;3FB;3FA;400;3EE;3E9;3FF;3EF"/>
+    <Car ID="491" CarName="Virgo" Type="car" Dim.X="200" Dim.Y="450" Dim.Z="150" hHandling="10000000" isParkable="1" MinorColor="40" MajorColor="65" AllowedModifications="3F0;3F1;3F2;43E;43F;477;479;3FC;3FD;3FB;3FA;3F6;3FF;3EB;3EF"/>
+    <Car ID="412" CarName="Voodoo" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="180" hHandling="2410008" isParkable="1" MinorColor="9" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="539" CarName="Vortex" Type="plane" Dim.X="400" Dim.Y="1000" Dim.Z="120" hHandling="400040" isParkable="1" MinorColor="96" MajorColor="67"/>
+    <Car ID="478" CarName="Walton" Type="car" Dim.X="210" Dim.Y="500" Dim.Z="210" hHandling="10000006" isParkable="1" MinorColor="72" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3ED;3EC;3F4;3FC;3FD;3FE;3F5;400"/>
+    <Car ID="421" CarName="Washington" Type="car" Dim.X="200" Dim.Y="490" Dim.Z="160" hHandling="10400000" isParkable="1" MinorColor="4" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3FA;3F6;3FF;3F8;3E8"/>
+    <Car ID="586" CarName="Wayfarer" Type="bike" Dim.X="120" Dim.Y="220" Dim.Z="150" hHandling="0" isParkable="1" MinorColor="119" MajorColor="1"/>
+    <Car ID="529" CarName="Willard" Type="car" Dim.X="190" Dim.Y="490" Dim.Z="140" hHandling="0" isParkable="1" MinorColor="37" MajorColor="37" AllowedModifications="3F0;3F1;3F2;43E;43F;3F4;3F3;3FC;3FB;3FA;3EE;3E9;3FF;3EB;3EF"/>
+    <Car ID="555" CarName="Windsor" Type="car" Dim.X="190" Dim.Y="470" Dim.Z="160" hHandling="0" isParkable="1" MinorColor="51" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F"/>
+    <Car ID="456" CarName="Yankee" Type="car" Dim.X="240" Dim.Y="650" Dim.Z="380" hHandling="1" isParkable="1" MinorColor="84" MajorColor="63"/>
+    <Car ID="554" CarName="Yosemite" Type="car" Dim.X="230" Dim.Y="650" Dim.Z="330" hHandling="504400" isParkable="1" MinorColor="53" MajorColor="32"/>
+    <Car ID="477" CarName="ZR350" Type="car" Dim.X="240" Dim.Y="520" Dim.Z="180" hHandling="C00000" isParkable="1" MinorColor="92" MajorColor="1" AllowedModifications="3F0;3F1;3F2;43E;43F;3FC;3FD;3FB;3FA;3EE;3EF"/>
+</Cars>

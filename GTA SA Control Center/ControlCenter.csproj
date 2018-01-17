@@ -153,14 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\Accept16.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Data\GTASACars.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\Data\GTASAColors.xml">
       <SubType>Designer</SubType>
     </Resource>
+    <Resource Include="Resources\Data\GTASAShortcuts.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj">
@@ -175,6 +172,12 @@
       <Project>{044fcebb-e35c-42fc-93eb-1c98e902dc50}</Project>
       <Name>ControlCenter.VehicleAndGameData</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Data\GTASACarPics.xml" />
+    <Resource Include="Resources\Data\GTASACarTypes.xml" />
+    <Resource Include="Resources\Data\GTASACheats.xml" />
+    <Resource Include="Resources\Data\GTASALocations.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

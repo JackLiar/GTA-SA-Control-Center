@@ -18,8 +18,7 @@ namespace ControlCenter
 
         protected override async void InitializeShell()
         {
-            // check config files and data files
-            await Task.Run(() => CheckPrerequisite());
+            await Task.Run(() => Prerequisite.Check());
 
             Application.Current.MainWindow?.Show();
         }

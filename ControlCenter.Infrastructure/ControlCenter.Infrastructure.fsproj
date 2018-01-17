@@ -53,13 +53,16 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="GlobalVariables.fs" />
-    <Compile Include="CheckPrerequisite.fs" />
-    <None Include="Script1.fsx" />
-    <Content Include="packages.config" />
     <EmbeddedResource Include="Resources.resx" />
+    <Content Include="packages.config" />
+    <Compile Include="GlobalVariables.fs" />
+    <Compile Include="Prerequisite.fs" />
+    <None Include="Script1.fsx" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="FSharp.Core">
       <Name>FSharp.Core</Name>
@@ -68,11 +71,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple">
       <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,4 +1,5 @@
 ﻿namespace ControlCenter.Infrastructure
+
 open System
 open System.Collections.ObjectModel
 
@@ -150,10 +151,7 @@ type GTASAGarageDimensions() =
     member this.lngLookLeft :  int64 = 0L
     member this.lngLookFrontLeft :  int64 = 0L
 
-type GTASAColor() = 
-    member this.lngRGB :  int64 = 0L
-    member this.intColorCode :  int = 0
-    member this.strDescription :  string = "'"
+type GTASAColor = { Rgb : int; ColorCode : int; Description : string}
 
 type GTASACarParking() =  //Array Ordinal as CarCode (from 400 to 611), and 399 as (none)
     member this.strCarName :  string = ""
@@ -343,3 +341,52 @@ type WarpLocs() =
     member this.GetLocation index =
         let locs = this.LocData.Split(';')
         locs.[index]
+
+module GlobalVariables =
+    open System.Collections
+    open System.Globalization
+    open System.IO
+    open System.Linq
+    open System.Reflection
+    open System.Resources
+    open System.Text
+    open System.Xml
+
+    /// Get specific resource from dll's resource
+    let GetResource =
+        let rm = ResourceManager("ControlCenter.Infrastructure.Resources", Assembly.GetExecutingAssembly())
+        let resourceSet = rm.GetResourceSet(CultureInfo.CurrentUICulture, true, true) :> IEnumerable
+        fun name -> resourceSet.Cast<DictionaryEntry>().FirstOrDefault(fun r -> (string)r.Key = name).Value
+
+    /// Get Colors from GTASAColors.xml
+    let ParseColors() =
+
+        let mutable result : GTASAColor list = []
+
+        /// Convert rgb vector string to long int
+        let RgbString2RbgLong (rgbStr: string) =
+            let _sb = new StringBuilder()
+            rgbStr.Split(',')
+                |> Array.map Int32.Parse
+                |> Array.map (fun i -> i.ToString("X2"))
+                |> Array.iter (fun s -> _sb.Append(s) |> ignore)
+            Convert.ToInt32(_sb.ToString(), 16)
+        
+        // Open the .xml file and generate a GTASAColor list
+        try
+            let doc = new XmlDocument()
+            doc.Load(".\GTASAColors.xml")
+            doc.SelectSingleNode("Colors").ChildNodes.Cast<XmlNode>()
+                |> Seq.iter (fun n ->
+                    let color = { Rgb = RgbString2RbgLong n.Attributes.["Rgb"].Value;
+                        ColorCode = Int32.Parse n.Attributes.["Id"].Value;
+                        Description = n.Attributes.["ToolTip"].Value}
+                    result <- color :: result)
+        with
+            | :? FileNotFoundException as e ->
+                let xml = GetResource "GTASAColors" :?> string
+                File.WriteAllText(".\GTASAColors.xml", xml)
+            | _ as e -> printfn "%A" e
+        result.Reverse().ToArray()
+
+    let GTASAColors : GTASAColor array = [||]

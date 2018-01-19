@@ -1,0 +1,67 @@
+﻿<UserControl x:Class="ControlCenter.PlayerData.Views.CurrentPlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="300">
+    <UserControl.Resources>
+    <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="3,3,3,3"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <CheckBox>
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="Checked"/>
+                            <i:EventTrigger EventName="UnChecked"/>
+                        </i:Interaction.Triggers>
+                        <ContentPresenter Content="{TemplateBinding ContentControl.Content}"/>
+                    </CheckBox>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    </UserControl.Resources>
+    <GroupBox Header="Current Player">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <CheckBox Style="{StaticResource CheckBoxStyle}" HorizontalAlignment="Left" Content="Prevent Player taking damage from:" IsChecked="{Binding IsPreventDamageEnabled}" ToolTip="Check to Lock Selected Car Specialities"/>
+            <DockPanel Grid.Row="1" HorizontalAlignment="Right" Margin="15,0,0,0">
+                <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Explosion" IsChecked="{Binding IsExplosionEnabled}"/>
+                <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Collision" IsChecked="{Binding IsCollisionEnabled}"/>
+                <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Bullet" IsChecked="{Binding IsBulletEnabled}"/>
+                <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Fire" IsChecked="{Binding IsFireEnabled}"/>
+            </DockPanel>
+            <inf:StatBarChk x:Name="AmorLevelChkBox" Grid.Row="2" CheckBoxContent="Current Amor Level:" ButtonContent="400"/>
+            <inf:StatBarChk x:Name="HealthLevelChkBox" Grid.Row="3" CheckBoxContent="Current Health Level:" ButtonContent="400"/>
+            <inf:StatBarChk x:Name="FatStatChkBox" Grid.Row="4" CheckBoxContent="Current Fat Stat" ButtonContent="0"/>
+            <inf:StatBarChk x:Name="StaminaStatChkBox" Grid.Row="5" CheckBoxContent="Current Stamina Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="MuscleStatChkBox" Grid.Row="6" CheckBoxContent="Current Muscle Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="LungCapacityChkBox" Grid.Row="7" CheckBoxContent="Current Lung Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="GamblingStatChkBox" Grid.Row="8" CheckBoxContent="Current Gambling Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="DrivingStatChkBox" Grid.Row="9" CheckBoxContent="Current Driving Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="BikingStatChkBox" Grid.Row="10" CheckBoxContent="Current Biking Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="CyclingStatChkBox" Grid.Row="11" CheckBoxContent="Current Cycling Stat" ButtonContent="Max"/>
+            <inf:StatBarChk x:Name="PilotStatChkBox" Grid.Row="12" CheckBoxContent="Current Pilot Stat" ButtonContent="Max"/>
+        </Grid>
+    </GroupBox>
+</UserControl>

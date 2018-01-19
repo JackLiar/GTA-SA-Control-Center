@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ControlCenter.PlayerData.Views.PlayerSpeed"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="235">
+    <GroupBox Header="Player Speed:">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="3,3,3,3">
+                <inf:Direction Title="Ped Direction" Text="Set Direction"/>
+                <inf:Direction Title="Kick Start" Text="Kick Start"/>
+                <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Center" Height="115"/>
+            </StackPanel>
+            <Button Grid.Row="1" Content="Stop All Speed(Freeze Player)" Margin="3,3,3,3"/>
+            <Grid Grid.Row="2" Margin="3,3,3,3">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <inf:StatBarTxt Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop"/>
+                <inf:StatBarTxt Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop"/>
+                <inf:StatBarTxt Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop"/>
+            </Grid>
+        </Grid>
+    </GroupBox>
+</UserControl>

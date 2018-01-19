@@ -157,6 +157,10 @@
       <Project>{55bc680f-9c89-4d07-8611-b84b5af5bc1e}</Project>
       <Name>ControlCenter.Infrastructure</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ControlCenter.PlayerData\ControlCenter.PlayerData.csproj">
+      <Project>{f38d2ae2-dba8-417a-bb4e-ec1f04cdae11}</Project>
+      <Name>ControlCenter.PlayerData</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj">
       <Project>{044fcebb-e35c-42fc-93eb-1c98e902dc50}</Project>
       <Name>ControlCenter.VehicleAndGameData</Name>

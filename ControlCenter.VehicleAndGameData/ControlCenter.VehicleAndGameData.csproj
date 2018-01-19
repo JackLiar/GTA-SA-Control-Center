@@ -80,8 +80,17 @@
     <Compile Include="Views\CarSpwan.xaml.cs">
       <DependentUpon>CarSpwan.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CarStatus.xaml.cs">
+      <DependentUpon>CarStatus.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\CurrentCar.xaml.cs">
       <DependentUpon>CurrentCar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GameData.xaml.cs">
+      <DependentUpon>GameData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GirlFriend.xaml.cs">
+      <DependentUpon>GirlFriend.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
@@ -96,9 +105,21 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\CarStatus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\CurrentCar.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\GameData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GirlFriend.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Main.xaml">
       <SubType>Designer</SubType>

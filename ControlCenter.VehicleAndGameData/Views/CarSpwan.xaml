@@ -4,18 +4,27 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d">
-    <Grid>
-        <GroupBox Header="Car Spwan:" Width="Auto">
-            <StackPanel Margin="0,3,0,3">
-                <Button Height="30" Content="Auto-inject Spawner Code If possible"></Button>
-                <Button Height="30" Content="Spawner Code-Injection Status:(unknown)"></Button>
-                <Button Height="30" Content="Spawn selected Vehicle(?Jacob)"></Button>
-                <TextBlock Margin="0,3,0,3">Vehicle Selection:</TextBlock>
-                <DockPanel>
-                    <ComboBox Width="205"></ComboBox>
-                    <Button Width="50">Pick</Button>
-                </DockPanel>
-            </StackPanel>
-        </GroupBox>
-    </Grid>
+    <GroupBox Header="Car Spwan:" Width="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Height="30" Content="Auto-inject Spawner Code If possible"/>
+            <Button Grid.Row="1" Height="30" Content="Spawner Code-Injection Status:(unknown)"/>
+            <Button Grid.Row="2" Height="30" Content="Spawn selected Vehicle(?Jacob)"/>
+            <TextBlock Grid.Row="3" Margin="0,3,0,3">Vehicle Selection:</TextBlock>
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox Width="205" HorizontalAlignment="Left"/>
+                <Button Grid.Column="1" HorizontalAlignment="Right" Width="50" Content="Pick"/>
+            </Grid>
+        </Grid>
+    </GroupBox>
 </UserControl>

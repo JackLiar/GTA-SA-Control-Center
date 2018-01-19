@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="ControlCenter.VehicleAndGameData.Views.GameData"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <GroupBox Header="GameData">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Height="30" Content="Re:sync to GTA SA"/>
+            <Button Grid.Row="1" Height="30" Content="Set Money"/>
+            <Button Grid.Row="2" Height="30" Content="Clear Cheated &quot;Status&quot; and &quot;Count&quot;"/>
+            <inf:StatBarTxt Grid.Row="3" TextBlockText="Game Time:"/>
+            <inf:StatBarTxt Grid.Row="4" TextBlockText="Clock Speed:"/>
+            <inf:StatBarTxt Grid.Row="5" TextBlockText="Game Speed:"/>
+            <TextBlock Grid.Row="6" Margin="0,3,0,3" Text="Current Weather"/>
+            <Grid Grid.Row="7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox VerticalAlignment="Center"></CheckBox>
+                <ComboBox Grid.Column="1" Width="205" HorizontalAlignment="Right"/>
+            </Grid>
+        </Grid>
+    </GroupBox>
+</UserControl>
+

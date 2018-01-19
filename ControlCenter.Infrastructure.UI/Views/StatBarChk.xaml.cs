@@ -6,9 +6,9 @@ namespace ControlCenter.Infrastructure.UI.Views
     /// <summary>
     ///     Interaction logic for SpeedAndSpinScrollBar.xaml
     /// </summary>
-    public partial class StatBar : UserControl
+    public partial class StatBarChk : UserControl
     {
-        public StatBar()
+        public StatBarChk()
         {
             InitializeComponent();
             _sb = new StringBuilder();
@@ -22,8 +22,8 @@ namespace ControlCenter.Infrastructure.UI.Views
 
         public string CheckBoxContent
         {
-            get => CheckBox.Content + $"({ScrollBar.Value}%)";
-            set => CheckBox.Content = value + $"({ScrollBar.Value}%)";
+            get => CheckBox.Content.ToString();
+            set => CheckBox.Content = value;
         }
 
         public string ButtonContent

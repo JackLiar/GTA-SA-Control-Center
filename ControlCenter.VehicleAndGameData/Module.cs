@@ -40,6 +40,9 @@ namespace ControlCenter.VehicleAndGameData
             _regionManager.RegisterViewWithRegion(Infrastructure.UI.Constants.RegionNames.VehicleAndGameDataRegion, typeof(Main));
             _regionManager.RegisterViewWithRegion(RegionNames.CarSpawnRegion, typeof(CarSpwan));
             _regionManager.RegisterViewWithRegion(RegionNames.CurretCarRegion, typeof(CurrentCar));
+            _regionManager.RegisterViewWithRegion(RegionNames.CarStatusRegion, typeof(CarStatus));
+            _regionManager.RegisterViewWithRegion(RegionNames.GameDataRegion, typeof(GameData));
+            _regionManager.RegisterViewWithRegion(RegionNames.GirlFriendRegion, typeof(GirlFriend));
         }
 
         #endregion

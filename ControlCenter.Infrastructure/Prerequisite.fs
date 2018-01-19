@@ -14,7 +14,7 @@ module Prerequisite =
 
     /// Get specific resources from resource
     let internal GetResource =
-        let rm = ResourceManager("ControlCenter.Infrastructure.Resources", Assembly.GetExecutingAssembly())
+        let rm = ResourceManager("Resources", Assembly.GetExecutingAssembly())
         let resourceSet = rm.GetResourceSet(CultureInfo.CurrentUICulture, true, true) :> IEnumerable
         fun name -> resourceSet.Cast<DictionaryEntry>().FirstOrDefault(fun r -> (string)r.Key = name).Value
 

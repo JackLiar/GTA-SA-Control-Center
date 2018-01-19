@@ -9,12 +9,13 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ControlCenter.Infrastructure</RootNamespace>
     <AssemblyName>ControlCenter.Infrastructure</AssemblyName>
-    <UseStandardResourceNames>True</UseStandardResourceNames>
+    <UseStandardResourceNames>False</UseStandardResourceNames>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Name>ControlCenter.Infrastructure</Name>
-    <Win32Resource>D:\Documents\Code\Github\JackWzh\GTA SA Control Center\GTASAConsole_vb_src\GTASAConsole.res</Win32Resource>
+    <Win32Resource>
+    </Win32Resource>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

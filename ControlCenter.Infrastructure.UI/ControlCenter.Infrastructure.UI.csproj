@@ -87,8 +87,11 @@
     <Compile Include="Views\SpeedSpinBar.xaml.cs">
       <DependentUpon>SpeedSpinBar.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\StatBar.xaml.cs">
-      <DependentUpon>StatBar.xaml</DependentUpon>
+    <Compile Include="Views\StatBarTxt.xaml.cs">
+      <DependentUpon>StatBarTxt.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StatBarChk.xaml.cs">
+      <DependentUpon>StatBarChk.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -108,7 +111,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\StatBar.xaml">
+    <Page Include="Views\StatBarTxt.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\StatBarChk.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

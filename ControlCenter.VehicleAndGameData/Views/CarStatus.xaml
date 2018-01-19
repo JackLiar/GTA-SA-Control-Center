@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="ControlCenter.VehicleAndGameData.Views.CarStatus"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:prism="http://prismlibrary.com/"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="235">
+    <Grid>
+        <GroupBox Header="Car Status:">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" Margin="3,3,3,3">
+                    <inf:Direction Title="Car Direction" Text="Set Direction"/>
+                    <inf:Direction Title="Kick Start" Text="Kick Start"/>
+                    <ScrollBar HorizontalAlignment="Right" VerticalAlignment="Center" Height="115"/>
+                </StackPanel>
+                <Grid Grid.Row="1" Margin="3,3,3,3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="30"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Flip Over" Width="100"/>
+                    <Button Grid.Row="0" Grid.Column="1" Content="Freeze Car" Width="119"/>
+                    <Button Grid.Row="1" Grid.Column="0" Content="Stop All Speed" Width="100"/>
+                    <Button Grid.Row="1" Grid.Column="1" Content="Stop All Spin" Width="119"/>
+                    <Button Grid.Row="2" Grid.Column="0" Content="do not Buren" Width="100"/>
+                    <Button Grid.Row="2" Grid.Column="1" Content="do not Explode" Width="119"/>
+                </Grid>
+                <Grid Grid.Row="2" Margin="3,3,3,3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <inf:StatBarTxt Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop"/>
+                    <inf:StatBarTxt Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop"/>
+                    <inf:StatBarTxt Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop"/>
+                    <inf:StatBarTxt Grid.Row="3" TextBlockText="X Spin" ButtonContent="Stop"/>
+                    <inf:StatBarTxt Grid.Row="4" TextBlockText="Y Spin" ButtonContent="Stop"/>
+                    <inf:StatBarTxt Grid.Row="5" TextBlockText="Z Spin" ButtonContent="Stop"/>
+                </Grid>
+            </Grid>
+        </GroupBox>
+    </Grid>
+
+</UserControl>

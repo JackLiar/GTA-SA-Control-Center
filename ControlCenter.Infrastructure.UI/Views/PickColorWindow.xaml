@@ -6,7 +6,7 @@
         xmlns:prism="http://prismlibrary.com/"
         prism:ViewModelLocator.AutoWireViewModel="True"
         mc:Ignorable="d"
-        Title="" Height="351" Width="424">
+        Title="" Height="350" Width="425">
     <Window.Resources>
         <Style x:Key="ColorLabelStyle" TargetType="Label">
             <Setter Property="Width" Value="32"></Setter>
@@ -29,134 +29,161 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl0" Background="Black" ToolTip="Black" TabIndex="3" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl1" Background="WhiteSmoke" ToolTip="White" TabIndex="4" Margin="32,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl2" Background="#FF2A779F" ToolTip="Police Car Blue" TabIndex="5" Margin="64,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl3" Background="#FF840410" ToolTip="Cherry Red" TabIndex="6" Margin="96,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl4" Background="#FF263739" ToolTip="MidNight Blue" TabIndex="7" Margin="128,0,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl5" Background="#FF86446E" ToolTip="Temple Curtain Purple" TabIndex="8" Margin="160,0,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl6" Background="#FFD78E10" ToolTip="Taxi Yellow" TabIndex="9" Margin="192,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl7" Background="#FF4C75B7" ToolTip="Striking Blue" TabIndex="10" Margin="224,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl8" Background="#FFBDBEC6" ToolTip="Light Blue Grey" TabIndex="11" Margin="256,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl9" Background="#FF5E7072" ToolTip="Hoods" TabIndex="12" Margin="288,0,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl10" Background="#FF46597A" ToolTip="Saxony Blue Poly" TabIndex="13" Margin="320,0,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl11" Background="#FF656A79" ToolTip="Concord Blue Poly" TabIndex="14" Margin="352,0,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl12" Background="#FF5D7E8D" ToolTip="Jasper Green Poly" TabIndex="15" Margin="384,0,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl13" Background="#FF58595A" ToolTip="Pewter Gray Poly" TabIndex="16" Margin="0,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl14" Background="#FFD6DAD6" ToolTip="Frost White" TabIndex="17" Margin="32,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl15" Background="#FF9CA1A3" ToolTip="Silver Stone Poly" TabIndex="18" Margin="64,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl16" Background="#FF335F3F" ToolTip="Rio Red" TabIndex="19" Margin="96,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl17" Background="#FF730E1A" ToolTip="Torino Red Pearl" TabIndex="20" Margin="128,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl18" Background="#FF7B0A2A" ToolTip="Formula Red" TabIndex="21" Margin="160,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl19" Background="#FF9F9D94" ToolTip="Honey Beige Poly" TabIndex="22" Margin="192,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl20" Background="#FF3B4E78" ToolTip="Mariner Blue" TabIndex="23" Margin="224,32,0,0" />
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl21" Background="#FF732E3E" ToolTip="Blaze Red" TabIndex="24" Margin="256,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl22" Background="#FF691E3B" ToolTip="Classic Red" TabIndex="25" Margin="288,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl23" Background="#FF96918C" ToolTip="Winning Silver Poly" TabIndex="26" Margin="320,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl24" Background="#FF515459" ToolTip="Steel Gray Poly" TabIndex="27" Margin="352,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl25" Background="#FF3F3E45" ToolTip="Shadow Silver Poly" TabIndex="28" Margin="384,32,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl26" Background="#FFA5A9A7" ToolTip="Silver Stone Poly" TabIndex="29" Margin="0,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl27" Background="#FF635C5A" ToolTip="Warm Grey Mica" TabIndex="30" Margin="32,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl28" Background="#FF3D4A68" ToolTip="Harbor Blue Poly" TabIndex="31" Margin="64,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl29" Background="#FF979592" ToolTip="Porcelain Silver Poly" TabIndex="32" Margin="96,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl30" Background="#FF421F21" ToolTip="Mellow Burgundy" TabIndex="33" Margin="128,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl31" Background="#FF5F272B" ToolTip="Graceful Red Mica" TabIndex="34" Margin="160,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl32" Background="#FF8494AB" ToolTip="Currant Blue Poly" TabIndex="35" Margin="192,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl33" Background="#FF767B7C" ToolTip="Gray Poly" TabIndex="36" Margin="224,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl34" Background="#FF646464" ToolTip="Arctic White" TabIndex="37" Margin="256,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl35" Background="#FF5A5752" ToolTip="Anthracite Gray Poly" TabIndex="38" Margin="288,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl36" Background="#FF252527" ToolTip="Black Poly" TabIndex="39" Margin="320,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl37" Background="#FF2D3A35" ToolTip="Dark Green Poly" TabIndex="40" Margin="352,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl38" Background="#FF93A396" ToolTip="SeaFoam Poly" TabIndex="41" Margin="384,64,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl39" Background="#FF6D7A88" ToolTip="Diamond Blue Poly" TabIndex="42" Margin="0,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl40" Background="#FF221918" ToolTip="Biston Brown Poly" TabIndex="43" Margin="32,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl41" Background="#FF6F675F" ToolTip="Desert Taupe Poly" TabIndex="44" Margin="64,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl42" Background="#FF7C1C2A" ToolTip="Garnet Red Poly" TabIndex="45" Margin="96,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl43" Background="#FF5F0A15" ToolTip="Desert Red" TabIndex="46" Margin="128,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl44" Background="#FF193826" ToolTip="Green" TabIndex="47" Margin="160,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl45" Background="#FF5D1B20" ToolTip="Cabernet Red Poly" TabIndex="48" Margin="192,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl46" Background="#FF9D9890" ToolTip="Light Ivory" TabIndex="49" Margin="224,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl47" Background="#FF7A7560" ToolTip="Pueblo Geige" TabIndex="50" Margin="256,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl48" Background="#FF989586" ToolTip="Smoke Silver Poly" TabIndex="51" Margin="288,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl49" Background="#FFADB0B0" ToolTip="Astra Silver Poly" TabIndex="52" Margin="320,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl50" Background="#FF848988" ToolTip="Ascot Gray" TabIndex="53" Margin="352,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl51" Background="#FF304F45" ToolTip="Agate Green" TabIndex="54" Margin="384,96,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl52" Background="#FF4D6268" ToolTip="Petrol Blue Green Poly" TabIndex="55" Margin="0,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl53" Background="#FF162248" ToolTip="Surf Blue" TabIndex="56" Margin="32,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl54" Background="#FF272F4B" ToolTip="Nautical Blue Poly" TabIndex="57" Margin="64,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl55" Background="#FF7D6256" ToolTip="Woodrose Poly" TabIndex="58" Margin="96,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl56" Background="#FF9EA4AB" ToolTip="Crystal Blue Poly" TabIndex="59" Margin="128,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl57" Background="#FF9C8D71" ToolTip="Bisque Frost Poly" TabIndex="60" Margin="160,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl58" Background="#FF6D1822" ToolTip="Currant Red Solid" TabIndex="61" Margin="192,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl59" Background="#FF4E6881" ToolTip="Lt. Crystal Blue Poly" TabIndex="62" Margin="224,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl60" Background="#FF9C9C98" ToolTip="Lt. Titanium Poly" TabIndex="63" Margin="256,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl61" Background="#FF917347" ToolTip="Race Yellow Solid" TabIndex="64" Margin="288,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl62" Background="#FF661C26" ToolTip="Brt. Currant Red Poly" TabIndex="65" Margin="320,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl63" Background="#FF949D9F" ToolTip="Clear Crystal Blue Frost Poly" TabIndex="66" Margin="352,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl64" Background="#FFA4A7A5" ToolTip="Silver Poly" TabIndex="67" Margin="384,128,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl65" Background="#FF8E8C46" ToolTip="Pastel Alabaster" TabIndex="68" Margin="0,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl66" Background="#FF341A1E" ToolTip="Mid Currant Red Poly" TabIndex="69" Margin="32,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl67" Background="#FF6A7A8C" ToolTip="Med Regatta Blue Poly" TabIndex="70" Margin="64,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl68" Background="#FFAAAD8E" ToolTip="Oxford White Solid" TabIndex="71" Margin="96,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl69" Background="#FFAB988F" ToolTip="Alabaster Solid" TabIndex="72" Margin="128,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl70" Background="#FF851F2E" ToolTip="Elec. Currant Red Poly" TabIndex="73" Margin="160,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl71" Background="#FF6F8297" ToolTip="Spinnaker Blue Solid" TabIndex="74" Margin="192,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl72" Background="#FF585853" ToolTip="Dk. Titanium Poly" TabIndex="75" Margin="224,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl73" Background="#FF9AA790" ToolTip="Pastel Alabaster Solid" TabIndex="76" Margin="256,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl74" Background="#FF601A23" ToolTip="Med. Cabernet Solid" TabIndex="77" Margin="288,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl75" Background="#FF20202C" ToolTip="Twilight Blue Poly" TabIndex="78" Margin="320,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl76" Background="#FFA4A096" ToolTip="Titanium Frost Poly" TabIndex="79" Margin="352,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl77" Background="#FFAA9D84" ToolTip="Sandalwood Frost Poly" TabIndex="80" Margin="384,160,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl78" Background="#FF78222B" ToolTip="Wild Strawberry Poly" TabIndex="81" Margin="0,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl79" Background="#FF0E316D" ToolTip="Ultra Blue Poly" TabIndex="82" Margin="32,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl80" Background="#FF722A3F" ToolTip="Vermilion Solid" TabIndex="83" Margin="64,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl81" Background="#FF7B715E" ToolTip="Med. Sandalwood Poly" TabIndex="84" Margin="96,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl82" Background="#FF741D28" ToolTip="Med. Red Solid" TabIndex="85" Margin="128,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl83" Background="#FF1E2E32" ToolTip="Deep Jewel Green" TabIndex="86" Margin="160,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl84" Background="#FF4D322F" ToolTip="Med. Woodrose Poly" TabIndex="87" Margin="192,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl85" Background="#FF7C1B3C" ToolTip="Vermillion Solid" TabIndex="88" Margin="224,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl86" Background="#FF2E5B20" ToolTip="Green" TabIndex="89" Margin="256,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl87" Background="#FF395A83" ToolTip="Bright Blue Poly" TabIndex="90" Margin="288,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl88" Background="#FF6D2837" ToolTip="Bright Red" TabIndex="91" Margin="320,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl89" Background="#FFA7A28C" ToolTip="Lt. Champagne Poly" TabIndex="92" Margin="352,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl90" Background="#FFAFB1B1" ToolTip="Silver Poly" TabIndex="93" Margin="384,192,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl91" Background="#FF364155" ToolTip="Steel Blue Poly" TabIndex="94" Margin="0,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl92" Background="#FF6D6C6E" ToolTip="Medium Gray Poly" TabIndex="95" Margin="32,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl93" Background="#FF0F6A89" ToolTip="Arctic Pearl" TabIndex="96" Margin="64,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl94" Background="#FF204B6B" ToolTip="Nassau Blue Poly" TabIndex="97" Margin="96,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl95" Background="#FF2B3E57" ToolTip="Med. Sapphire Blue Poly" TabIndex="98" Margin="128,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl96" Background="#FF9B9F9D" ToolTip="Silver Poly" TabIndex="99" Margin="160,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl97" Background="#FF6C8495" ToolTip="Lt. Sapphire Blue Poly" TabIndex="100" Margin="192,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl98" Background="#FF4D5D60" ToolTip="Malachite Poly" TabIndex="101" Margin="224,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl99" Background="#FFAE9B7F" ToolTip="Flax" TabIndex="102" Margin="256,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl100" Background="#FF406C8F" ToolTip="Med. Maui Blue Poly" TabIndex="103" Margin="288,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl101" Background="#FF1F253B" ToolTip="Dk. Saphire Blue Poly" TabIndex="104" Margin="320,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl102" Background="#FFAB9276" ToolTip="Copper Beige" TabIndex="105" Margin="352,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl103" Background="#FF0D4573" ToolTip="Bright Blue Poly" TabIndex="106" Margin="384,224,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl104" Background="#FF96816C" ToolTip="Med. Flax" TabIndex="107" Margin="0,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl105" Background="#FF64686A" ToolTip="Med. Gray Poly" TabIndex="108" Margin="32,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl106" Background="#FF105082" ToolTip="Bright Blue Poly" TabIndex="109" Margin="64,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl107" Background="#FFA19983" ToolTip="Lt. Driftwood Poly" TabIndex="110" Margin="96,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl108" Background="#FF385694" ToolTip="Blue" TabIndex="111" Margin="128,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl109" Background="#FF525661" ToolTip="Steel Gray Poly" TabIndex="112" Margin="160,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl110" Background="#FF7F6956" ToolTip="Lt. Beechwood Poly" TabIndex="113" Margin="192,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl111" Background="#FF8C929A" ToolTip="Slate Gray" TabIndex="114" Margin="224,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl112" Background="#FF596E87" ToolTip="Lt. Sapphire Blue Poly" TabIndex="115" Margin="256,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl113" Background="#FF473532" ToolTip="Dk. Beechwood Poly" TabIndex="116" Margin="288,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl114" Background="#FF44624F" ToolTip="Torch Red" TabIndex="117" Margin="320,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl115" Background="#FF730A27" ToolTip="Bright Red" TabIndex="118" Margin="352,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl116" Background="#FF223457" ToolTip="Med. Sapphire Blue Firemist" TabIndex="119" Margin="384,256,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl117" Background="#FF640D1B" ToolTip="Med. Garnet Red Poly" TabIndex="120" Margin="0,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl118" Background="#FFA3ADC6" ToolTip="White Diamond Pearl" TabIndex="121" Margin="32,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl119" Background="#FF695853" ToolTip="Dk. Sable Poly" TabIndex="122" Margin="64,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl120" Background="#FF9B8B80" ToolTip="Antelope Beige" TabIndex="123" Margin="96,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl121" Background="#FF620B1C" ToolTip="Brilliant Red Poly" TabIndex="124" Margin="128,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl122" Background="#FF5B5D5E" ToolTip="Gun Metal Poly" TabIndex="125" Margin="160,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl123" Background="#FF624428" ToolTip="Med. Beechwood Poly" TabIndex="126" Margin="192,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl124" Background="#FF731827" ToolTip="Brilliant Red Poly" TabIndex="127" Margin="224,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl125" Background="#FF1B376D" ToolTip="Bright Blue Poly" TabIndex="128" Margin="256,288,0,0"/>
-        <Label Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl126" Background="#FFEC6AAE" ToolTip="Pink" TabIndex="129" Margin="288,288,0,0"/>
-        <Button x:Name="ButtonOk" Content="OK" HorizontalAlignment="Left" Margin="320,288,0,0" VerticalAlignment="Top" Width="32" Height="32" TabIndex="75" Command="{Binding OnColorPickOkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
-        <Button x:Name="ButtonCancel" Content="Cancel" HorizontalAlignment="Left" Margin="352,288,0,0" VerticalAlignment="Top" Width="64" Height="32" TabIndex="75" Command="{Binding OnColorPickCancelCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl0" Background="Black" ToolTip="Black" TabIndex="3" />
+        <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl1" Background="WhiteSmoke" ToolTip="White" TabIndex="4" />
+        <Label Grid.Row="0" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl2" Background="#FF2A779F" ToolTip="Police Car Blue" TabIndex="5" />
+        <Label Grid.Row="0" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl3" Background="#FF840410" ToolTip="Cherry Red" TabIndex="6" />
+        <Label Grid.Row="0" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl4" Background="#FF263739" ToolTip="MidNight Blue" TabIndex="7" />
+        <Label Grid.Row="0" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl5" Background="#FF86446E" ToolTip="Temple Curtain Purple" TabIndex="8" />
+        <Label Grid.Row="0" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl6" Background="#FFD78E10" ToolTip="Taxi Yellow" TabIndex="9" />
+        <Label Grid.Row="0" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl7" Background="#FF4C75B7" ToolTip="Striking Blue" TabIndex="10" />
+        <Label Grid.Row="0" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl8" Background="#FFBDBEC6" ToolTip="Light Blue Grey" TabIndex="11" />
+        <Label Grid.Row="0" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl9" Background="#FF5E7072" ToolTip="Hoods" TabIndex="12" />
+        <Label Grid.Row="0" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl10" Background="#FF46597A" ToolTip="Saxony Blue Poly" TabIndex="13" />
+        <Label Grid.Row="0" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl11" Background="#FF656A79" ToolTip="Concord Blue Poly" TabIndex="14" />
+        <Label Grid.Row="0" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl12" Background="#FF5D7E8D" ToolTip="Jasper Green Poly" TabIndex="15" />
+        <Label Grid.Row="1" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl13" Background="#FF58595A" ToolTip="Pewter Gray Poly" TabIndex="16" />
+        <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl14" Background="#FFD6DAD6" ToolTip="Frost White" TabIndex="17" />
+        <Label Grid.Row="1" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl15" Background="#FF9CA1A3" ToolTip="Silver Stone Poly" TabIndex="18" />
+        <Label Grid.Row="1" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl16" Background="#FF335F3F" ToolTip="Rio Red" TabIndex="19" />
+        <Label Grid.Row="1" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl17" Background="#FF730E1A" ToolTip="Torino Red Pearl" TabIndex="20" />
+        <Label Grid.Row="1" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl18" Background="#FF7B0A2A" ToolTip="Formula Red" TabIndex="21" />
+        <Label Grid.Row="1" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl19" Background="#FF9F9D94" ToolTip="Honey Beige Poly" TabIndex="22" />
+        <Label Grid.Row="1" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl20" Background="#FF3B4E78" ToolTip="Mariner Blue" TabIndex="23" />
+        <Label Grid.Row="1" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl21" Background="#FF732E3E" ToolTip="Blaze Red" TabIndex="24" />
+        <Label Grid.Row="1" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl22" Background="#FF691E3B" ToolTip="Classic Red" TabIndex="25" />
+        <Label Grid.Row="1" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl23" Background="#FF96918C" ToolTip="Winning Silver Poly" TabIndex="26" />
+        <Label Grid.Row="1" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl24" Background="#FF515459" ToolTip="Steel Gray Poly" TabIndex="27" />
+        <Label Grid.Row="1" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl25" Background="#FF3F3E45" ToolTip="Shadow Silver Poly" TabIndex="28" />
+        <Label Grid.Row="2" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl26" Background="#FFA5A9A7" ToolTip="Silver Stone Poly" TabIndex="29" />
+        <Label Grid.Row="2" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl27" Background="#FF635C5A" ToolTip="Warm Grey Mica" TabIndex="30" />
+        <Label Grid.Row="2" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl28" Background="#FF3D4A68" ToolTip="Harbor Blue Poly" TabIndex="31" />
+        <Label Grid.Row="2" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl29" Background="#FF979592" ToolTip="Porcelain Silver Poly" TabIndex="32" />
+        <Label Grid.Row="2" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl30" Background="#FF421F21" ToolTip="Mellow Burgundy" TabIndex="33" />
+        <Label Grid.Row="2" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl31" Background="#FF5F272B" ToolTip="Graceful Red Mica" TabIndex="34" />
+        <Label Grid.Row="2" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl32" Background="#FF8494AB" ToolTip="Currant Blue Poly" TabIndex="35" />
+        <Label Grid.Row="2" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl33" Background="#FF767B7C" ToolTip="Gray Poly" TabIndex="36" />
+        <Label Grid.Row="2" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl34" Background="#FF646464" ToolTip="Arctic White" TabIndex="37" />
+        <Label Grid.Row="2" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl35" Background="#FF5A5752" ToolTip="Anthracite Gray Poly" TabIndex="38" />
+        <Label Grid.Row="2" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl36" Background="#FF252527" ToolTip="Black Poly" TabIndex="39" />
+        <Label Grid.Row="2" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl37" Background="#FF2D3A35" ToolTip="Dark Green Poly" TabIndex="40" />
+        <Label Grid.Row="2" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl38" Background="#FF93A396" ToolTip="SeaFoam Poly" TabIndex="41" />
+        <Label Grid.Row="3" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl39" Background="#FF6D7A88" ToolTip="Diamond Blue Poly" TabIndex="42" />
+        <Label Grid.Row="3" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl40" Background="#FF221918" ToolTip="Biston Brown Poly" TabIndex="43" />
+        <Label Grid.Row="3" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl41" Background="#FF6F675F" ToolTip="Desert Taupe Poly" TabIndex="44" />
+        <Label Grid.Row="3" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl42" Background="#FF7C1C2A" ToolTip="Garnet Red Poly" TabIndex="45" />
+        <Label Grid.Row="3" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl43" Background="#FF5F0A15" ToolTip="Desert Red" TabIndex="46" />
+        <Label Grid.Row="3" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl44" Background="#FF193826" ToolTip="Green" TabIndex="47" />
+        <Label Grid.Row="3" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl45" Background="#FF5D1B20" ToolTip="Cabernet Red Poly" TabIndex="48" />
+        <Label Grid.Row="3" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl46" Background="#FF9D9890" ToolTip="Light Ivory" TabIndex="49" />
+        <Label Grid.Row="3" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl47" Background="#FF7A7560" ToolTip="Pueblo Geige" TabIndex="50" />
+        <Label Grid.Row="3" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl48" Background="#FF989586" ToolTip="Smoke Silver Poly" TabIndex="51" />
+        <Label Grid.Row="3" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl49" Background="#FFADB0B0" ToolTip="Astra Silver Poly" TabIndex="52" />
+        <Label Grid.Row="3" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl50" Background="#FF848988" ToolTip="Ascot Gray" TabIndex="53" />
+        <Label Grid.Row="3" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl51" Background="#FF304F45" ToolTip="Agate Green" TabIndex="54" />
+        <Label Grid.Row="4" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl52" Background="#FF4D6268" ToolTip="Petrol Blue Green Poly" TabIndex="55" />
+        <Label Grid.Row="4" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl53" Background="#FF162248" ToolTip="Surf Blue" TabIndex="56" />
+        <Label Grid.Row="4" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl54" Background="#FF272F4B" ToolTip="Nautical Blue Poly" TabIndex="57" />
+        <Label Grid.Row="4" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl55" Background="#FF7D6256" ToolTip="Woodrose Poly" TabIndex="58" />
+        <Label Grid.Row="4" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl56" Background="#FF9EA4AB" ToolTip="Crystal Blue Poly" TabIndex="59" />
+        <Label Grid.Row="4" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl57" Background="#FF9C8D71" ToolTip="Bisque Frost Poly" TabIndex="60" />
+        <Label Grid.Row="4" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl58" Background="#FF6D1822" ToolTip="Currant Red Solid" TabIndex="61" />
+        <Label Grid.Row="4" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl59" Background="#FF4E6881" ToolTip="Lt. Crystal Blue Poly" TabIndex="62" />
+        <Label Grid.Row="4" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl60" Background="#FF9C9C98" ToolTip="Lt. Titanium Poly" TabIndex="63" />
+        <Label Grid.Row="4" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl61" Background="#FF917347" ToolTip="Race Yellow Solid" TabIndex="64" />
+        <Label Grid.Row="4" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl62" Background="#FF661C26" ToolTip="Brt. Currant Red Poly" TabIndex="65" />
+        <Label Grid.Row="4" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl63" Background="#FF949D9F" ToolTip="Clear Crystal Blue Frost Poly" TabIndex="66" />
+        <Label Grid.Row="4" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl64" Background="#FFA4A7A5" ToolTip="Silver Poly" TabIndex="67" />
+        <Label Grid.Row="5" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl65" Background="#FF8E8C46" ToolTip="Pastel Alabaster" TabIndex="68" />
+        <Label Grid.Row="5" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl66" Background="#FF341A1E" ToolTip="Mid Currant Red Poly" TabIndex="69" />
+        <Label Grid.Row="5" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl67" Background="#FF6A7A8C" ToolTip="Med Regatta Blue Poly" TabIndex="70" />
+        <Label Grid.Row="5" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl68" Background="#FFAAAD8E" ToolTip="Oxford White Solid" TabIndex="71" />
+        <Label Grid.Row="5" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl69" Background="#FFAB988F" ToolTip="Alabaster Solid" TabIndex="72" />
+        <Label Grid.Row="5" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl70" Background="#FF851F2E" ToolTip="Elec. Currant Red Poly" TabIndex="73" />
+        <Label Grid.Row="5" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl71" Background="#FF6F8297" ToolTip="Spinnaker Blue Solid" TabIndex="74" />
+        <Label Grid.Row="5" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl72" Background="#FF585853" ToolTip="Dk. Titanium Poly" TabIndex="75" />
+        <Label Grid.Row="5" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl73" Background="#FF9AA790" ToolTip="Pastel Alabaster Solid" TabIndex="76" />
+        <Label Grid.Row="5" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl74" Background="#FF601A23" ToolTip="Med. Cabernet Solid" TabIndex="77" />
+        <Label Grid.Row="5" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl75" Background="#FF20202C" ToolTip="Twilight Blue Poly" TabIndex="78" />
+        <Label Grid.Row="5" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl76" Background="#FFA4A096" ToolTip="Titanium Frost Poly" TabIndex="79" />
+        <Label Grid.Row="5" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl77" Background="#FFAA9D84" ToolTip="Sandalwood Frost Poly" TabIndex="80" />
+        <Label Grid.Row="6" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl78" Background="#FF78222B" ToolTip="Wild Strawberry Poly" TabIndex="81" />
+        <Label Grid.Row="6" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl79" Background="#FF0E316D" ToolTip="Ultra Blue Poly" TabIndex="82" />
+        <Label Grid.Row="6" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl80" Background="#FF722A3F" ToolTip="Vermilion Solid" TabIndex="83" />
+        <Label Grid.Row="6" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl81" Background="#FF7B715E" ToolTip="Med. Sandalwood Poly" TabIndex="84" />
+        <Label Grid.Row="6" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl82" Background="#FF741D28" ToolTip="Med. Red Solid" TabIndex="85" />
+        <Label Grid.Row="6" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl83" Background="#FF1E2E32" ToolTip="Deep Jewel Green" TabIndex="86" />
+        <Label Grid.Row="6" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl84" Background="#FF4D322F" ToolTip="Med. Woodrose Poly" TabIndex="87" />
+        <Label Grid.Row="6" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl85" Background="#FF7C1B3C" ToolTip="Vermillion Solid" TabIndex="88" />
+        <Label Grid.Row="6" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl86" Background="#FF2E5B20" ToolTip="Green" TabIndex="89" />
+        <Label Grid.Row="6" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl87" Background="#FF395A83" ToolTip="Bright Blue Poly" TabIndex="90" />
+        <Label Grid.Row="6" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl88" Background="#FF6D2837" ToolTip="Bright Red" TabIndex="91" />
+        <Label Grid.Row="6" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl89" Background="#FFA7A28C" ToolTip="Lt. Champagne Poly" TabIndex="92" />
+        <Label Grid.Row="6" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl90" Background="#FFAFB1B1" ToolTip="Silver Poly" TabIndex="93" />
+        <Label Grid.Row="7" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl91" Background="#FF364155" ToolTip="Steel Blue Poly" TabIndex="94" />
+        <Label Grid.Row="7" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl92" Background="#FF6D6C6E" ToolTip="Medium Gray Poly" TabIndex="95" />
+        <Label Grid.Row="7" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl93" Background="#FF0F6A89" ToolTip="Arctic Pearl" TabIndex="96" />
+        <Label Grid.Row="7" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl94" Background="#FF204B6B" ToolTip="Nassau Blue Poly" TabIndex="97" />
+        <Label Grid.Row="7" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl95" Background="#FF2B3E57" ToolTip="Med. Sapphire Blue Poly" TabIndex="98" />
+        <Label Grid.Row="7" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl96" Background="#FF9B9F9D" ToolTip="Silver Poly" TabIndex="99" />
+        <Label Grid.Row="7" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl97" Background="#FF6C8495" ToolTip="Lt. Sapphire Blue Poly" TabIndex="100" />
+        <Label Grid.Row="7" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl98" Background="#FF4D5D60" ToolTip="Malachite Poly" TabIndex="101" />
+        <Label Grid.Row="7" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl99" Background="#FFAE9B7F" ToolTip="Flax" TabIndex="102" />
+        <Label Grid.Row="7" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl100" Background="#FF406C8F" ToolTip="Med. Maui Blue Poly" TabIndex="103" />
+        <Label Grid.Row="7" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl101" Background="#FF1F253B" ToolTip="Dk. Saphire Blue Poly" TabIndex="104" />
+        <Label Grid.Row="7" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl102" Background="#FFAB9276" ToolTip="Copper Beige" TabIndex="105" />
+        <Label Grid.Row="7" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl103" Background="#FF0D4573" ToolTip="Bright Blue Poly" TabIndex="106" />
+        <Label Grid.Row="8" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl104" Background="#FF96816C" ToolTip="Med. Flax" TabIndex="107" />
+        <Label Grid.Row="8" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl105" Background="#FF64686A" ToolTip="Med. Gray Poly" TabIndex="108" />
+        <Label Grid.Row="8" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl106" Background="#FF105082" ToolTip="Bright Blue Poly" TabIndex="109" />
+        <Label Grid.Row="8" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl107" Background="#FFA19983" ToolTip="Lt. Driftwood Poly" TabIndex="110" />
+        <Label Grid.Row="8" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl108" Background="#FF385694" ToolTip="Blue" TabIndex="111" />
+        <Label Grid.Row="8" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl109" Background="#FF525661" ToolTip="Steel Gray Poly" TabIndex="112" />
+        <Label Grid.Row="8" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl110" Background="#FF7F6956" ToolTip="Lt. Beechwood Poly" TabIndex="113" />
+        <Label Grid.Row="8" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl111" Background="#FF8C929A" ToolTip="Slate Gray" TabIndex="114" />
+        <Label Grid.Row="8" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl112" Background="#FF596E87" ToolTip="Lt. Sapphire Blue Poly" TabIndex="115" />
+        <Label Grid.Row="8" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl113" Background="#FF473532" ToolTip="Dk. Beechwood Poly" TabIndex="116" />
+        <Label Grid.Row="8" Grid.Column="10" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl114" Background="#FF44624F" ToolTip="Torch Red" TabIndex="117" />
+        <Label Grid.Row="8" Grid.Column="11" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl115" Background="#FF730A27" ToolTip="Bright Red" TabIndex="118" />
+        <Label Grid.Row="8" Grid.Column="12" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl116" Background="#FF223457" ToolTip="Med. Sapphire Blue Firemist" TabIndex="119" />
+        <Label Grid.Row="9" Grid.Column="0" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl117" Background="#FF640D1B" ToolTip="Med. Garnet Red Poly" TabIndex="120" />
+        <Label Grid.Row="9" Grid.Column="1" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl118" Background="#FFA3ADC6" ToolTip="White Diamond Pearl" TabIndex="121" />
+        <Label Grid.Row="9" Grid.Column="2" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl119" Background="#FF695853" ToolTip="Dk. Sable Poly" TabIndex="122" />
+        <Label Grid.Row="9" Grid.Column="3" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl120" Background="#FF9B8B80" ToolTip="Antelope Beige" TabIndex="123" />
+        <Label Grid.Row="9" Grid.Column="4" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl121" Background="#FF620B1C" ToolTip="Brilliant Red Poly" TabIndex="124" />
+        <Label Grid.Row="9" Grid.Column="5" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl122" Background="#FF5B5D5E" ToolTip="Gun Metal Poly" TabIndex="125" />
+        <Label Grid.Row="9" Grid.Column="6" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl123" Background="#FF624428" ToolTip="Med. Beechwood Poly" TabIndex="126" />
+        <Label Grid.Row="9" Grid.Column="7" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl124" Background="#FF731827" ToolTip="Brilliant Red Poly" TabIndex="127" />
+        <Label Grid.Row="9" Grid.Column="8" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl125" Background="#FF1B376D" ToolTip="Bright Blue Poly" TabIndex="128" />
+        <Label Grid.Row="9" Grid.Column="9" Style="{StaticResource ColorLabelStyle}" x:Name="ColorLbl126" Background="#FFEC6AAE" ToolTip="Pink" TabIndex="129" />
+        <Button Grid.Row="9" Grid.Column="10" x:Name="ButtonOk" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="32" Height="32" TabIndex="75" Command="{Binding OnColorPickOkCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
+        <Button Grid.Row="9" Grid.Column="11" Grid.ColumnSpan="2" x:Name="ButtonCancel" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="32" TabIndex="75" Command="{Binding OnColorPickCancelCommand}" CommandParameter="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
     </Grid>
 </Window>

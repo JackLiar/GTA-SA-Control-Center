@@ -86,7 +86,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="BootStrapper.cs" />
-    <Compile Include="Constants\RegionNames.cs" />
     <Compile Include="ViewModels\CarSpwanViewModel.cs" />
     <Compile Include="ViewModels\CheatViewModel.cs" />
     <Compile Include="Views\CarModWindow.xaml.cs">

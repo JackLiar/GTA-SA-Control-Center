@@ -5,6 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.VehicleAndGameData.Views"
              xmlns:views="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
+             xmlns:constants="clr-namespace:ControlCenter.VehicleAndGameData.Constants"
+             xmlns:prism="http://prismlibrary.com/"
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="1000">
     <Grid>
@@ -14,13 +16,11 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
-            <Grid x:Name="CurrentCarGrid" Grid.Row="0" Grid.Column="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <local:CurrentCar Grid.Row="0"/>
-                <local:CarSpwan Grid.Row="1"/>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <StackPanel>
+                    <ContentControl x:Name="CurrentCar" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CurretCarRegion}" />
+                    <ContentControl x:Name="CarSpwan" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CarSpawnRegion}" />
+                </StackPanel>
             </Grid>
             <GroupBox Header="Car Status:" Grid.Column="1">
                 <StackPanel>

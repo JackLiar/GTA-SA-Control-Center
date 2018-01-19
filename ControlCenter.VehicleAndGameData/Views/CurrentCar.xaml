@@ -3,20 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="320" d:DesignWidth="300">
     <Grid>
         <GroupBox Grid.Row="0" Grid.Column="0" Header="Current Car:">
             <StackPanel>
-                <CheckBox Content="Prevent Car taking damage from:" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"
-                                      ToolTip="Check to Lock Selected Car Specialities" Margin="3,3,3,3"/>
+                <CheckBox Content="Prevent Car taking damage from:" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding IsPreventDamageEnabled, Mode=TwoWay}" ToolTip="Check to Lock Selected Car Specialities" Margin="3,3,3,3"/>
                 <DockPanel HorizontalAlignment="Right">
-                    <CheckBox Content="Explosion" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
-                    <CheckBox Content="Collision" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
-                    <CheckBox Content="Bullet" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
-                    <CheckBox Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True"/>
+                    <CheckBox Content="Explosion" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding IsExplosionEnabled, Mode=TwoWay}"/>
+                    <CheckBox Content="Collision" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding IsCollisionEnabled, Mode=TwoWay}"/>
+                    <CheckBox Content="Bullet" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding IsBulletEnabled, Mode=TwoWay}"/>
+                    <CheckBox Content="Fire" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="{Binding IsFireEnabled, Mode=TwoWay}"/>
                 </DockPanel>
-                <CheckBox Content="Egine health(%):" Margin="3,3,0,3"/>
+                <CheckBox Content="Egine health(%):" Margin="3,3,0,3" IsChecked="{Binding IsEngineHealthEnabled, Mode=TwoWay}"/>
                 <Slider Margin="23,0,0,0"/>
                 <DockPanel HorizontalAlignment="Left" Margin="3,3,0,3">
                     <CheckBox Content="Car Weight(Tons):"/>
@@ -26,18 +27,18 @@
                 <CheckBox Content="Flight Assistance(%):" Margin="3,3,0,3"/>
                 <Slider Margin="23,0,0,0"/>
                 <StackPanel Orientation="Horizontal">
-                    <CheckBox Content="Car Doors:" Margin="3,3,0,3"/>
+                    <CheckBox Content="Car Doors:" Margin="3,3,0,3" IsChecked="{Binding IsCarDoorEnabled, Mode=TwoWay}"/>
                     <RadioButton Content="open" Margin="25,3,0,3"/>
                     <RadioButton Content="locked" Margin="3,3,0,3" IsChecked="True"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <CheckBox Content="Car Color:" Margin="3,3,0,3"/>
+                    <CheckBox Content="Car Color:" Margin="3,3,0,3" IsChecked="{Binding IsCarColorEnabled, Mode=TwoWay}"/>
                     <CheckBox Content="Car Color:" Margin="3,3,0,3"/>
                 </StackPanel>
-                <CheckBox Content="Prevent Wheel Damage (Car and Trailer)" Margin="3,3,0,3"/>
-                <CheckBox Content="Automatically stop car-alams" Margin="3,3,0,3"/>
-                <CheckBox Content="Automatically restart car when stalled" Margin="3,3,0,3"/>
-                <CheckBox Content="Control also RC Vehicles" Margin="3,3,0,3"/>
+                <CheckBox Content="Prevent Wheel Damage (Car and Trailer)" Margin="3,3,0,3" IsChecked="{Binding IsWheelDamageEnabled, Mode=TwoWay}"/>
+                <CheckBox Content="Automatically stop car-alarms" Margin="3,3,0,3" IsChecked="{Binding IsAutoStopAlarmEnabled, Mode=TwoWay}"/>
+                <CheckBox Content="Automatically restart car when stalled" Margin="3,3,0,3" IsChecked="{Binding IsAutoRestartCarEnabled, Mode=TwoWay}"/>
+                <CheckBox Content="Control also RC Vehicles" Margin="3,3,0,3" IsChecked="{Binding IsControlRcVehicleEnabled, Mode=TwoWay}"/>
                 <StackPanel Orientation="Horizontal" Margin="3,3,0,3">
                     <CheckBox Content="Set license Plate to"/>
                     <TextBox Text="GTASA CC" Height="15" Margin="20,0,0,0"/>

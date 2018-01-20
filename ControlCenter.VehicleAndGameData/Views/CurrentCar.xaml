@@ -28,7 +28,7 @@
             </Setter>
         </Style>
     </UserControl.Resources>
-    <GroupBox Grid.Row="0" Grid.Column="0" Header="Current Car:">
+    <GroupBox Header="Current Car:">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -81,4 +81,3 @@
         </Grid>
     </GroupBox>
 </UserControl>
-

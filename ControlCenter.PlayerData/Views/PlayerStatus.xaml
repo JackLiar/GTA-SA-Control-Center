@@ -4,9 +4,46 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-
-    </Grid>
+             d:DesignHeight="130" d:DesignWidth="300">
+    <GroupBox Header="PlayerStatus">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Content="Auto-Clear Satus after inserting cheats" Height="30"/>
+                <inf:CheatLocker Grid.Row="1"></inf:CheatLocker>
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <DockPanel>
+                    <Label Content="Average Weapon Proficiency:"/>
+                    <Button Content="Max" Width="33" HorizontalAlignment="Right"/>
+                </DockPanel>
+                <Button Grid.Row="1" Content="Show Detailed Weapon proficiency Stats" Height="30"/>
+            </Grid>
+            <inf:StatBar Grid.Row="2" HasButton="False" CheckBoxContent="Ped Flight Assistance"/>
+        </Grid>
+    </GroupBox>
 </UserControl>

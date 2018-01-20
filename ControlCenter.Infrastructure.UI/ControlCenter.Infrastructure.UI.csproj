@@ -92,6 +92,9 @@
     <Compile Include="Views\AcceptButton.xaml.cs">
       <DependentUpon>AcceptButton.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CheatLocker.xaml.cs">
+      <DependentUpon>CheatLocker.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Direction.xaml.cs">
       <DependentUpon>Direction.xaml</DependentUpon>
     </Compile>
@@ -100,6 +103,9 @@
     </Compile>
     <Compile Include="Views\StatBar.xaml.cs">
       <DependentUpon>StatBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WeaponSetter.xaml.cs">
+      <DependentUpon>WeaponSetter.xaml</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -122,7 +128,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\CheatLocker.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Direction.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ImageDictionary.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -131,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\StatBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WeaponSetter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -4,9 +4,36 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
+             xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid>
-            
-    </Grid>
+    <GroupBox Header="Weapon Status">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <inf:WeaponSetter Grid.Row="1" IsTextBoxEnable="False" TextBoxText="N/A"/>
+            <inf:WeaponSetter Grid.Row="2" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="3" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="4" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="5" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="6" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="7" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="8" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="9" TextBoxText="0"/>
+            <inf:WeaponSetter Grid.Row="10" IsTextBoxEnable="False" TextBoxText="N/A"/>
+            <inf:WeaponSetter Grid.Row="11" IsTextBoxEnable="False" TextBoxText="N/A"/>
+        </Grid>
+    </GroupBox>
 </UserControl>

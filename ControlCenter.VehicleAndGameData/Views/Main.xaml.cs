@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace ControlCenter.VehicleAndGameData.Views
 {
     /// <summary>
-    /// Interaction logic for TabItem.xaml
+    /// Interaction logic for Main.xaml
     /// </summary>
     public partial class Main : UserControl
     {

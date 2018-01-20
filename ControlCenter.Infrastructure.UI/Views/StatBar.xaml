@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="ControlCenter.Infrastructure.UI.Views.StatBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:views="clr-namespace:ControlCenter.Infrastructure.UI.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="60" d:DesignWidth="220">
+    <Grid>
+        <Grid.Resources>
+            <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="2,2,2,2">
+            <CheckBox Name="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Center" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=views:StatBar}}" Visibility="{Binding Path=IsCheckBoxVisible, Converter={StaticResource BooleanToVisibilityConverter}}" Content="{Binding Path=CheckBoxContent}"/>
+            <TextBlock Name="TextBlock" HorizontalAlignment="Left" VerticalAlignment="Center" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=views:StatBar}}" Visibility="{Binding Path=IsTextBlockVisible, Converter={StaticResource BooleanToVisibilityConverter}}" Text="{Binding Path=TextBlockText}"/>
+            <Button Name="Button" HorizontalAlignment="Right" MinWidth="33" Height="18" Padding="2,0,2,2" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=views:StatBar}}" Visibility="{Binding Path=IsButtonVisible, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+        </DockPanel>
+        <ScrollBar Grid.Row="1" Orientation="Horizontal" Name="ScrollBar" HorizontalAlignment="Right" Width="217" VerticalAlignment="Top" Maximum="200"  Margin="2,2,2,2"/>
+    </Grid>
+</UserControl>

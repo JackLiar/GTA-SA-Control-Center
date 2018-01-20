@@ -6,11 +6,11 @@
              xmlns:prism="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="100" Height="Auto">
-    <Grid>
+             d:DesignHeight="204" d:DesignWidth="104" Height="Auto" VerticalAlignment="Top">
+    <Grid Margin="2,2,2,2">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"></RowDefinition>
-            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Name="TextBlock" Width="100" Height="15" Text="{Binding Title}"/>
         <Grid Grid.Row="1">
@@ -27,7 +27,6 @@
                 <RadioButton Width="14" Canvas.Right="12.51" Canvas.Top="12.51"/>
                 <RadioButton Width="14" Canvas.Right="12.51" Canvas.Top="73.49"/>
             </Canvas>
-            <!--<ScrollBar HorizontalAlignment="Right" VerticalAlignment="Top" Height="105" Margin="0,10,0,0"/>-->
         </Grid>
     </Grid>
 </UserControl>

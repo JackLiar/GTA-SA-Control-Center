@@ -7,7 +7,13 @@
              xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="235">
+             d:DesignHeight="540" d:DesignWidth="235">
+    <UserControl.Resources>
+        <Style x:Key="StatBarStyle" TargetType="inf:StatBar">
+            <Setter Property="IsCheckBoxVisible" Value="False"/>
+            <Setter Property="IsTextBlockVisible" Value="True"/>
+        </Style>
+    </UserControl.Resources>
     <GroupBox Header="Car Status:">
         <Grid>
             <Grid.RowDefinitions>
@@ -46,12 +52,12 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <inf:StatBarTxt Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="3" TextBlockText="X Spin" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="4" TextBlockText="Y Spin" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="5" TextBlockText="Z Spin" ButtonContent="Stop"/>
+                <inf:StatBar Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="3" TextBlockText="X Spin" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="4" TextBlockText="Y Spin" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="5" TextBlockText="Z Spin" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
             </Grid>
         </Grid>
     </GroupBox>

@@ -12,7 +12,7 @@
     <UserControl.Resources>
         <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
             <Setter Property="VerticalAlignment" Value="Center"/>
-            <Setter Property="Margin" Value="3,3,3,3"/>
+            <Setter Property="Margin" Value="2,2,2,2"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate>
@@ -31,19 +31,19 @@
     <GroupBox Grid.Row="0" Grid.Column="0" Header="Current Car:">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <StackPanel>
+            <StackPanel Height="44">
                 <CheckBox Style="{StaticResource CheckBoxStyle}" HorizontalAlignment="Left" Content="Prevent Car taking damage from:" IsChecked="{Binding IsPreventDamageEnabled}" ToolTip="Check to Lock Selected Car Specialities"/>
                 <DockPanel HorizontalAlignment="Right" Margin="15,0,0,0">
                     <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Explosion" IsChecked="{Binding IsExplosionEnabled}"/>
@@ -52,9 +52,9 @@
                     <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Fire" IsChecked="{Binding IsFireEnabled}"/>
                 </DockPanel>
             </StackPanel>
-            <inf:StatBarChk x:Name="EngineHealthChkBox" Grid.Row="1" CheckBoxContent="Engine Health:" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="CarWeightChkBox" Grid.Row="2" CheckBoxContent="Car Weight:" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="FlightAssistanceChkBox" Grid.Row="3" CheckBoxContent="Flight Assistance:" ButtonContent="Max"/>
+            <inf:StatBar x:Name="EngineHealthChkBox" Grid.Row="1" CheckBoxContent="Engine Health:" ButtonContent="Max"/>
+            <inf:StatBar x:Name="CarWeightChkBox" Grid.Row="2" CheckBoxContent="Car Weight:" ButtonContent="Max"/>
+            <inf:StatBar x:Name="FlightAssistanceChkBox" Grid.Row="3" CheckBoxContent="Flight Assistance:" ButtonContent="Max"/>
             <StackPanel Grid.Row="4" Orientation="Horizontal">
                 <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Car Doors:" Margin="3,3,0,3" IsChecked="{Binding IsCarDoorEnabled}"/>
                 <RadioButton Content="open" Margin="25,3,0,3"/>
@@ -64,7 +64,7 @@
                 <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Car Color:" IsChecked="{Binding IsCarColorEnabled}"/>
                 <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Car Color:"/>
             </StackPanel>
-            <CheckBox Style="{StaticResource CheckBoxStyle}" Grid.Row="6" Content="Prevent Wheel Damage (Car and Trailer)" IsChecked="{Binding IsWheelDamageEnabled}"/>
+            <CheckBox Style="{StaticResource CheckBoxStyle}" Grid.Row="6" Content="Prevent Wheel Damage (Car and Trailer)" IsChecked="{Binding IsWheelDamageEnabled}" Margin="2,5,2,5"/>
             <CheckBox Style="{StaticResource CheckBoxStyle}" Grid.Row="7" Content="Automatically stop car-alarms" IsChecked="{Binding IsAutoStopAlarmEnabled}"/>
             <CheckBox Style="{StaticResource CheckBoxStyle}" Grid.Row="8" Content="Automatically restart car when stalled" IsChecked="{Binding IsAutoRestartCarEnabled}"/>
             <CheckBox Style="{StaticResource CheckBoxStyle}" Grid.Row="9" Content="Control also RC Vehicles" IsChecked="{Binding IsControlRcVehicleEnabled}"/>
@@ -76,9 +76,7 @@
                 </Grid.ColumnDefinitions>
                 <CheckBox Style="{StaticResource CheckBoxStyle}" HorizontalAlignment="Left" Content="Set license Plate to:"/>
                 <TextBox Grid.Column="1" HorizontalAlignment="Right" Text="GTASA CC" HorizontalContentAlignment="Center"  Height="17" Width="90"/>
-                <Button Grid.Column="2" Width="17" Height="17" HorizontalAlignment="Right" Margin="5,0,0,0">
-                    <Image Source="../Resources/Accept16.ico"/>
-                </Button>
+                <inf:AcceptButton Grid.Column="2" HorizontalAlignment="Right" Margin="5,0,0,0"/>
             </Grid>
         </Grid>
     </GroupBox>

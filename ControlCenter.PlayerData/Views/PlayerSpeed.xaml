@@ -6,7 +6,13 @@
              xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
              xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="235">
+             d:DesignHeight="350" d:DesignWidth="235">
+    <UserControl.Resources>
+        <Style x:Key="StatBarStyle" TargetType="inf:StatBar">
+            <Setter Property="IsCheckBoxVisible" Value="False"/>
+            <Setter Property="IsTextBlockVisible" Value="True"/>
+        </Style>
+    </UserControl.Resources>
     <GroupBox Header="Player Speed:">
         <Grid>
             <Grid.RowDefinitions>
@@ -26,9 +32,9 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <inf:StatBarTxt Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop"/>
-                <inf:StatBarTxt Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop"/>
+                <inf:StatBar Grid.Row="0" TextBlockText="X Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="1" TextBlockText="Y Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
+                <inf:StatBar Grid.Row="2" TextBlockText="Z Speed" ButtonContent="Stop" Style="{StaticResource StatBarStyle}"/>
             </Grid>
         </Grid>
     </GroupBox>

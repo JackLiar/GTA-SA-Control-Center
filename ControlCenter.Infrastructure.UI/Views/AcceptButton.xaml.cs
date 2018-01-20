@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ControlCenter.PlayerData.Views
+namespace ControlCenter.Infrastructure.UI.Views
 {
     /// <summary>
-    /// Interaction logic for PlayerStatus.xaml
+    /// Interaction logic for AcceptButton.xaml
     /// </summary>
-    public partial class PlayerStatus : UserControl
+    public partial class AcceptButton : UserControl
     {
-        public PlayerStatus()
+        public AcceptButton()
         {
             InitializeComponent();
         }

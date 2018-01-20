@@ -10,22 +10,21 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <GroupBox Header="Girl Friend Status">
-
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <inf:StatBarChk Grid.Row="0" CheckBoxContent="Denise Progress" ButtonContent="Teleport"/>
-            <inf:StatBarChk Grid.Row="1" CheckBoxContent="Michell Progress" ButtonContent="Teleport"/>
-            <inf:StatBarChk Grid.Row="2" CheckBoxContent="Helena Progress" ButtonContent="Teleport"/>
-            <inf:StatBarChk Grid.Row="3" CheckBoxContent="Katie Progress" ButtonContent="Teleport"/>
-            <inf:StatBarChk Grid.Row="4" CheckBoxContent="Barbara Progress" ButtonContent="Teleport"/>
-            <inf:StatBarChk Grid.Row="5" CheckBoxContent="Millie Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="0" CheckBoxContent="Denise Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="1" CheckBoxContent="Michell Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="2" CheckBoxContent="Helena Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="3" CheckBoxContent="Katie Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="4" CheckBoxContent="Barbara Progress" ButtonContent="Teleport"/>
+            <inf:StatBar Grid.Row="5" CheckBoxContent="Millie Progress" ButtonContent="Teleport"/>
         </Grid>
     </GroupBox>
 </UserControl>

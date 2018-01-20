@@ -149,7 +149,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj">
-      <Project>{5eb8b698-3f7b-4c22-ad04-a30bc828bec9}</Project>
+      <Project>{91c8927a-09d1-4be1-8950-712db4be6535}</Project>
       <Name>ControlCenter.Infrastructure.UI</Name>
     </ProjectReference>
     <ProjectReference Include="..\ControlCenter.Infrastructure\ControlCenter.Infrastructure.fsproj">
@@ -157,11 +157,11 @@
       <Name>ControlCenter.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\ControlCenter.PlayerData\ControlCenter.PlayerData.csproj">
-      <Project>{f38d2ae2-dba8-417a-bb4e-ec1f04cdae11}</Project>
+      <Project>{b4c9b4d7-7d67-4c3e-a7cd-05e5844e38c9}</Project>
       <Name>ControlCenter.PlayerData</Name>
     </ProjectReference>
     <ProjectReference Include="..\ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj">
-      <Project>{044fcebb-e35c-42fc-93eb-1c98e902dc50}</Project>
+      <Project>{ccff2ce0-176a-41eb-9996-e4dd0609491a}</Project>
       <Name>ControlCenter.VehicleAndGameData</Name>
     </ProjectReference>
   </ItemGroup>

@@ -16,12 +16,11 @@
         </Grid.ColumnDefinitions>
         <Grid Grid.Column="0">
             <ContentControl Grid.Row="0" x:Name="CurrentPlayer" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CurrentPlayerRegion}" />
-            <local:CurrentPlayer></local:CurrentPlayer>
         </Grid>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"></RowDefinition>
-                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <ContentControl Grid.Row="0" x:Name="PlayerSpeed" prism:RegionManager.RegionName="{x:Static constants:RegionNames.PlayerSpeedRegion}" />
             <ContentControl Grid.Row="1" x:Name="WeaponStatus" prism:RegionManager.RegionName="{x:Static constants:RegionNames.WeaponStatusRegion}" />

@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter", "GTA SA Con
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ControlCenter.Infrastructure", "ControlCenter.Infrastructure\ControlCenter.Infrastructure.fsproj", "{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGameData", "ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj", "{044FCEBB-E35C-42FC-93EB-1C98E902DC50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Infrastructure.UI", "ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj", "{91C8927A-09D1-4BE1-8950-712DB4BE6535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Infrastructure.UI", "ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj", "{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGameData", "ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj", "{CCFF2CE0-176A-41EB-9996-E4DD0609491A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.PlayerData", "ControlCenter.PlayerData\ControlCenter.PlayerData.csproj", "{F38D2AE2-DBA8-417A-BB4E-EC1F04CDAE11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.PlayerData", "ControlCenter.PlayerData\ControlCenter.PlayerData.csproj", "{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,18 +27,18 @@ Global
 		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{044FCEBB-E35C-42FC-93EB-1C98E902DC50}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EB8B698-3F7B-4C22-AD04-A30BC828BEC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F38D2AE2-DBA8-417A-BB4E-EC1F04CDAE11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F38D2AE2-DBA8-417A-BB4E-EC1F04CDAE11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F38D2AE2-DBA8-417A-BB4E-EC1F04CDAE11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F38D2AE2-DBA8-417A-BB4E-EC1F04CDAE11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

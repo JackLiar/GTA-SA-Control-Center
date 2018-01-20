@@ -9,23 +9,23 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="300">
     <UserControl.Resources>
-    <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
-        <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="Margin" Value="3,3,3,3"/>
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate>
-                    <CheckBox>
-                        <i:Interaction.Triggers>
-                            <i:EventTrigger EventName="Checked"/>
-                            <i:EventTrigger EventName="UnChecked"/>
-                        </i:Interaction.Triggers>
-                        <ContentPresenter Content="{TemplateBinding ContentControl.Content}"/>
-                    </CheckBox>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
-    </Style>
+        <Style x:Key="CheckBoxStyle" TargetType="CheckBox">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="2,3,2,3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <CheckBox>
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Checked"/>
+                                <i:EventTrigger EventName="UnChecked"/>
+                            </i:Interaction.Triggers>
+                            <ContentPresenter Content="{TemplateBinding ContentControl.Content}"/>
+                        </CheckBox>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
     <GroupBox Header="Current Player">
         <Grid>
@@ -51,17 +51,17 @@
                 <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Bullet" IsChecked="{Binding IsBulletEnabled}"/>
                 <CheckBox Style="{StaticResource CheckBoxStyle}" Content="Fire" IsChecked="{Binding IsFireEnabled}"/>
             </DockPanel>
-            <inf:StatBarChk x:Name="AmorLevelChkBox" Grid.Row="2" CheckBoxContent="Current Amor Level:" ButtonContent="400"/>
-            <inf:StatBarChk x:Name="HealthLevelChkBox" Grid.Row="3" CheckBoxContent="Current Health Level:" ButtonContent="400"/>
-            <inf:StatBarChk x:Name="FatStatChkBox" Grid.Row="4" CheckBoxContent="Current Fat Stat" ButtonContent="0"/>
-            <inf:StatBarChk x:Name="StaminaStatChkBox" Grid.Row="5" CheckBoxContent="Current Stamina Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="MuscleStatChkBox" Grid.Row="6" CheckBoxContent="Current Muscle Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="LungCapacityChkBox" Grid.Row="7" CheckBoxContent="Current Lung Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="GamblingStatChkBox" Grid.Row="8" CheckBoxContent="Current Gambling Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="DrivingStatChkBox" Grid.Row="9" CheckBoxContent="Current Driving Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="BikingStatChkBox" Grid.Row="10" CheckBoxContent="Current Biking Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="CyclingStatChkBox" Grid.Row="11" CheckBoxContent="Current Cycling Stat" ButtonContent="Max"/>
-            <inf:StatBarChk x:Name="PilotStatChkBox" Grid.Row="12" CheckBoxContent="Current Pilot Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="AmorLevelChkBox" Grid.Row="2" CheckBoxContent="Current Amor Level:" ButtonContent="400"/>
+            <inf:StatBar x:Name="HealthLevelChkBox" Grid.Row="3" CheckBoxContent="Current Health Level:" ButtonContent="400"/>
+            <inf:StatBar x:Name="FatStatChkBox" Grid.Row="4" CheckBoxContent="Current Fat Stat" ButtonContent="0"/>
+            <inf:StatBar x:Name="StaminaStatChkBox" Grid.Row="5" CheckBoxContent="Current Stamina Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="MuscleStatChkBox" Grid.Row="6" CheckBoxContent="Current Muscle Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="LungCapacityChkBox" Grid.Row="7" CheckBoxContent="Current Lung Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="GamblingStatChkBox" Grid.Row="8" CheckBoxContent="Current Gambling Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="DrivingStatChkBox" Grid.Row="9" CheckBoxContent="Current Driving Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="BikingStatChkBox" Grid.Row="10" CheckBoxContent="Current Biking Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="CyclingStatChkBox" Grid.Row="11" CheckBoxContent="Current Cycling Stat" ButtonContent="Max"/>
+            <inf:StatBar x:Name="PilotStatChkBox" Grid.Row="12" CheckBoxContent="Current Pilot Stat" ButtonContent="Max"/>
         </Grid>
     </GroupBox>
 </UserControl>

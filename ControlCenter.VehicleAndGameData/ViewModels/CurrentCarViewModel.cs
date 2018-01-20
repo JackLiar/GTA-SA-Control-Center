@@ -53,7 +53,7 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
 
         private void OnChangeCarSpecCommand()
         {
-            
+
         }
 
         #endregion

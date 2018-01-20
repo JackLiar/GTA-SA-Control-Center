@@ -22,7 +22,7 @@
             <ContentControl Grid.Row="0" x:Name="CurrentCar" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CurretCarRegion}" />
             <ContentControl Grid.Row="1" x:Name="CarSpwan" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CarSpawnRegion}" />
         </Grid>
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" VerticalAlignment="Top">
             <ContentControl Grid.Row="0" x:Name="CarStatus" prism:RegionManager.RegionName="{x:Static constants:RegionNames.CarStatusRegion}" />
         </Grid>
         <Grid Grid.Column="2">

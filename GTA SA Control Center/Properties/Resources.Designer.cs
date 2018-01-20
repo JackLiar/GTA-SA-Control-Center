@@ -59,15 +59,5 @@ namespace ControlCenter.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon unlocked {
-            get {
-                object obj = ResourceManager.GetObject("unlocked", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
     }
 }

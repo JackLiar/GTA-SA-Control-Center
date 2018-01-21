@@ -118,10 +118,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Accept16.ico" />
+    <Resource Include="Resources\Accept16.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\unlocked.ico" />
+    <Resource Include="Resources\unlocked.ico" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\AcceptButton.xaml">
@@ -152,6 +152,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\locked.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

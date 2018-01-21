@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.Infrastructure.UI.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="16" d:DesignWidth="300">
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -13,25 +13,33 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
-    <DockPanel>
-        <CheckBox>
-            <Image Source="{StaticResource Unlocked}" Height="16"/>
-        </CheckBox>
-        <CheckBox/>
-        <CheckBox IsChecked="{Binding AirTemperatureGridChecked}">
+    <DockPanel Height="20" Width="Auto">
+        <CheckBox Height="16" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" IsChecked="{Binding IsLocked}">
             <CheckBox.Template>
                 <ControlTemplate TargetType="{x:Type CheckBox}">
                     <Grid>
-                        <Image x:Name="Foo" Width="16" Height="16" Source="https://cdn4.iconfinder.com/data/icons/cc_mono_icon_set/blacks/48x48/checkbox_unchecked.png" />
+                        <Image x:Name="IsLocked" Width="16" Height="16" Source="{StaticResource Unlocked}" />
                     </Grid>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsChecked" Value="False">
-                            <Setter TargetName="Foo" Property="Opacity" Value="0.5" />
+                            <Setter TargetName="IsLocked" Property="Source" Value="{StaticResource Unlocked}" />
+                        </Trigger>
+                        <Trigger Property="IsChecked" Value="True">
+                            <Setter TargetName="IsLocked" Property="Source" Value="{StaticResource Locked}"></Setter>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </CheckBox.Template>
-            </CheckBox>
+        </CheckBox>
+        <CheckBox Height="16">
+            <CheckBox.Template>
+                <ControlTemplate TargetType="{x:Type CheckBox}">
+                    <Grid>
+                        <TextBlock DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" Text="{Binding CheckBoxContent}" TextAlignment="Center"/>
+                    </Grid>
+                </ControlTemplate>
+            </CheckBox.Template>
+        </CheckBox>
+        <!--<CheckBox Height="16" Margin="0,2,0,0" VerticalAlignment="Center" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" Content="{Binding CheckBoxContent}" HorizontalContentAlignment="Center"/>-->
     </DockPanel>
-        
 </UserControl>

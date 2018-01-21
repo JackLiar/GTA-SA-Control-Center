@@ -3,4 +3,5 @@
                     xmlns:local="clr-namespace:ControlCenter.Infrastructure.UI.Views">
     <BitmapImage x:Key="Accept16" UriSource="..\Resources\Accept16.ico" />
     <BitmapImage x:Key="Unlocked" UriSource="..\Resources\unlocked.ico" />
+    <BitmapImage x:Key="Locked" UriSource="..\Resources\locked.ico" />
 </ResourceDictionary>

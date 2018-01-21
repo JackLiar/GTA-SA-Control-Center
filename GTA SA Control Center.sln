@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.PlayerData", "ControlCenter.PlayerData\ControlCenter.PlayerData.csproj", "{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Garages", "ControlCenter.Garages\ControlCenter.Garages.csproj", "{8D3E7C33-E412-4AAE-8B82-131720617535}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

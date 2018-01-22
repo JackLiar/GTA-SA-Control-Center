@@ -13,7 +13,7 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </UserControl.Resources>
-    <Button Width="17" Height="17">
+    <Button>
         <Image Source="{StaticResource Accept16}"/>
     </Button>
 </UserControl>

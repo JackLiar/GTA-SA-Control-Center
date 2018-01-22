@@ -92,6 +92,9 @@
     <Compile Include="Views\BoneCounty.xaml.cs">
       <DependentUpon>BoneCounty.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Garage.xaml.cs">
+      <DependentUpon>Garage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\LasVenturas.xaml.cs">
       <DependentUpon>LasVenturas.xaml</DependentUpon>
     </Compile>
@@ -122,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\BoneCounty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Garage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

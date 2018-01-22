@@ -7,7 +7,7 @@
         xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Constants;assembly=ControlCenter.Infrastructure.UI"
         prism:ViewModelLocator.AutoWireViewModel="True"
         mc:Ignorable="d"
-        Title="MainWindow" Width="1000" Height="750">
+        Title="MainWindow" Width="Auto" Height="Auto">
     <Grid>
         <TabControl HorizontalAlignment="Left" VerticalAlignment="Top">
             <TabItem Header="Vehicle and Game Data" prism:RegionManager.RegionName="{x:Static inf:RegionNames.VehicleAndGameDataRegion}" />

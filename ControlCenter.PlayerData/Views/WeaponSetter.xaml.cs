@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace ControlCenter.Infrastructure.UI.Views
+namespace ControlCenter.PlayerData.Views
 {
     /// <summary>
     ///     Interaction logic for WeaponSetter.xaml

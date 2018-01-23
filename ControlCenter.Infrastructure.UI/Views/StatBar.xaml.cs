@@ -23,11 +23,24 @@ namespace ControlCenter.Infrastructure.UI.Views
 
         #region CheckBox
 
-        public string CheckBoxContent { get; set; }
+        public string CheckBoxContent
+        {
+            get => CheckBox.Content.ToString();
+            set => CheckBox.Content = value;
+        }
+
+        public static readonly DependencyProperty IsCheckBoxCheckedProperty =
+            DependencyProperty.Register("IsCheckBoxChecked", typeof(bool), typeof(StatBar), new PropertyMetadata(default(bool)));
+
+        public bool IsCheckBoxChecked
+        {
+            get => (bool) GetValue(IsCheckBoxCheckedProperty);
+            set => SetValue(IsCheckBoxCheckedProperty, value);
+        }
 
         public bool IsCheckBoxVisible
         {
-            get => (bool)GetValue(IsCheckBoxVisibleProperty);
+            get => (bool) GetValue(IsCheckBoxVisibleProperty);
             set => SetValue(IsCheckBoxVisibleProperty, value);
         }
 
@@ -38,16 +51,21 @@ namespace ControlCenter.Infrastructure.UI.Views
 
         #region TextBlock
 
-        public string TextBlockText { get; set; }
+        public string TextBlockText
+        {
+            get => TextBlock.Text;
+            set => TextBlock.Text = value;
+        }
 
         public bool IsTextBlockVisible
         {
-            get => (bool)GetValue(IsTextBlockVisibleProperty);
+            get => (bool) GetValue(IsTextBlockVisibleProperty);
             set => SetValue(IsTextBlockVisibleProperty, value);
         }
 
         public static readonly DependencyProperty IsTextBlockVisibleProperty =
-            DependencyProperty.Register("IsTextBlockVisible", typeof(bool), typeof(StatBar), new PropertyMetadata(false));
+            DependencyProperty.Register("IsTextBlockVisible", typeof(bool), typeof(StatBar),
+                new PropertyMetadata(false));
 
         #endregion
 
@@ -61,7 +79,7 @@ namespace ControlCenter.Infrastructure.UI.Views
 
         public bool IsButtonVisible
         {
-            get => (bool)GetValue(IsButtonVisibleProperty);
+            get => (bool) GetValue(IsButtonVisibleProperty);
             set => SetValue(IsButtonVisibleProperty, value);
         }
 
@@ -94,9 +112,7 @@ namespace ControlCenter.Infrastructure.UI.Views
             set
             {
                 if (value <= ScrollMax && value >= ScrollMin)
-                {
                     ScrollBar.Value = value;
-                }
             }
         }
 

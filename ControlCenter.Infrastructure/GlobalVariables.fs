@@ -350,6 +350,8 @@ module Global =
     type Test = { mutable a : int option; b : int option }
     let mutable test = { a = None; b = None }
     let mutable IsCarPicsReady : bool = false
+    let mutable isHasHandle : bool = false
+    let mutable isHasPlayer : bool = false
     // zero speed/spin
     let mutable ZeroSpeed : GTASASpeed = { xSpeed = 0.f; ySpeed = 0.f; zSpeed = 0.f}
     let mutable ZeroSpin : GTASASpin = { xSpin = 0.f; ySpin = 0.f; zSpin = 0.f}

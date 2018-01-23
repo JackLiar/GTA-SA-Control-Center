@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Microsoft.VisualBasic;
+using Prism.Commands;
 using Prism.Mvvm;
 
 namespace ControlCenter.VehicleAndGameData.ViewModels
@@ -33,10 +35,12 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
         public bool IsAutoStopAlarmEnabled { get; set; } = true;
         public bool IsAutoRestartCarEnabled { get; set; } = true;
         public bool IsControlRcVehicleEnabled { get; set; } = true;
+        public bool IsSetLicensePlateEnabled { get; set; } = false;
 
         #endregion
 
         public ICommand ChangeCarSpecCommand { get; set; }
+        public ICommand CheckStatusChangeCommand { get; set; }
 
         #endregion
 
@@ -44,16 +48,21 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
 
         public CurrentCarViewModel()
         {
-            Console.WriteLine("132");
+            CheckStatusChangeCommand = new DelegateCommand(OnCheckStatusChange);
         }
 
         #endregion
 
         #region Methods
 
-        private void OnChangeCarSpecCommand()
+        private void OnChangeCarSpec()
         {
 
+        }
+
+        private void OnCheckStatusChange()
+        {
+            Interaction.InputBox("test", "test", "1");
         }
 
         #endregion

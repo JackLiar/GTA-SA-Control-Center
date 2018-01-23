@@ -121,6 +121,10 @@
     <Resource Include="Resources\unlocked.ico" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="Views\Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\AcceptButton.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

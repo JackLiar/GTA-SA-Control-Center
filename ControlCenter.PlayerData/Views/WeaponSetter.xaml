@@ -6,9 +6,20 @@
              xmlns:inf="clr-namespace:ControlCenter.Infrastructure.UI.Views;assembly=ControlCenter.Infrastructure.UI"
              xmlns:local="clr-namespace:ControlCenter.PlayerData.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="17" d:DesignWidth="79">
-        <StackPanel Orientation="Horizontal">
-            <TextBox Name="TextBox" HorizontalContentAlignment="Center" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:WeaponSetter}}" IsEnabled="{Binding IsTextBoxEnable}" MinWidth="60"/>
-            <inf:AcceptButton Margin="2,0,0,0"/>
-        </StackPanel>
+             d:DesignHeight="17" d:DesignWidth="230">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Selecter"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Setter"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel Margin="0,0,2,0">
+            <CheckBox HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <ComboBox MinWidth="122" HorizontalAlignment="Right"/>
+        </DockPanel>
+        <DockPanel Grid.Column="1" Margin="2,0,0,0">
+            <TextBox Name="TextBox" HorizontalContentAlignment="Left" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:WeaponSetter}}" IsEnabled="{Binding IsTextBoxEnable}" MinWidth="60"/>
+            <inf:AcceptButton HorizontalAlignment="Right"/>
+        </DockPanel>
+    </Grid>
+        
 </UserControl>

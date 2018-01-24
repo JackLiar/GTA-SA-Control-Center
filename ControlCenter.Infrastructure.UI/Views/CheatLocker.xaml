@@ -35,11 +35,10 @@
             <CheckBox.Template>
                 <ControlTemplate TargetType="{x:Type CheckBox}">
                     <Grid>
-                        <TextBlock DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" Text="{Binding CheckBoxContent}" TextAlignment="Center"/>
+                        <TextBlock Text="{Binding CheckBoxContent, RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" TextAlignment="Center"/>
                     </Grid>
                 </ControlTemplate>
             </CheckBox.Template>
         </CheckBox>
-        <!--<CheckBox Height="16" Margin="0,2,0,0" VerticalAlignment="Center" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:CheatLocker}}" Content="{Binding CheckBoxContent}" HorizontalContentAlignment="Center"/>-->
     </DockPanel>
 </UserControl>

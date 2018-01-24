@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="250">
     <GroupBox Header="Weapon Status">
-        <Grid>
+        <Grid IsSharedSizeScope="True">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -22,34 +22,25 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-            </Grid.ColumnDefinitions>
-            <CheckBox Content="Brass Knuckles" MinWidth="143" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
-            <TextBlock Grid.Row="0" Grid.Column="1" Text="Ammo" VerticalAlignment="Center" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="1" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="1" Grid.Column="1" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="2" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="2" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="3" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="3" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="4" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="4" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="5" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="5" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="6" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="6" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="7" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="7" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="8" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="8" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="9" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="9" Grid.Column="1" TextBoxText="0" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="10" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="10" Grid.Column="1" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
-            <local:WeaponSelecter Grid.Row="11" Grid.Column="0"/>
-            <local:WeaponSetter Grid.Row="11" Grid.Column="1" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Selecter"/>
+                    <ColumnDefinition Width="Auto" SharedSizeGroup="Setter"/>
+                </Grid.ColumnDefinitions>
+                <CheckBox Content="Brass Knuckles" MinWidth="143" VerticalContentAlignment="Center" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Ammo" VerticalAlignment="Center" Margin="3,0,0,0"/>
+            </Grid>
+            <local:WeaponSetter Grid.Row="1" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="2" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="3" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="4" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="5" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="6" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="7" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="8" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="9" TextBoxText="0" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="10" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
+            <local:WeaponSetter Grid.Row="11" IsTextBoxEnable="False" TextBoxText="N/A" Margin="3,0,0,0"/>
         </Grid>
     </GroupBox>
 </UserControl>

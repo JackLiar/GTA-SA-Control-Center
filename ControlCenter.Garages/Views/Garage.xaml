@@ -4,30 +4,71 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.Garages.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="50" d:DesignWidth="600">
+    <UserControl.Resources>
+        <Style x:Key="ColorBoxStyle" TargetType="TextBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <TextBox IsReadOnly="True" MinWidth="60" VerticalAlignment="Center">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="MouseDoubleClick">
+                                    <i:InvokeCommandAction Command="{Binding ColorSelectCommand}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+                        </TextBox>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="XpCheckBoxStyle" TargetType="CheckBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CheckBox">
+                        <CheckBox VerticalAlignment="Center">
+                        </CheckBox>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Garage"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="ParkedCar"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="EP"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="DP"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="BP"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="FP"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Major"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Minor"/>
+            <ColumnDefinition Width="Auto" SharedSizeGroup="Mods"/>
         </Grid.ColumnDefinitions>
         <CheckBox Grid.Row="0" Grid.Column="0"/>
-        <Button Grid.Row="1" Grid.Column="0" Content="All-Proof"/>
+        <Button Grid.Row="1" Grid.Column="0" Content="All-Proof" Padding="2"/>
         <DockPanel Grid.Row="0" Grid.Column="1">
             <Label Content="1."/>
             <ComboBox/>
-            <Button Content="Pick"></Button>
+            <Button Content="Pick" Padding="2"/>
         </DockPanel>
-        <DockPanel Grid.Row="1" Grid.Column="1"></DockPanel>
-        <DockPanel Grid.Row="2" Grid.Column="1"></DockPanel>
-        <DockPanel Grid.Row="3" Grid.Column="1"></DockPanel>
+        <CheckBox Grid.Row="0" Grid.Column="2" Style="{StaticResource XpCheckBoxStyle}"/>
+        <CheckBox Grid.Row="0" Grid.Column="3" Style="{StaticResource XpCheckBoxStyle}"/>
+        <CheckBox Grid.Row="0" Grid.Column="4" Style="{StaticResource XpCheckBoxStyle}"/>
+        <CheckBox Grid.Row="0" Grid.Column="5" Style="{StaticResource XpCheckBoxStyle}"/>
+        <TextBox Grid.Row="0" Grid.Column="6" Style="{StaticResource ColorBoxStyle}"/>
+        <TextBox Grid.Row="0" Grid.Column="7" Style="{StaticResource ColorBoxStyle}"/>
+        <DockPanel Grid.Row="0" Grid.Column="8">
+            <TextBlock Text="Not Modded" VerticalAlignment="Center"/>
+            <Button Content="Clear Mods" Command="{Binding ClearModesCommand}" HorizontalAlignment="Right"  VerticalAlignment="Center" Padding="2"/>
+            <Button Content="Edit Mods" Command="{Binding EditModsCommand}" HorizontalAlignment="Right"  VerticalAlignment="Center" Padding="2"/>
+        </DockPanel>
     </Grid>
 </UserControl>

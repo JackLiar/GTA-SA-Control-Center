@@ -101,10 +101,6 @@
     <Compile Include="Views\PlayerStatus.xaml.cs">
       <DependentUpon>PlayerStatus.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\WeaponSelecter.xaml.cs">
-      <DependentUpon>WeaponSelecter.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Views\WeaponSetter.xaml.cs">
       <DependentUpon>WeaponSetter.xaml</DependentUpon>
     </Compile>
@@ -144,13 +140,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\WeaponSelecter.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\WeaponSetter.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
     </Page>
     <Page Include="Views\WeaponStatus.xaml">
       <SubType>Designer</SubType>

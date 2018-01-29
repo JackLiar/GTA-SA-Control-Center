@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ControlCenter.Cheats.Views">
+    <BitmapImage x:Key="Cheat" UriSource="../Resources/cheat.ico"></BitmapImage>
+    <BitmapImage x:Key="Close" UriSource="../Resources/closed.ico"></BitmapImage>
+    <BitmapImage x:Key="Open" UriSource="../Resources/open.ico"></BitmapImage>
+</ResourceDictionary>

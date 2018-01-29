@@ -19,6 +19,7 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
         public ICommand ResyncToGameCommand { get; set; }
         public ICommand SetMoneyCommand { get; set; }
         public ICommand ClearCheatsCommand { get; set; }
+        public ICommand CheckStatusChangeCommand { get; set; }
 
         #endregion
 
@@ -29,6 +30,7 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
             ResyncToGameCommand = new DelegateCommand(OnResyncToGame);
             SetMoneyCommand = new DelegateCommand(OnSetMoney);
             ClearCheatsCommand = new DelegateCommand(OnClearCheats);
+            CheckStatusChangeCommand = new DelegateCommand(OnCheckStatusChange);
         }
 
         #endregion
@@ -53,6 +55,11 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
         private void OnClearCheats()
         {
             throw new NotImplementedException();
+        }
+
+        private void OnCheckStatusChange()
+        {
+            Interaction.InputBox("test", "test", "1");
         }
     }
 }

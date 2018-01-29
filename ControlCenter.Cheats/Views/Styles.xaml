@@ -1,0 +1,57 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:ControlCenter.Cheats.Views"
+                    xmlns:converters="clr-namespace:ControlCenter.Cheats.Converters">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Images.xaml"></ResourceDictionary>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <converters:CheatListConverter x:Key="CheatListConverter"/>
+
+    <Style x:Key="TreeViewItemImageStyle" TargetType="Image">
+        <Style.Triggers>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding Path=IsFolder}" Value="False"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Source" Value="{StaticResource Cheat}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding Path=IsFolder}" Value="True"/>
+                    <Condition Binding="{Binding Path=IsExpanded, RelativeSource={RelativeSource FindAncestor, AncestorType=TreeViewItem}}"
+                               Value="False"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Source" Value="{StaticResource Close}"/>
+            </MultiDataTrigger>
+            <MultiDataTrigger>
+                <MultiDataTrigger.Conditions>
+                    <Condition Binding="{Binding Path=IsFolder}" Value="True"/>
+                    <Condition Binding="{Binding Path=IsExpanded, RelativeSource={RelativeSource FindAncestor, AncestorType=TreeViewItem}}"
+                               Value="True"/>
+                </MultiDataTrigger.Conditions>
+                <Setter Property="Source" Value="{StaticResource Open}"/>
+            </MultiDataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <HierarchicalDataTemplate x:Key="TreeViewFolderTemplate">
+        <HierarchicalDataTemplate.ItemsSource>
+            <MultiBinding Converter="{StaticResource CheatListConverter}">
+                <Binding Path="Cheats"/>
+                <Binding Path="DataContext.CheatDictionary" RelativeSource="{RelativeSource FindAncestor, AncestorType=local:Main}"/>
+            </MultiBinding>
+        </HierarchicalDataTemplate.ItemsSource>
+        <StackPanel Orientation="Horizontal" Margin="2">
+            <Image Style="{StaticResource TreeViewItemImageStyle}" Margin="0,0,2,0"/>
+            <TextBlock Text="{Binding Info}" Margin="2,0,0,0"/>
+        </StackPanel>
+    </HierarchicalDataTemplate>
+
+    <HierarchicalDataTemplate x:Key="TreeViewCheatTemplate">
+        <StackPanel Orientation="Horizontal" Margin="2">
+            <Image Style="{StaticResource TreeViewItemImageStyle}" Margin="0,0,2,0"/>
+            <TextBlock Text="{Binding Info}" Margin="2,0,0,0"/>
+        </StackPanel>
+    </HierarchicalDataTemplate>
+</ResourceDictionary>

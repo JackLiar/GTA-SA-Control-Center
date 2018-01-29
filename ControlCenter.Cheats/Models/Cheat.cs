@@ -8,9 +8,22 @@ namespace ControlCenter.Cheats.Models
 
         #region Fields & Properties
 
-        public string Code { get; set; }
+        private string _code = "";
+
+        public string Code
+        {
+            get => IsFolder ? "" : _code;
+            set
+            {
+                if (IsFolder)
+                {
+                    return;
+                }
+                _code = value;
+            }
+        }
         public string Info { get; set; }
-        public string UID { get; set; }
+        public string UID { get; }
         public IList<string> Cheats { get; set; }
         public bool IsFolder => Cheats != null;
 

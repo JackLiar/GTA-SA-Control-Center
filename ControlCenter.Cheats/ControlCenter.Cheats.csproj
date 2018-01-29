@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converters\CheatListConverter.cs" />
+    <Compile Include="Converters\CommandParameterConverter.cs" />
     <Compile Include="Models\Cheat.cs" />
     <Compile Include="Module.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">

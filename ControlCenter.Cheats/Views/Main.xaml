@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:ControlCenter.Cheats.Views"
              xmlns:prism="http://prismlibrary.com/"
              xmlns:selector="clr-namespace:ControlCenter.Cheats.Selector"
+             xmlns:converters="clr-namespace:ControlCenter.Cheats.Converters"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
@@ -15,6 +16,7 @@
                 <ResourceDictionary Source="Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <selector:TreeViewItemTemplateSelector x:Key="TreeViewItemTemplateSelector"/>
+            <converters:CommandParameterConverter  x:Key="CommandParameterConverter"/>
         </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
@@ -22,14 +24,28 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <TreeView Grid.Column="0" ItemsSource="{Binding Cheats}"
+        <TreeView Name="TreeView" Grid.Column="0" ItemsSource="{Binding Cheats}"
                   ItemTemplateSelector="{StaticResource TreeViewItemTemplateSelector}">
         </TreeView>
         <StackPanel Grid.Column="1">
             <TextBlock Text="Cheat string:" Margin="3,1,3,1"/>
-            <TextBox Margin="3,1,3,6"/>
-            <Button Content="Apply changes" Margin="3,1,3,1"/>
-            <Button Content="Inset as a new Cheat" Margin="3,1,3,1"/>
+            <TextBox Name="CheatStringTextBox" Margin="3,1,3,6" Text="{Binding Path=SelectedItem.Code, ElementName=TreeView, Mode=OneWay}"/>
+            <Button Content="Apply changes" Margin="3,1,3,1" Command="{Binding EditCheatCommand}">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                        <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                        <Binding Path="Text" ElementName="CheatStringTextBox"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+            <Button Content="Inset as a new Cheat" Margin="3,1,3,1" Command="{Binding AddCheatCommand}">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                        <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                        <Binding Path="Text" ElementName="CheatStringTextBox"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
             <Button Content="Delete selected (cheat or folder)" Margin="3,1,3,1"/>
             <Button Content="Insert new Folder" Margin="3,1,3,1"/>
             <Button Content="Read Cheats from Config File" Margin="3,1,3,1"/>

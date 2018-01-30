@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using ControlCenter.Cheats.Models;
 
-namespace ControlCenter.Cheats.Selector
+namespace ControlCenter.Cheats.Selectors
 {
     public class TreeViewItemTemplateSelector : DataTemplateSelector
     {

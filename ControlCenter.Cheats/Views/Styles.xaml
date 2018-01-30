@@ -37,9 +37,9 @@
 
     <HierarchicalDataTemplate x:Key="TreeViewFolderTemplate">
         <HierarchicalDataTemplate.ItemsSource>
-            <MultiBinding Converter="{StaticResource CheatListConverter}" Mode="OneWay">
-                <Binding Path="Cheats" Mode="OneWay"/>
-                <Binding Path="DataContext.CheatDictionary" RelativeSource="{RelativeSource FindAncestor, AncestorType=local:Main}" Mode="OneWay"/>
+            <MultiBinding Converter="{StaticResource CheatListConverter}" UpdateSourceTrigger="PropertyChanged">
+                <Binding Path="Cheats"/>
+                <Binding Path="DataContext.CheatDictionary" RelativeSource="{RelativeSource FindAncestor, AncestorType=local:Main}"/>
             </MultiBinding>
         </HierarchicalDataTemplate.ItemsSource>
         <StackPanel Orientation="Horizontal" Margin="2">

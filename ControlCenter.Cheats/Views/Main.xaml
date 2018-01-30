@@ -5,8 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.Cheats.Views"
              xmlns:prism="http://prismlibrary.com/"
-             xmlns:selector="clr-namespace:ControlCenter.Cheats.Selector"
              xmlns:converters="clr-namespace:ControlCenter.Cheats.Converters"
+             xmlns:selectors="clr-namespace:ControlCenter.Cheats.Selectors"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
@@ -15,7 +15,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-            <selector:TreeViewItemTemplateSelector x:Key="TreeViewItemTemplateSelector"/>
+            <selectors:TreeViewItemTemplateSelector x:Key="TreeViewItemTemplateSelector"/>
             <converters:CommandParameterConverter  x:Key="CommandParameterConverter"/>
         </ResourceDictionary>
     </UserControl.Resources>
@@ -46,8 +46,16 @@
                     </MultiBinding>
                 </Button.CommandParameter>
             </Button>
-            <Button Content="Delete selected (cheat or folder)" Margin="3,1,3,1"/>
-            <Button Content="Insert new Folder" Margin="3,1,3,1"/>
+            <Button Content="Delete selected (cheat or folder)" Margin="3,1,3,1" Command="{Binding DeleteCheatCommand}"
+                    CommandParameter="{Binding Path=SelectedItem.UID,ElementName=TreeView}"/>
+            <Button Content="Insert new Folder" Margin="3,1,3,1" Command="{Binding AddCheatFolderCommand}">
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                        <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                        <Binding Path="Text" ElementName="CheatStringTextBox"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
             <Button Content="Read Cheats from Config File" Margin="3,1,3,1"/>
             <Button Content="Write Cheats to Config File" Margin="3,1,3,1"/>
         </StackPanel>

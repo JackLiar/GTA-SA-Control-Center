@@ -92,7 +92,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Selector\TreeViewItemTemplateSelector.cs" />
+    <Compile Include="Selectors\TreeViewItemTemplateSelector.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="Views\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>

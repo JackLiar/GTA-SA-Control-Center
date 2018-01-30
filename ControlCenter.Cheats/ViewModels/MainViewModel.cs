@@ -14,17 +14,15 @@ namespace ControlCenter.Cheats.ViewModels
 
         public MainViewModel()
         {
+#if DEBUG
             var rootCheat = Cheat.Create("GTA SA Cheats");
             CheatDictionary = new Dictionary<string, Cheat> {{rootCheat.UID, rootCheat}};
             Cheats = new ObservableCollection<Cheat> {rootCheat};
-
-#if DEBUG
             AddExamples();
 #endif
-
             AddCheatCommand = new DelegateCommand<Tuple<string, string>>(OnAddCheat);
-            AddCheatFolderCommand = new DelegateCommand<Cheat>(OnAddCheatFolder);
-            DeleteCheatCommand = new DelegateCommand(OnDeleteCheat);
+            AddCheatFolderCommand = new DelegateCommand<Tuple<string, string>>(OnAddCheatFolder);
+            DeleteCheatCommand = new DelegateCommand<string>(OnDeleteCheat);
             ReadFromConfigCommand = new DelegateCommand(OnReadFromConfig);
             SaveToConfigCommand = new DelegateCommand(OnSaveToConfig);
             EditCheatCommand = new DelegateCommand<Tuple<string, string>>(OnEditCheat);
@@ -36,6 +34,11 @@ namespace ControlCenter.Cheats.ViewModels
 
         private void OnAddCheat(Tuple<string, string> tuple)
         {
+            if (tuple == null)
+            {
+                MessageBox.Show("Please select a folder to add this cheat!", "GTA SA Control Center");
+                return;
+            }
             var target = CheatDictionary[tuple.Item1];
             if (!target.IsFolder)
             {
@@ -43,24 +46,54 @@ namespace ControlCenter.Cheats.ViewModels
                 return;
             }
             var cheat = Cheat.Create(tuple.Item2);
+            cheat.FatherUID = target.UID;
 
             CheatDictionary.Add(cheat.UID, cheat);
 
             if (target.Cheats == null)
             {
-                target.Cheats = new List<string>();
+                target.Cheats = new ObservableCollection<string>();
             }
             target.Cheats.Add(cheat.UID);
         }
 
-        private void OnAddCheatFolder(Cheat cheat)
+        private void OnAddCheatFolder(Tuple<string, string> tuple)
         {
-            CheatDictionary.Add(cheat.UID, cheat);
+            if (tuple == null)
+            {
+                MessageBox.Show("Please select a folder to add this folder!", "GTA SA Control Center");
+                return;
+            }
+            var target = CheatDictionary[tuple.Item1];
+            if (!target.IsFolder)
+            {
+                MessageBox.Show("Please select a folder to add this folder!", "GTA SA Control Center");
+                return;
+            }
+            var folder = Cheat.Create(tuple.Item2, true);
+            folder.FatherUID = target.UID;
+            folder.Cheats = new ObservableCollection<string>();
+
+            CheatDictionary.Add(folder.UID, folder);
+
+            if (target.Cheats == null)
+            {
+                target.Cheats = new ObservableCollection<string>();
+            }
+            target.Cheats.Add(folder.UID);
         }
 
-        private void OnDeleteCheat()
+        private void OnDeleteCheat(string uid)
         {
-            throw new NotImplementedException();
+            if (CheatDictionary[uid].FatherUID != null)
+            {
+                CheatDictionary[CheatDictionary[uid].FatherUID].Cheats.Remove(uid);
+            }
+            else
+            {
+                Cheats.Remove(CheatDictionary[uid]);
+                CheatDictionary.Remove(uid);
+            }
         }
 
         private void OnEditCheat(Tuple<string, string> tuple)
@@ -86,10 +119,11 @@ namespace ControlCenter.Cheats.ViewModels
             for (var i = 0; i < 10; i++)
             {
                 var cheat = Cheat.Create("Example" + i);
+                cheat.FatherUID = Cheats[0].UID;
                 CheatDictionary.Add(cheat.UID, cheat);
                 if (Cheats[0].Cheats == null)
                 {
-                    Cheats[0].Cheats = new List<string>();
+                    Cheats[0].Cheats = new ObservableCollection<string>();
                 }
                 Cheats[0].Cheats.Add(cheat.UID);
             }

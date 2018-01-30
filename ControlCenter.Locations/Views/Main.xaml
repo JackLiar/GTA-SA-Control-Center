@@ -20,7 +20,7 @@
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
+                                <RowDefinition/>
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
@@ -55,9 +55,9 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <ScrollViewer HorizontalScrollBarVisibility="Visible" Style="{StaticResource LeftScrollViewer}">
-            <Image Source="..\Resources\Map.jpg" Stretch="Uniform">
-            </Image>
+        <ScrollViewer HorizontalScrollBarVisibility="Visible" Style="{StaticResource LeftScrollViewer}" Margin="0,0,5,0" CanContentScroll="True"
+                      HorizontalAlignment="Left" VerticalAlignment="Top" MaxWidth="600" MaxHeight="600">
+            <Image Source="..\Resources\Map.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         </ScrollViewer>
         <ContentControl Grid.Column="1" x:Name="Controls" prism:RegionManager.RegionName="{x:Static constants:RegionNames.ControlRegion}"/>
     </Grid>

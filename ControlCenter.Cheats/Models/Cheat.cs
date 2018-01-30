@@ -1,9 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using Prism.Mvvm;
 
 namespace ControlCenter.Cheats.Models
 {
-    public class Cheat
+    public class Cheat : BindableBase
     {
 
         #region Fields & Properties
@@ -24,17 +26,35 @@ namespace ControlCenter.Cheats.Models
         }
         public string Info { get; set; }
         public string UID { get; }
-        public IList<string> Cheats { get; set; }
+        public string FatherUID { get; set; }
+
+        public ObservableCollection<string> Cheats
+        {
+            get => cheats;
+            set
+            {
+                if (cheats != null)
+                {
+                    SetProperty(ref cheats, value);
+                    return;
+                }
+                SetProperty(ref cheats, value);
+                cheats.CollectionChanged += OnCollectionChanged;
+            }
+        }
+        private ObservableCollection<string> cheats;
         public bool IsFolder => Cheats != null;
 
         #endregion
 
         #region Constructor
 
-        private Cheat(string code)
+        private Cheat(string code, bool isFolder = false)
         {
             Code = code;
-            Info = $"New Cheat: {Code} (please edit this description)";
+            Info = isFolder ?
+                $"New Folder: {DateTime.Now.ToLongDateString() + DateTime.Now.ToLongTimeString()} (please edit this description)" :
+                $"New Cheat: {Code} (please edit this description)";
             UID = Guid.NewGuid().ToString();
         }
 
@@ -42,9 +62,14 @@ namespace ControlCenter.Cheats.Models
 
         #region Methods
 
-        public static Cheat Create(string code)
+        public static Cheat Create(string code, bool isFolder = false)
         {
-            return new Cheat(code);
+            return new Cheat(code, isFolder);
+        }
+
+        private void OnCollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
+        {
+            RaisePropertyChanged("Cheats");
         }
 
         #endregion

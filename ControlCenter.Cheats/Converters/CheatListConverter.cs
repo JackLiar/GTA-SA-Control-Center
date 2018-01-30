@@ -11,7 +11,7 @@ namespace ControlCenter.Cheats.Converters
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            var list = (List<string>) values[0];
+            var list = (ObservableCollection<string>) values[0];
             var dic = (Dictionary<string, Cheat>) values[1];
             var result = new ObservableCollection<Cheat>();
 

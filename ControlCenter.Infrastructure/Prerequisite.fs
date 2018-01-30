@@ -10,7 +10,7 @@ module Prerequisite =
     open System.Linq
     open System.Text
 
-    let internal prerequisites = ["GTASACarPics"; "GTASACars"; "GTASACarTypes"; "GTASACheats"; "GTASAColors"; "GTASALocations"; "GTASAShortcuts"]
+    let internal prerequisites = ["GTASACarPics"; "GTASACars"; "GTASACarTypes"; "GTASACheats"; "GTASAColors"; "GTASALocations"; "GTASAShortcuts"; "GTASAWeapons"]
 
     /// Get specific resources from resource
     let internal GetResource =

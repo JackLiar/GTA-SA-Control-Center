@@ -14,7 +14,7 @@
         </Grid.ColumnDefinitions>
         <DockPanel Margin="0,0,2,0">
             <CheckBox HorizontalAlignment="Left" VerticalAlignment="Center"/>
-            <ComboBox MinWidth="122" HorizontalAlignment="Right"/>
+            <ComboBox MinWidth="122" HorizontalAlignment="Right" ItemsSource="{Binding ComboBoxItemSource}"/>
         </DockPanel>
         <DockPanel Grid.Column="1" Margin="2,0,0,0">
             <TextBox Name="TextBox" HorizontalContentAlignment="Left" DataContext="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType=local:WeaponSetter}}" IsEnabled="{Binding IsTextBoxEnable}" MinWidth="60"/>

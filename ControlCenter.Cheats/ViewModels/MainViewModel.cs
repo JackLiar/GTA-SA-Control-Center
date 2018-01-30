@@ -135,12 +135,12 @@ namespace ControlCenter.Cheats.ViewModels
 
         #region Fields & Properties
 
-        public ICommand AddCheatCommand { get; set; }
-        public ICommand AddCheatFolderCommand { get; set; }
-        public ICommand DeleteCheatCommand { get; set; }
-        public ICommand ReadFromConfigCommand { get; set; }
-        public ICommand SaveToConfigCommand { get; set; }
-        public ICommand EditCheatCommand { get; set; }
+        public ICommand AddCheatCommand { get; }
+        public ICommand AddCheatFolderCommand { get; }
+        public ICommand DeleteCheatCommand { get; }
+        public ICommand ReadFromConfigCommand { get; }
+        public ICommand SaveToConfigCommand { get; }
+        public ICommand EditCheatCommand { get; }
         public Dictionary<string, Cheat> CheatDictionary { get; set; }
         public ObservableCollection<Cheat> Cheats { get; set; }
 

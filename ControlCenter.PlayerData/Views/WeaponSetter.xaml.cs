@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.Collections.Generic;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace ControlCenter.PlayerData.Views
@@ -12,14 +13,24 @@ namespace ControlCenter.PlayerData.Views
             DependencyProperty.Register("IsTextBoxEnable", typeof(bool), typeof(WeaponSetter),
                 new PropertyMetadata(true));
 
+        public static readonly DependencyProperty ComboBoxItemSourceProperty = DependencyProperty.Register(
+            "ComboBoxItemSource", typeof(IList<string>), typeof(WeaponSetter),
+            new PropertyMetadata(default(IList<string>)));
+
         public WeaponSetter()
         {
             InitializeComponent();
         }
 
+        public IList<string> ComboBoxItemSource
+        {
+            get => (IList<string>) GetValue(ComboBoxItemSourceProperty);
+            set => SetValue(ComboBoxItemSourceProperty, value);
+        }
+
         public bool IsTextBoxEnable
         {
-            get => (bool)GetValue(IsTextBoxEnableProperty);
+            get => (bool) GetValue(IsTextBoxEnableProperty);
             set => SetValue(IsTextBoxEnableProperty, value);
         }
 

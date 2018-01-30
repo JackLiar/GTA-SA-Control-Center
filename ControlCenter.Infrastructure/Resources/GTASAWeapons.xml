@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weapons>
+    <Weapon Name="Knife" Category="Melee Weapons"/>
+    <Weapon Name="Nightstick" Category="Melee Weapons"/>
+    <Weapon Name="Pool Cue" Category="Melee Weapons"/>
+    <Weapon Name="Golf Club" Category="Melee Weapons"/>
+    <Weapon Name="Baseball Bat" Category="Melee Weapons"/>
+    <Weapon Name="Shovel" Category="Melee Weapons"/>
+    <Weapon Name="Katana" Category="Melee Weapons"/>
+    <Weapon Name="Chainsaw" Category="Melee Weapons"/>
+    <Weapon Name="Pistol" Category="Handguns"/>
+    <Weapon Name="Silenced Pistol" Category="Handguns"/>
+    <Weapon Name="Desert Eagle" Category="Handguns"/>
+    <Weapon Name="Sawnoff Shotgun" Category="Shotguns"/>
+    <Weapon Name="Shotgun" Category="Shotguns"/>
+    <Weapon Name="Spaz 12" Category="Shotguns"/>
+    <Weapon Name="Tec9" Category="Submachine Guns"/>
+    <Weapon Name="Micro SMG" Category="Submachine Guns"/>
+    <Weapon Name="SMG" Category="Submachine Guns"/>
+    <Weapon Name="AK47" Category="Assault Rifles"/>
+    <Weapon Name="M4" Category="Assault Rifles"/>
+    <Weapon Name="Rilfe" Category="Sniper Rifles"/>
+    <Weapon Name="Combat Sniper" Category="Sniper Rifles"/>
+    <Weapon Name="Flamethrower" Category="Heavy Weapons"/>
+    <Weapon Name="Minigun" Category="Heavy Weapons"/>
+    <Weapon Name="Rocket Launcher" Category="Heavy Weapons"/>
+    <Weapon Name="Heat-Seeking Rocket Launcher" Category="Heavy Weapons"/>
+    <Weapon Name="Tear Gas" Category="Thrown Weapons"/>
+    <Weapon Name="Moltov Cocktail" Category="Thrown Weapons"/>
+    <Weapon Name="Grenage" Category="Thrown Weapons"/>
+    <Weapon Name="Satchel Charges" Category="Thrown Weapons"/>
+    <Weapon Name="Camera" Category="Consumable Items"/>
+    <Weapon Name="Spray Can" Category="Consumable Items"/>
+    <Weapon Name="Fire Extinguisher" Category="Consumable Items"/>
+    <Weapon Name="Dildo" Category="Gifts"/>
+    <Weapon Name="Vibrator" Category="Gifts"/>
+    <Weapon Name="Flowers" Category="Gifts"/>
+    <Weapon Name="Cane" Category="Gifts"/>
+    <Weapon Name="Detonator" Category="Special"/>
+    <Weapon Name="Night Vision" Category="Special"/>
+    <Weapon Name="Thermal Vision" Category="Special"/>
+</Weapons>

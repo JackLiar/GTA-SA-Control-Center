@@ -139,4 +139,7 @@
   <data name="GTASAShortcuts" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\GTASAShortcuts.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
+  <data name="GTASAWeapons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\GTASAWeapons.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  </data>
 </root>

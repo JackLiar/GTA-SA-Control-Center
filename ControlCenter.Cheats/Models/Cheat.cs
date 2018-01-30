@@ -7,10 +7,28 @@ namespace ControlCenter.Cheats.Models
 {
     public class Cheat : BindableBase
     {
+        #region Constructor
+
+        private Cheat(string code, bool isFolder = false)
+        {
+            Code = code;
+            if (isFolder)
+            {
+                Info = $"New Folder: {DateTime.Now.ToLongDateString() + DateTime.Now.ToLongTimeString()} (please edit this description)";
+                _cheats = new ObservableCollection<string>();
+                _cheats.CollectionChanged += OnCollectionChanged;
+            }
+            else
+            {
+                Info = $"New Cheat: {Code} (please edit this description)";
+            }
+            UID = Guid.NewGuid().ToString();
+        }
+
+        #endregion
 
         #region Fields & Properties
 
-        private string _code = "";
 
         public string Code
         {
@@ -24,39 +42,20 @@ namespace ControlCenter.Cheats.Models
                 _code = value;
             }
         }
+        private string _code = "";
+
         public string Info { get; set; }
         public string UID { get; }
         public string FatherUID { get; set; }
 
         public ObservableCollection<string> Cheats
         {
-            get => cheats;
-            set
-            {
-                if (cheats != null)
-                {
-                    SetProperty(ref cheats, value);
-                    return;
-                }
-                SetProperty(ref cheats, value);
-                cheats.CollectionChanged += OnCollectionChanged;
-            }
+            get => _cheats;
+            set => SetProperty(ref _cheats, value);
         }
-        private ObservableCollection<string> cheats;
-        public bool IsFolder => Cheats != null;
 
-        #endregion
-
-        #region Constructor
-
-        private Cheat(string code, bool isFolder = false)
-        {
-            Code = code;
-            Info = isFolder ?
-                $"New Folder: {DateTime.Now.ToLongDateString() + DateTime.Now.ToLongTimeString()} (please edit this description)" :
-                $"New Cheat: {Code} (please edit this description)";
-            UID = Guid.NewGuid().ToString();
-        }
+        private ObservableCollection<string> _cheats;
+        public bool IsFolder => _cheats != null;
 
         #endregion
 

@@ -15,7 +15,7 @@ namespace ControlCenter.Cheats.ViewModels
         public MainViewModel()
         {
 #if DEBUG
-            var rootCheat = Cheat.Create("GTA SA Cheats");
+            var rootCheat = Cheat.Create("GTA SA Cheats", true);
             CheatDictionary = new Dictionary<string, Cheat> {{rootCheat.UID, rootCheat}};
             Cheats = new ObservableCollection<Cheat> {rootCheat};
             AddExamples();
@@ -72,7 +72,6 @@ namespace ControlCenter.Cheats.ViewModels
             }
             var folder = Cheat.Create(tuple.Item2, true);
             folder.FatherUID = target.UID;
-            folder.Cheats = new ObservableCollection<string>();
 
             CheatDictionary.Add(folder.UID, folder);
 
@@ -121,10 +120,6 @@ namespace ControlCenter.Cheats.ViewModels
                 var cheat = Cheat.Create("Example" + i);
                 cheat.FatherUID = Cheats[0].UID;
                 CheatDictionary.Add(cheat.UID, cheat);
-                if (Cheats[0].Cheats == null)
-                {
-                    Cheats[0].Cheats = new ObservableCollection<string>();
-                }
                 Cheats[0].Cheats.Add(cheat.UID);
             }
         }

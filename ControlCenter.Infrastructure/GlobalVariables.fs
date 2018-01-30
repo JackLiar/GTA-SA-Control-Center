@@ -277,6 +277,13 @@ type ShortCut = {
      DataPage : int;
      DataDesc : string;}
 
+type Coordinate = {
+    X : Single;
+    Y : Single;
+    Z : Single;
+    Angle : Single;
+}
+
 type WarpLocs() =
     let mutable locData = ""
     let MakeSingle (value: string) =

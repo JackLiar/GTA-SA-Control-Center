@@ -78,7 +78,8 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants\RegionNames.cs" />
+    <Compile Include="Converters\CommandParameterConverter.cs" />
+    <Compile Include="Converters\LocationListConveter.cs" />
     <Compile Include="Converters\StringToCoordinateConverter.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Module.cs" />
@@ -95,10 +96,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ViewModels\ControlViewModel.cs" />
-    <Compile Include="Views\Control.xaml.cs">
-      <DependentUpon>Control.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="Selectors\TreeViewItemTemplateSelector.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="Views\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
@@ -123,11 +122,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\Control.xaml">
+    <Page Include="Views\Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Main.xaml">
+    <Page Include="Views\Styles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

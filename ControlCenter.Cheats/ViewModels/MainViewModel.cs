@@ -98,7 +98,10 @@ namespace ControlCenter.Cheats.ViewModels
         private void OnEditCheat(Tuple<string, string> tuple)
         {
             var target = CheatDictionary[tuple.Item1];
-            target.Code = tuple.Item2;
+            if (!target.IsFolder)
+            {
+                target.Code = tuple.Item2;
+            }
         }
 
         private void OnReadFromConfig()

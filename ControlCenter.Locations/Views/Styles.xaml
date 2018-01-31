@@ -1,12 +1,12 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:ControlCenter.Cheats.Views"
-                    xmlns:converters="clr-namespace:ControlCenter.Cheats.Converters">
+                    xmlns:local="clr-namespace:ControlCenter.Locations.Views"
+                    xmlns:converters="clr-namespace:ControlCenter.Locations.Converters">
     <ResourceDictionary.MergedDictionaries>
         <ResourceDictionary Source="pack://application:,,,/ControlCenter.Infrastructure.UI;component/Views/Images.xaml"/>
     </ResourceDictionary.MergedDictionaries>
-    
-    <converters:CheatListConverter x:Key="CheatListConverter"/>
+
+    <converters:LocationListConveter x:Key="LocationListConveter"/>
 
     <Style x:Key="TreeViewItemImageStyle" TargetType="Image">
         <Style.Triggers>
@@ -14,7 +14,7 @@
                 <MultiDataTrigger.Conditions>
                     <Condition Binding="{Binding Path=IsFolder}" Value="False"/>
                 </MultiDataTrigger.Conditions>
-                <Setter Property="Source" Value="{StaticResource Cheat}"/>
+                <Setter Property="Source" Value="{StaticResource Location}"/>
             </MultiDataTrigger>
             <MultiDataTrigger>
                 <MultiDataTrigger.Conditions>
@@ -37,9 +37,9 @@
 
     <HierarchicalDataTemplate x:Key="TreeViewFolderTemplate">
         <HierarchicalDataTemplate.ItemsSource>
-            <MultiBinding Converter="{StaticResource CheatListConverter}" UpdateSourceTrigger="PropertyChanged">
-                <Binding Path="Cheats"/>
-                <Binding Path="DataContext.CheatDictionary" RelativeSource="{RelativeSource FindAncestor, AncestorType=local:Main}"/>
+            <MultiBinding Converter="{StaticResource LocationListConveter}" UpdateSourceTrigger="PropertyChanged">
+                <Binding Path="Locations"/>
+                <Binding Path="DataContext.LocationDictionary" RelativeSource="{RelativeSource FindAncestor, AncestorType=local:Main}"/>
             </MultiBinding>
         </HierarchicalDataTemplate.ItemsSource>
         <StackPanel Orientation="Horizontal" Margin="2">
@@ -48,7 +48,7 @@
         </StackPanel>
     </HierarchicalDataTemplate>
 
-    <HierarchicalDataTemplate x:Key="TreeViewCheatTemplate">
+    <HierarchicalDataTemplate x:Key="TreeViewLocationTemplate">
         <StackPanel Orientation="Horizontal" Margin="2">
             <Image Style="{StaticResource TreeViewItemImageStyle}" Margin="0,0,2,0"/>
             <TextBlock Text="{Binding Info}" Margin="2,0,0,0"/>

@@ -1,5 +1,4 @@
-﻿using ControlCenter.Locations.Constants;
-using ControlCenter.Locations.Views;
+﻿using ControlCenter.Locations.Views;
 using Prism.Events;
 using Prism.Modularity;
 using Prism.Regions;
@@ -38,7 +37,6 @@ namespace ControlCenter.Locations
         private void RegisterViews()
         {
             _regionManager.RegisterViewWithRegion(Infrastructure.UI.Constants.RegionNames.LocationsRegion, typeof(Main));
-            _regionManager.RegisterViewWithRegion(RegionNames.ControlRegion, typeof(Control));
         }
 
         #endregion

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
+using System.Globalization;
 using ControlCenter.Infrastructure;
 using Prism.Mvvm;
 
@@ -12,7 +13,6 @@ namespace ControlCenter.Locations.Models
 
         public Location(Coordinate coordinate, bool isFolder = false)
         {
-            Coordinate = coordinate;
             if (isFolder)
             {
                 Info = $"New Folder: {DateTime.Now.ToLongDateString() + DateTime.Now.ToLongTimeString()} (please edit this description)";
@@ -22,6 +22,7 @@ namespace ControlCenter.Locations.Models
             else
             {
                 Info = "New Location (please edit this description)";
+                _coordinate = coordinate;
             }
             UID = Guid.NewGuid().ToString();
         }
@@ -47,6 +48,11 @@ namespace ControlCenter.Locations.Models
         public string Info { get; set; }
         public string UID { get; }
         public string FatherUID { get; set; }
+
+        public string X => _coordinate?.X.ToString(CultureInfo.InvariantCulture) ?? "";
+        public string Y => _coordinate?.Y.ToString(CultureInfo.InvariantCulture) ?? "";
+        public string Z => _coordinate?.Z.ToString(CultureInfo.InvariantCulture) ?? "";
+        public string Angle => _coordinate?.Angle.ToString(CultureInfo.InvariantCulture) ?? "";
 
         public ObservableCollection<string> Locations
         {

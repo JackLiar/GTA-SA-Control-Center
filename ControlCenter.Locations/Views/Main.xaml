@@ -4,34 +4,45 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ControlCenter.Locations.Views"
-             xmlns:constants="clr-namespace:ControlCenter.Locations.Constants"
              xmlns:prism="http://prismlibrary.com/"
+             xmlns:selectors="clr-namespace:ControlCenter.Locations.Selectors"
+             xmlns:converters="clr-namespace:ControlCenter.Locations.Converters"
+             xmlns:models="clr-namespace:ControlCenter.Locations.Models"
+             prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
-             d:DesignHeight="800" d:DesignWidth="800">
+             d:DesignHeight="800" d:DesignWidth="840">
     <UserControl.Resources>
-        <Style x:Key="LeftScrollViewer" TargetType="{x:Type ScrollViewer}">
-            <Setter Property="OverridesDefaultStyle" Value="True"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type ScrollViewer}">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition/>
-                                <RowDefinition Height="Auto"/>
-                            </Grid.RowDefinitions>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
 
-                            <ScrollContentPresenter Grid.Column="1"/>
+            <selectors:TreeViewItemTemplateSelector x:Key="TreeViewItemTemplateSelector"/>
+            <converters:CommandParameterConverter x:Key="CommandParameterConverter"/>
 
-                            <ScrollBar Name="PART_VerticalScrollBar"
+            <Style x:Key="LeftScrollViewer" TargetType="{x:Type ScrollViewer}">
+                <Setter Property="OverridesDefaultStyle" Value="True"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ScrollViewer}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <ScrollContentPresenter Grid.Column="1"/>
+
+                                <ScrollBar Name="PART_VerticalScrollBar"
                                        Value="{TemplateBinding VerticalOffset}"
                                        Maximum="{TemplateBinding ScrollableHeight}"
                                        ViewportSize="{TemplateBinding ViewportHeight}"
                                        Visibility="{TemplateBinding ComputedVerticalScrollBarVisibility}"/>
-                            <ScrollBar Name="PART_HorizontalScrollBar"
+                                <ScrollBar Name="PART_HorizontalScrollBar"
                                        Orientation="Horizontal"
                                        Grid.Row="1"
                                        Grid.Column="1"
@@ -39,16 +50,17 @@
                                        Maximum="{TemplateBinding ScrollableWidth}"
                                        ViewportSize="{TemplateBinding ViewportWidth}"
                                        Visibility="{TemplateBinding ComputedHorizontalScrollBarVisibility}"/>
-                            <Button Name="Button"
+                                <Button Name="Button"
                                     Grid.Row="1"
                                     Grid.Column="0"
                                     Command="{Binding ResetToMapCenterCommand}"
                                     Content="#"/>
-                        </Grid>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
@@ -56,9 +68,92 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <ScrollViewer HorizontalScrollBarVisibility="Visible" Style="{StaticResource LeftScrollViewer}" Margin="0,0,5,0" CanContentScroll="True"
-                      HorizontalAlignment="Left" VerticalAlignment="Top" MaxWidth="600" MaxHeight="600">
-            <Image Source="..\Resources\Map.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                      HorizontalAlignment="Left" VerticalAlignment="Top" Width="600" Height="600">
+            <Image Source="..\Resources\Map.jpg" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         </ScrollViewer>
-        <ContentControl Grid.Column="1" x:Name="Controls" prism:RegionManager.RegionName="{x:Static constants:RegionNames.ControlRegion}"/>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="Coordinates">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="X Coord:" TextAlignment="Left" HorizontalAlignment="Left"/>
+                    <TextBox Name="CoordinateTextBoxX" Grid.Row="0" Grid.Column="1"
+                             Text="{Binding Path=SelectedItem.X, ElementName=TreeView, Mode=OneWay}"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Y Coord:" TextAlignment="Left" HorizontalAlignment="Left"/>
+                    <TextBox Name="CoordinateTextBoxY" Grid.Row="1" Grid.Column="1"
+                             Text="{Binding Path=SelectedItem.Y, ElementName=TreeView, Mode=OneWay}"/>
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Z Coord:" TextAlignment="Left" HorizontalAlignment="Left"/>
+                    <TextBox Name="CoordinateTextBoxZ" Grid.Row="2" Grid.Column="1"
+                             Text="{Binding Path=SelectedItem.Z, ElementName=TreeView, Mode=OneWay}"/>
+                    <TextBlock Grid.Row="3" Grid.Column="0" Text="Angle:" TextAlignment="Left" HorizontalAlignment="Left"/>
+                    <TextBox Name="AngleTextBox" Grid.Row="3" Grid.Column="1"
+                             Text="{Binding Path=SelectedItem.Angle, ElementName=TreeView, Mode=OneWay}"/>
+                </Grid>
+            </Grid>
+            <UniformGrid Grid.Row="1" Rows="5" Columns="2">
+                <Button HorizontalContentAlignment="Center" Content="Read from map"/>
+                <Button HorizontalContentAlignment="Center" Content="Show on Map"/>
+                <Button HorizontalContentAlignment="Center" Content="Read from GTA SA"/>
+                <Button HorizontalContentAlignment="Center" Content="Teleport"/>
+                <Button HorizontalContentAlignment="Center" Content="Apply changes" Command="{Binding Path=EditLocationCommand}">
+                    <Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                            <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxX"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxY"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxZ"/>
+                            <Binding Path="Text" ElementName="AngleTextBox"/>
+                        </MultiBinding>
+                    </Button.CommandParameter>
+                </Button>
+                <Button HorizontalContentAlignment="Center" Content="Insert as new"  Command="{Binding Path=AddLocationCommand}">
+                    <Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                            <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxX"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxY"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxZ"/>
+                            <Binding Path="Text" ElementName="AngleTextBox"/>
+                        </MultiBinding>
+                    </Button.CommandParameter>
+                </Button>
+                <Button HorizontalContentAlignment="Center" Content="Delete Slected" Command="{Binding DeleteLocationCommand}"
+                        CommandParameter="{Binding Path=SelectedItem.UID, ElementName=TreeView}"/>
+                <Button HorizontalContentAlignment="Center" Content="New Group" Command="{Binding Path=AddLocationFolderCommand}">
+                    <Button.CommandParameter>
+                        <MultiBinding Converter="{StaticResource CommandParameterConverter}">
+                            <Binding Path="SelectedItem.UID" ElementName="TreeView"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxX"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxY"/>
+                            <Binding Path="Text" ElementName="CoordinateTextBoxZ"/>
+                            <Binding Path="Text" ElementName="AngleTextBox"/>
+                        </MultiBinding>
+                    </Button.CommandParameter>
+                </Button>
+                <Button HorizontalContentAlignment="Center" Content="Read from config"/>
+                <Button HorizontalContentAlignment="Center" Content="Save to config"/>
+            </UniformGrid>
+            <StackPanel Grid.Row="2">
+                <DockPanel>
+                    <TextBlock VerticalAlignment="Center" MinWidth="77"
+                               Text="{Binding Path=Value, ElementName=Slider, StringFormat={}Zoom ({0}%)}"/>
+                    <Slider Name="Slider" IsSnapToTickEnabled="True" TickFrequency="10" Minimum="50" Maximum="400" Value="100" TickPlacement="BottomRight"/>
+                </DockPanel>
+                <TreeView Name="TreeView" ItemsSource="{Binding Path=Locations}" ItemTemplateSelector="{StaticResource TreeViewItemTemplateSelector}"/>
+            </StackPanel>
+        </Grid>
     </Grid>
 </UserControl>

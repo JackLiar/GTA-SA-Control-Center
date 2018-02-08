@@ -79,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Converters\CommandParameterConverter.cs" />
+    <Compile Include="Converters\HalfValueConveter.cs" />
     <Compile Include="Converters\LocationListConveter.cs" />
     <Compile Include="Converters\StringToCoordinateConverter.cs" />
     <Compile Include="Models\Location.cs" />

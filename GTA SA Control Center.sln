@@ -1,25 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter", "GTA SA Control Center\ControlCenter.csproj", "{365D3086-63C1-4358-A5E7-75BD3CE857A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter", "src\ControlCenter\ControlCenter.csproj", "{365D3086-63C1-4358-A5E7-75BD3CE857A4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ControlCenter.Infrastructure", "ControlCenter.Infrastructure\ControlCenter.Infrastructure.fsproj", "{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Cheats", "src\ControlCenter.Cheats\ControlCenter.Cheats.csproj", "{DC7D47D5-764B-400A-A6E9-0D1CE6401977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Infrastructure.UI", "ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj", "{91C8927A-09D1-4BE1-8950-712DB4BE6535}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ControlCenter.Infrastructure", "src\ControlCenter.Infrastructure\ControlCenter.Infrastructure.fsproj", "{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGameData", "ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj", "{CCFF2CE0-176A-41EB-9996-E4DD0609491A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Garages", "src\ControlCenter.Garages\ControlCenter.Garages.csproj", "{8D3E7C33-E412-4AAE-8B82-131720617535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.PlayerData", "ControlCenter.PlayerData\ControlCenter.PlayerData.csproj", "{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Infrastructure.UI", "src\ControlCenter.Infrastructure.UI\ControlCenter.Infrastructure.UI.csproj", "{91C8927A-09D1-4BE1-8950-712DB4BE6535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Garages", "ControlCenter.Garages\ControlCenter.Garages.csproj", "{8D3E7C33-E412-4AAE-8B82-131720617535}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Locations", "src\ControlCenter.Locations\ControlCenter.Locations.csproj", "{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Cheats", "ControlCenter.Cheats\ControlCenter.Cheats.csproj", "{DC7D47D5-764B-400A-A6E9-0D1CE6401977}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.PlayerData", "src\ControlCenter.PlayerData\ControlCenter.PlayerData.csproj", "{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Locations", "ControlCenter.Locations\ControlCenter.Locations.csproj", "{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Shortcuts", "src\ControlCenter.Shortcuts\ControlCenter.Shortcuts.csproj", "{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.Shortcuts", "ControlCenter.Shortcuts\ControlCenter.Shortcuts.csproj", "{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlCenter.VehicleAndGameData", "src\ControlCenter.VehicleAndGameData\ControlCenter.VehicleAndGameData.csproj", "{CCFF2CE0-176A-41EB-9996-E4DD0609491A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,38 +31,38 @@ Global
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{365D3086-63C1-4358-A5E7-75BD3CE857A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC7D47D5-764B-400A-A6E9-0D1CE6401977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC7D47D5-764B-400A-A6E9-0D1CE6401977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7D47D5-764B-400A-A6E9-0D1CE6401977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7D47D5-764B-400A-A6E9-0D1CE6401977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BC680F-9C89-4D07-8611-B84B5AF5BC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D3E7C33-E412-4AAE-8B82-131720617535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C8927A-09D1-4BE1-8950-712DB4BE6535}.Release|Any CPU.Build.0 = Release|Any CPU
 		{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92ACA83D-7F05-4E00-BFD1-66547C8DBFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C9B4D7-7D67-4C3E-A7CD-05E5844E38C9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B3AF73-3A64-4884-9C9C-1C48B122ACF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFF2CE0-176A-41EB-9996-E4DD0609491A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

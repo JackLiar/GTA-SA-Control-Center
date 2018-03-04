@@ -1,12 +1,7 @@
-﻿using ControlCenter.Infrastructure;
-using Microsoft.VisualBasic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Input;
-using Microsoft.VisualBasic.CompilerServices;
+using ControlCenter.Infrastructure;
+using Microsoft.VisualBasic;
 using Prism.Commands;
 using Prism.Mvvm;
 
@@ -14,15 +9,6 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
 {
     public class GameDataViewModel : BindableBase
     {
-        #region Fields & Properties
-
-        public ICommand ResyncToGameCommand { get; set; }
-        public ICommand SetMoneyCommand { get; set; }
-        public ICommand ClearCheatsCommand { get; set; }
-        public ICommand CheckStatusChangeCommand { get; set; }
-
-        #endregion
-
         #region Constructor
 
         public GameDataViewModel()
@@ -42,10 +28,10 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
 
         private void OnSetMoney()
         {
-            if (Global.isHasHandle && Global.isHasPlayer)
+            if (Global.IsHasHandle && Global.IsHasPlayer)
             {
                 var input = Interaction.InputBox("Enter new Money value", "Enter a value to set Money", 1.ToString());
-                if (!string.IsNullOrEmpty(input) && long.TryParse(input, out long value))
+                if (!string.IsNullOrEmpty(input) && long.TryParse(input, out var value))
                 {
                     throw new NotImplementedException();
                 }
@@ -61,5 +47,14 @@ namespace ControlCenter.VehicleAndGameData.ViewModels
         {
             Interaction.InputBox("test", "test", "1");
         }
+
+        #region Fields & Properties
+
+        public ICommand ResyncToGameCommand { get; set; }
+        public ICommand SetMoneyCommand { get; set; }
+        public ICommand ClearCheatsCommand { get; set; }
+        public ICommand CheckStatusChangeCommand { get; set; }
+
+        #endregion
     }
 }

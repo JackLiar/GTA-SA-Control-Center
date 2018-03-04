@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Data;
-using ControlCenter.Infrastructure;
+using ControlCenter.Locations.Models;
 
 namespace ControlCenter.Locations.Converters
 {
